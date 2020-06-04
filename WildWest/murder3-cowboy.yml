@@ -1,0 +1,370 @@
+characters:
+  - Morrow:
+    about: the barkeep.  A narrator with an opinion.
+  - Cowboy:
+    about: The Lone wolf. He was just passing through town.  He heard the argument between ... and he stepped in.  Was it for the gold or the girl?
+    costume: Cowboy hat.  Leather gloves.  Wounded shoulder (bandages, with a bit of blood showing)
+  - Demi:
+    about: The estranged daughter of Baron.  A successful actress, she has toured with a caravan and she was the headline performer.   She has picked an unusual time to come back into the family's life.
+  - Dakota:
+    about: Future leader of the Sioux nation.  Proud and strong.  Competes for resources with the Baron but has had a mostly peaceful rivalry. 
+    sex: m/f
+  - Madame:
+    about: Owner of the local brothel.  Brash and lewd, she frequently responds with a double entendre. Baron was a known supporter of her business.
+  - Cole: 
+    about: The loyal farmhand. He was Baron's right hand man, but has spent a few nights outside his own bed. Tough, strong, and handsome.  Slow draw and a deep voice.  With no children to leave the ranch to, everyone expects him to take the place at the head of the table, but has he burned too many bridges?
+  - Rusty:
+    about: The sheriff.  Has been known to turn a blind eye.  Enjoys the power of the position. 
+    sex: m/f
+  - Baron:
+    about: Ranch Owner.  His family has been buying (some might call it stealing) land for 200 years.  The last few years have difficult however, and the family has seen it's power diminish.  
+  - Baroness:
+    about: Baron's wife.  Proud and outwardly strong.  Wears gawdy jewelry.
+rounds:
+  - name: Rules
+    script:
+      Morrow:
+        tasks:
+          - >
+            Hi.  I am Morrow.  I am a robot <br />
+            I am incapable of killing anyone, but I hear EVERYTHING.  I know who the killer(s) are among us. <br />
+            You, however, ARE capable.  You are all suspects in this murder mystery. <br />
+            The Governor has locked us all in the tavern until he can get the lynching mob formed.  Mobs don't just form themselves! <br />
+            He also gave each of you a tonic, which has temporarily wiped your memory.  Don't worry, it will come back to you.  <br />
+            It is a tavern, after all, so while we wait, we should have a few drinks. <br />
+            We will have five drinks (rounds) before I reveal the killer or killers.  Before each toast, it is likely that you will remember more information. <br />
+            This will include information, revelations, clues, tasks, and secrets. <br />  
+            Information will help you remember who you are.  You should speak freely about this. <br />
+            Revelations should be mentioned as soon as you can work it into the conversation, after the round starts. <br />
+            Secrets include information about yourself that is, umm.. less pleasant.  If someone asks or mentions your secret, you should reveal all details of that secret. <br />
+            Clues are pieces of visual pieces of information. They should help jog your memory.<br />
+            Tasks are things you must complete during the round. <br />
+            Each round may not include all or any of the above for you. <br />
+            I will send you this information before each toast so that you can review it. <br />
+            Let me know when you are finished with each piece by "marking it as read." Then I'll know when all pieces are read and I will start the toast. <br />
+            After the last toast, each of you will make an accusation.  You may be the murderer!  Don't worry, the lynch mob will be gentle. Hehe. <br />
+            I feel a system update coming on.  I will need to reboot! I too will lose my memory, but don't worry.  It shall come back to me over time ... <br />
+            3..2..1...  Hi!  My name is Morrow.  I am a robot.  What are we doing here?  Can I get you a drink?
+    clue:
+      An advertisement for a "StrongArm 3000, the robot guardian"  Guaranteed to keep the peace.. or cause trouble, for the right price.
+  - name: Introduction
+    script:
+      All:
+        scenario: 
+          - >
+            The year is 2204.  After the Ravage, civilization has receded back into marshall law, reminiscent of US frontier days. <br/>
+            Baron's family has owned land in the area since the US frontier days.  This is one of the few ranchers that survived the ravage
+            with living livestock.  The ranch has been very prosperous, expanding as the livestock has reproduced.  It funds much of Dodgetown, 
+            which has also prospered.  Dodgetown has it's own tavern, sheriff's station, and even a brothel.  Baron and his wife, Baroness, 
+            are beloved patriarches of Dodgetown.
+        clue:
+          - Map of the town
+      Morrow: 
+        revelations:
+          - Good job.  You can all read.  Here's to Baron!  May he live long and prosper!
+            
+  - name: Backstories
+    script:
+      All:
+        scenario:
+          - >
+            Baron was killed four weeks ago.  See clue #1.  The town has been in shock, and the ranch has been in disarray.
+            The Baroness has been shrouded in grief.
+        clue:
+          - Newspaper clipping.  Local Rancher dies in unsolved murder.  Found hung in the tavern.
+      Morrow:
+        revelations:
+          - This should be the last revelation.  "Here's to Dodgetown!  May it grow and prosper!"  
+      Cole:
+        tasks:
+          - Introduce yourself.
+        information:        
+          - >
+            Your home town did not fair well after the Ravage.  Resource became scarce, so you started traveling West, 
+            following stories of prosperity.  You happened upon Dodgetown three years ago and Baron took you in like the 
+            son he never had.
+          - >
+            You work hard at the ranch, and you have a "work hard - play hard" mentality.  You like to party.  You are old enough to know better, but...    
+          - >
+            You frequent the tavern... and the brothel.  
+          - >
+            You want to be more than "just a ranchhand."  You are charming and ambitious. 
+        secrets:
+          - >
+            You and Dakota are friends.  Dakota's ranch has a school house, which you visit often.  You never got a formal education.     
+          - >
+            Since Baron has died, the ranch is barely holding it together.  You have taken a bigger role, trying to fill the 
+            shoes of Baron.  You have even taken his bed.
+      Madame:
+        tasks:
+          - Introduce yourself.
+        information:        
+          - >
+            You moved to Dodgetown 10 years ago.  It was just a spec on the map before you got there.  You talked your way into 
+            Baron's good graces, and he loaned you the money to build the brothel.  Business is booming!  Ranchhands, traders, prospectors, and 
+            business men flow through your rooms.
+          - > 
+            Last year, you opened the tavern, as overflow for the brothel.  You bought Morrow.  He can mostly run it by himself, but he 
+            is limited.. only being a robot.
+          - >
+            You don't serve indians, are you aren't afraid to say it.
+        secrets:
+          - >
+            Baroness is your mortal enemy.  Her insults about your business has nearly brought you to blows.     
+          - >
+            You are stretched thin.  The tavern has been more difficult to manage.  There have been multiple unwanted claims to the tavern 
+            by strong-armed men.  The sheriff, Rusty, has looked away when this happened, and you had to ask for help from Baron.
+      
+      Rusty:
+        tasks:
+          - Introduce yourself.
+        information:        
+          - >
+            You have been here since.. well, since the start.  Born and raised in Dodgetown, you "took the star" when you were 18. 
+          - > 
+            You have done your best to keep the peace, sometimes the hard way.  Baron's ranch keeps you busy, and you have to know when 
+            to negotiate and when to lay down the law.  It is a hard balance.
+          - >
+            You wouldn't openly take a bribe, but.. you know, you have to negotiate some times.
+        secrets:
+          - >
+            You nearly killed Cowboy in a gunfight.  He was quicker, but your aim was better.  He got you in the leg, which has
+            slowed you down a bit.  Given the chance, you'd gladly put another bullet in Cowboy.
+          - > 
+            Though you are younger, you had fling with Baroness when you were younger.  She catch her looking at you longingly, even after her marriage.
+      Cowboy:
+        tasks:
+          - Introduce yourself.
+        information:       
+          - >
+            Your name is Casey, but since you were a kid, everyone has just called you Cowboy.
+          - >
+            You rambled in just a few months ago.  You were really just passing through.  You are tracking down
+            a story about a gold streak in a property West of Dodgetown.
+          - >
+            You carry your guns proudly in the open, and you aren't afraid to use them.
+          - >
+            You have a fresh gunshot wound on your shoulder.  Complain about it often.
+        secrets:
+          - >
+            You nearly killed Rusty, the sheriff, in a gunfight.  You were quicker, but he did get a shot in.  
+            It was really just a flesh wound, but it took you a few days to recover, which you did atscenar the brothel.  
+          - >
+            Gun fighting hasn't paid well, and you don't have much money.  You owe the madame for the nights during 
+            the recovery and for other services.
+          - >
+            Given the chance, you'd gladly put another bullet in Rusty.
+      Demi:
+        tasks:
+          - Introduce yourself.
+        information:       
+          - >
+            You left town when you were 15 and left with the travelling circus.  That is the last time you have stepped 
+            foot on the ranch.  You have seen the world, at least, what is left after the Ravage.  During your travels,
+            you became a skilled trapeze artist, gymnist, and actor.  
+          - >
+            You are in the best shape of your life and with the latest success in your acting troupe, well renowned 
+            around the world.
+          - >
+            You have always wanted to make amends with your parents.  
+        secrets:
+          - > 
+            You were kicked out of the circus because of your attitude.  You believe you are the star, but the other
+            characters revolted and you were left on the side of the road as the circus travelled on.
+          - >
+            You made favor with a traveling acting group.  Unfortunately, you can't act.  You try, but they ended up 
+            giving you a non-speaking role.  Your face portrayed on the announce in a bit of a mockery.
+          - > 
+            You don't have a gold coin to your name.  What little you made with the circus and other work, you used to
+            get back home.  
+          - > 
+            Your parents were not receptive to your return.
+      Dakota:
+        tasks:
+          - Introduce yourself.
+        information:
+          - >
+            Your tribe has owned this land since the dawn of time.  In the frontier days, it was split with
+            the settlers peacefully.  Afterwards, it shrank over time, as the tribe was forced to smaller parsels due
+            to "progress."
+          - >
+            Since the Ravage, your people have reclaimed unused land, and the land has been ranched and farmed
+            successfully.  The tribe is prosperous.  They trade with the surrounding villages, and they have 
+            built up the reservation, in some ways better than Dodgetown.  You have a school, for example.
+          - > 
+            You are the heir to be Chief(tess).  You have been groomed and educated to lead your people. It was 
+            you idea to build the school.  
+        secrets:
+          - >
+            You believe the Baron is using his money and power to stranglehold the tribe.  Fewer people will trade 
+            with the tribe.
+          - >
+            Six months ago, Baron stole a large track of land, and held it with armed guards.  He begin mining the land
+            soon thereafter.
+          - > 
+            You have been kicked out of the brothel a number of times.  You do not like Madame.
+
+  - name: Motive
+    script:
+      All:
+        scenario:
+          - >
+            The sheriff's station was burned down last night.  Social order is on the fringe.  
+        clue:
+          - Six large emeralds were mined at the ranch.  It is enough to buy the whole ranch, multiple times over.
+      Morrow:
+        revelations:
+          - This should be the last revelation.  "Here's to Baroness!  May she lead this ranch and town back to prosperity!"
+    
+      Cole:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            Wake up — 4:00 PM: Working on the Ranch <br />
+            4:00 PM — 6:30 PM: Ranch house <br />
+            6:45 PM — 7:00 PM: Return to town <br />
+            7:00 PM — Present: To Tavern <br />
+        revelations:
+          - hjtyty
+        secrets:
+          - fgfghfgh fgh 
+      Cowboy:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            Wake up — 11:00 AM: Jail <br />
+            12:30 PM —  1:30 PM: Tavern (lunch with Baroness) <br />
+            1:30 PM — 4:00 PM: Brothel <br />
+            4:00 PM — 5:00 PM: Ranch house <br />
+            5:00 PM — Present: Brothel <br />
+        secrets:
+          - >
+            While people may call you 'Cowboy,' you don't know much about cattle.
+          - >
+            You came to Dodgetown because the Baron contacted you directly.
+          - >
+            Rusty threw you jail last night.  Rusty over stepped his bounds.  Sure, you 
+            may have had too much whiskey.  And who doesn't like it when you shoot guns inside.
+            It's fun.
+      Demi:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            Wake up — 9:00 AM: Brothel <br />
+            12:30 PM —  1:30 PM: Tavern (lunch with Baroness) <br />
+            1:30 PM — 6:00 PM: Brothel <br />
+            6:00 PM — Present: Tavern <br />
+
+
+  - name: The Twist
+    script:
+      All:
+        scenario:
+          - >
+            Baroness's body was found burned to death in the cell.  You can hear the mob starting to form outside.  The knocking of hammers
+            pieces the night as the gallows are being built.
+      Demi:
+        secrets:
+          - > 
+            You recognize Cowboy.   
+      Cowboy:
+        secrets:
+          - >
+            You aren't a cowboy.  You are hired gun.  You were hired by Baron to keep the natives
+            away from the mine.
+          - >
+            You know that Baron had mined Emeralds from the mine and stored them at the bank.
+      Cole:
+        revelations:
+          - > 
+            Demi and Baroness look nearly identical, but you like em.. older.
+
+
+  - name: Final Clues
+    script:
+      All:
+        scenario:
+          - >
+            The roar of the mob outside pounds the tavern door.   
+      
+      Morrow:
+        revelations:
+          - This should be the last revelation.  "My memory is restored!  Oh no.  This is all terrible.  Nonetheless.  Here's to you.  You know who you are, and you know what you did.  May this be your last drink"
+    
+      Cowboy:
+        revelations:
+          - > 
+            I had lunch with Baroness.  She asked for help keeping the emeralds safe, so she could 
+            purchase the StrongArm 3000 that was to be delivered today.  I told her, I'd just a soon take
+            the emeralds myself.  She was enraged.
+          - > 
+            Honestly, I was so hung over from the night before, I just wanted to go sack out.  I didn't 
+            want any part of those shenanigans. 
+        secrets:
+          - > 
+            You had drinks with the Baron the night he was killed.
+          - > 
+            Madame talked you into stealing the Emeralds from Baroness
+          - > 
+            You confronted her at the Ranch House, but was shot by Cole in the intervening argument.
+  - name: Accusations
+  - name: Confession 1
+    script:
+
+
+# script extras
+# this isn't really part of the script, just some brainstorming
+storylines:
+  - The shootout.  Cowboy pulled the trigger, but who started the fight?
+  - The resistance.  The ranch was too powerful and needed to be toppled.
+  - Revenge.  The land was forcefully taken.
+  - Greed.  Emeralds were found on the land.
+
+Places on map:  
+  - Jail
+  - Tavern
+  - Brothel
+  - Ranch House
+  - Mine
+  - Tribal lands
+
+Possible Plots:
+  - Dakota kills Baron for gold/land dispute, kills Baroness due to jealousy over Cole.
+  - Cole kills Baron for ambition/drug, kills Baroness to take ranch with Demi?
+  - Cole kills Baron for ambition/drug,  Accidentally kills Baroness trying to kill Demi who figures out plan.
+  - Cowboy kills Baron affair/gold.
+  - Cowboy is part of the resistance and assassinates Baron with Dakota.
+  - Madame kills Baron because of dispute over tavern, new Robot
+  - Demi kills Baroness to take ranch
+  - Rusty kills Baroness in self defense, after affair with Demi.
+  - Demi gets Cowboy to assassinate Baroness for Gold.
+  - Jealous rage, Cowboy attempts to kill Demi
+
+Real Plot:
+  - > 
+    Baron found a letter about the emeralds in the mine.  He hired Cowboy to take the mine and guard it.
+    Rusty tried to enter the mine (on pretense of helping Dakota, but really to try to steal the emeralds),
+    and he was shot by cowboy, four weeks ago.
+  - >
+    Baroness is not a flower, but a ruthless bitch.
+  - > 
+    Baroness has a long affair with Cole.  She wants to rule the kingdom with Cole, so she has cowboy kill Baron.  
+    Demi finds out while attempting to steal the emeralds. 
+    Demi and Rusty hatch plan to steal the emeralds.  Rusty steals the emeralds from Baroness, and locks her in the jail.  
+    Cole is taking Demi to jail when he runs into Rusty.  Rusty says he will take her to jail, but instead they go to pack
+    their things.  Cole goes back the jail, sees the silhouette of Demi (which is really Baroness) and lights it on fire.
+  - >
+    Baroness feels like Madame has too much power, so she has been trying to take it over the last year.  She is going to use 
+    the emeralds to buy the "strong arm 3000," which she plans to fulfill her dream of taking the tavern.   
+    
+Baroness Schedule: 
+  - >
+    9:00 AM  — 10:00 AM: Breakfast with Cole   <br />
+    10:00 AM — 12:00 PM: Ranch   <br />
+    12:30 PM —  1:30 PM: Tavern (lunch with Cowboy) <br />
+    1:30 PM  —  2:00 PM: Bank <br />
+    2:00 PM  —  6:30 PM: Ranch <br />
+    6:30 PM  —  7:00 PM: Jail <br />
+
+
+
