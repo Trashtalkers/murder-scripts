@@ -66,7 +66,7 @@ rounds:
   - name: Backstories
     script:
       All:
-        scenario:
+        scenario: 
           - >
             Baron was killed four weeks ago.  See clue #1.  The town has been in shock, and the ranch has been in disarray.
             The Baroness has been shrouded in grief.
@@ -148,7 +148,7 @@ rounds:
         secrets:
           - >
             You nearly killed Rusty, the sheriff, in a gunfight.  You were quicker, but he did get a shot in.  
-            It was really just a flesh wound, but it took you a few days to recover, which you did atscenar the brothel.  
+            It was really just a flesh wound, but it took you a few days to recover, which you did at the brothel.  
           - >
             Gun fighting hasn't paid well, and you don't have much money.  You owe the madame for the nights during 
             the recovery and for other services.
@@ -207,7 +207,7 @@ rounds:
   - name: Motive
     script:
       All:
-        scenario:
+        scenario: 
           - >
             The sheriff's station was burned down last night.  Social order is on the fringe.  
         clue:
@@ -225,9 +225,11 @@ rounds:
             6:45 PM — 7:00 PM: Return to town <br />
             7:00 PM — Present: To Tavern <br />
         revelations:
-          - hjtyty
+          - >
+            hj
         secrets:
-          - fgfghfgh fgh 
+          - >
+            fg
       Cowboy:
         information:
           - >
@@ -237,13 +239,16 @@ rounds:
             1:30 PM — 4:00 PM: Brothel <br />
             4:00 PM — 5:00 PM: Ranch house <br />
             5:00 PM — Present: Brothel <br />
+        revelations:
+          - >
+
         secrets:
           - >
             While people may call you 'Cowboy,' you don't know much about cattle.
           - >
             You came to Dodgetown because the Baron contacted you directly.
           - >
-            Rusty threw you jail last night.  Rusty over stepped his bounds.  Sure, you 
+            Rusty threw you in jail last night.  Rusty over stepped his bounds.  Sure, you 
             may have had too much whiskey.  And who doesn't like it when you shoot guns inside.
             It's fun.
       Demi:
@@ -251,10 +256,24 @@ rounds:
           - >
             <strong>Your General Whereabouts:</strong> <br />
             Wake up — 9:00 AM: Brothel <br />
+            9:00 AM — 10:00 PM: Ranch house <br />
             12:30 PM —  1:30 PM: Tavern (lunch with Baroness) <br />
-            1:30 PM — 6:00 PM: Brothel <br />
+            1:30 PM — 2:00 PM: Bank <br />
+            2:00 PM — 6:00 PM: Brothel <br />
             6:00 PM — Present: Tavern <br />
-
+      Madame:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            Wake up — 10:00 PM: Ranch house <br />
+            12:30 PM —  1:30 PM: Tavern (lunch with Baroness) <br />
+            1:30 PM — 2:00 PM: Bank <br />
+            2:00 PM — 6:00 PM: Brothel <br />
+            6:00 PM — Present: Tavern <br />
+        secrets:
+          - >
+            The Baron has mentioned purchasing a StrongArm 3000 in your presence.  
+            
 
   - name: The Twist
     script:
@@ -310,8 +329,6 @@ rounds:
   - name: Accusations
   - name: Confession 1
     script:
-
-
 # script extras
 # this isn't really part of the script, just some brainstorming
 storylines:
@@ -341,30 +358,42 @@ Possible Plots:
   - Jealous rage, Cowboy attempts to kill Demi
 
 Real Plot:
-  - > 
+  Baroness Schedule: 
+    - >
+      9:00 AM  — 10:00 AM: Breakfast with Cole   <br />
+      10:00 AM — 12:00 PM: Ranch   <br />
+      12:30 PM —  1:30 PM: Tavern (lunch with Cowboy) <br />
+      1:30 PM  —  2:00 PM: Bank <br />
+      2:00 PM  —  6:30 PM: Ranch <br />
+      6:30 PM  —  7:00 PM: Jail <br />
+  - Cowboy :
+    - >
     Baron found a letter about the emeralds in the mine.  He hired Cowboy to take the mine and guard it.
     Rusty tried to enter the mine (on pretense of helping Dakota, but really to try to steal the emeralds),
     and he was shot by cowboy, four weeks ago.
   - >
     Baroness is not a flower, but a ruthless bitch.
   - > 
-    Baroness has a long affair with Cole.  She wants to rule the kingdom with Cole, so she has cowboy kill Baron.  
+    Since Cole arrive, Baroness has been bedding him.  She wants to rule the kingdom with Cole, so she has cowboy kill Baron.  
     Demi finds out while attempting to steal the emeralds. 
     Demi and Rusty hatch plan to steal the emeralds.  Rusty steals the emeralds from Baroness, and locks her in the jail.  
     Cole is taking Demi to jail when he runs into Rusty.  Rusty says he will take her to jail, but instead they go to pack
     their things.  Cole goes back the jail, sees the silhouette of Demi (which is really Baroness) and lights it on fire.
   - >
-    Baroness feels like Madame has too much power, so she has been trying to take it over the last year.  She is going to use 
-    the emeralds to buy the "strong arm 3000," which she plans to fulfill her dream of taking the tavern.   
-    
-Baroness Schedule: 
+    Baroness feels like Madame has too much power, so she has been trying to take over the tavern over the last year.  
+    She is going to use the emeralds to buy the "strong arm 3000," which she plans to fulfill her dream of taking the tavern.   
   - >
-    9:00 AM  — 10:00 AM: Breakfast with Cole   <br />
-    10:00 AM — 12:00 PM: Ranch   <br />
-    12:30 PM —  1:30 PM: Tavern (lunch with Cowboy) <br />
-    1:30 PM  —  2:00 PM: Bank <br />
-    2:00 PM  —  6:30 PM: Ranch <br />
-    6:30 PM  —  7:00 PM: Jail <br />
+    Before the Baroness arrived in town, Madame and Baron were a steady couple.  Upon her arrival, however, 
+    she became something of an outcast.  She supported herself the only way she knew how, and the brothel
+    was born.  More girls have come in, and she has grown with the town.
+    She has heard rumors about Baron's purchase of the StrongArm 3000, and she is against it. 
+    Rusty is a snake in the grass, but at least he can be bribed.  Anyone with too much power is a problem,
+    and Baron would rule the entire town.
+    Since Baron's death, Baroness has made multiple threats that she would run Madame out of town with 
+    the Strong Arm 3000. 
+    She pushes Rusty to do something about it.
+  - >
+
 
 
 
