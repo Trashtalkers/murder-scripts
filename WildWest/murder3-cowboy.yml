@@ -29,7 +29,7 @@ rounds:
             Hi.  I am Morrow.  I am a robot <br />
             I am incapable of killing anyone, but I hear EVERYTHING.  I know who the killer(s) are among us. <br />
             You, however, ARE capable.  You are all suspects in this murder mystery. <br />
-            The Governor has locked us all in the tavern until he can get the lynching mob formed.  Mobs don't just form themselves! <br />
+            The County Marshall has locked us all in the tavern until he can get the lynching mob formed.  Mobs don't just form themselves! <br />
             He also gave each of you a tonic, which has temporarily wiped your memory.  Don't worry, it will come back to you.  <br />
             It is a tavern, after all, so while we wait, we should have a few drinks. <br />
             We will have five drinks (rounds) before I reveal the killer or killers.  Before each toast, it is likely that you will remember more information. <br />
@@ -173,7 +173,7 @@ rounds:
             characters revolted and you were left on the side of the road as the circus travelled on.
           - >
             You made favor with a traveling acting group.  Unfortunately, you can't act.  You try, but they ended up 
-            giving you a non-speaking role.  Your face portrayed on the announce in a bit of a mockery.
+            giving you a non-speaking role.  Your face portrayed on the announcement in a bit of a mockery.
           - > 
             You don't have a gold coin to your name.  What little you made with the circus and other work, you used to
             get back home.  
@@ -358,41 +358,92 @@ Possible Plots:
   - Jealous rage, Cowboy attempts to kill Demi
 
 Real Plot:
-  Baroness Schedule: 
+  Baroness: 
     - >
+      <motive describes prior to now>
+      <twist is here>
       9:00 AM  — 10:00 AM: Breakfast with Cole   <br />
       10:00 AM — 12:00 PM: Ranch   <br />
       12:30 PM —  1:30 PM: Tavern (lunch with Cowboy) <br />
       1:30 PM  —  2:00 PM: Bank <br />
-      2:00 PM  —  6:30 PM: Ranch <br />
-      6:30 PM  —  7:00 PM: Jail <br />
+      <final clues here>
+      2:00 PM  —  5:00 PM: Ranch <br />
+      5:00 PM  —  6:00 PM: Jail <br />
+    - >
+      Baroness is not a flower, but a ruthless bitch.
+    - >
+      Since Cole arrive, Baroness has been bedding him.  She wants to rule the kingdom with Cole, so she has cowboy kill Baron.  
+      Demi finds out while attempting to steal the emeralds. 
   - Cowboy :
     - >
-    Baron found a letter about the emeralds in the mine.  He hired Cowboy to take the mine and guard it.
-    Rusty tried to enter the mine (on pretense of helping Dakota, but really to try to steal the emeralds),
-    and he was shot by cowboy, four weeks ago.
+      Baron found a letter about the emeralds in the mine.  He hired Cowboy to take the mine and guard it.
+      Rusty tried to enter the mine (on pretense of helping Dakota, but really to try to steal the emeralds),
+      and he was shot by cowboy, four weeks ago.
+      Cowboy wakes up from Jail, meets Baroness for lunch.  She asks him to be her body guard for the day, as she 
+      has some expensive items to pick up from the bank.  Cowboy rebukes her.  He's heard about the StrongArm 3000
+      and he knows it could be used against him.
   - >
-    Baroness is not a flower, but a ruthless bitch.
   - > 
-    Since Cole arrive, Baroness has been bedding him.  She wants to rule the kingdom with Cole, so she has cowboy kill Baron.  
-    Demi finds out while attempting to steal the emeralds. 
     Demi and Rusty hatch plan to steal the emeralds.  Rusty steals the emeralds from Baroness, and locks her in the jail.  
     Cole is taking Demi to jail when he runs into Rusty.  Rusty says he will take her to jail, but instead they go to pack
-    their things.  Cole goes back the jail, sees the silhouette of Demi (which is really Baroness) and lights it on fire.
+    their things.  
   - >
     Baroness feels like Madame has too much power, so she has been trying to take over the tavern over the last year.  
     She is going to use the emeralds to buy the "strong arm 3000," which she plans to fulfill her dream of taking the tavern.   
-  - >
-    Before the Baroness arrived in town, Madame and Baron were a steady couple.  Upon her arrival, however, 
-    she became something of an outcast.  She supported herself the only way she knew how, and the brothel
-    was born.  More girls have come in, and she has grown with the town.
-    She has heard rumors about Baron's purchase of the StrongArm 3000, and she is against it. 
-    Rusty is a snake in the grass, but at least he can be bribed.  Anyone with too much power is a problem,
-    and Baron would rule the entire town.
-    Since Baron's death, Baroness has made multiple threats that she would run Madame out of town with 
-    the Strong Arm 3000. 
-    She pushes Rusty to do something about it.
-  - >
+  - Madame:
+    - >
+      Before the Baroness arrived in town, Madame and Baron were a steady couple.  Upon her arrival, however, 
+      she became something of an outcast.  She supported herself the only way she knew how, and the brothel
+      was born.  More girls have come in, and she has grown with the town.
+      She has heard rumors about Baron's purchase of the StrongArm 3000, and she is against it. 
+      Rusty is a snake in the grass, but at least he can be bribed.  Anyone with too much power is a problem,
+      and Baron would rule the entire town.
+      Since Baron's death, Baroness has made multiple threats that she would run Madame out of town with 
+      the Strong Arm 3000. 
+      She pushes Rusty to do something about it.
+  - Dakota:
+    - >
+      Dakota and Rusty were lovers before Demi showed up.
+      Dakota had known there were emeralds in the mine before Baron took it forcefully.  She pushed Rusty to do something about it.
+      After the gunfight, she went back in with a crew, but the mine had been depleted.  She wanted revenge, but was worried 
+      about rumors of the strong arm 3000.  If it were to come true, Baron would be able to take over the entire
+      reservation if he wanted to.  
+      Has lunch at the tavern.  Overhears that the strongarm 3000 will be delivered today.  Tells Madame.
+      Dakota knows that Rusty has the emeralds.  Dakota is in the Tavern when Cole delivers Demi to Rusty, assumes
+      she is in the jail.  She sees that Rusty is not in the jail, so she lights it on fire.
+  - Rusty: 
+    - >
+      Rusty knew about the mine ordeal since the Baron took it forcefully, but looked the other way after a little padding from Baron. 
+      When Dakota finally pressed the issue, he went out the mine only to get in a fight with Cowboy.  In the end, the mine was 
+      returned to Dakota's tribe, so.. you know.. peace upheld.  During the brawl, he learned about the mined emeralds.
+      Rusty has been infatuated with Demi since her arrival.  He would leave town if she wanted to.  He let her know about the emeralds, 
+      and she believes that the emeralds should belong to her, not her mother. 
+      Rusty woke up in the brothel, in Demi's room.  She learns that the emeralds are out of the bank, and talks Rusty into attempting to 
+      steal them at 4.
+      Cole catches Demi in the act, restrains her, and takes her to the jail, but Rusty is not there.  He goes to the tavern, 
+      then brothel, looking for Rusty.
+      Rusty, is caught in the act by the Baroness, but he steals the emeralds.  He restrains the Baroness, then takes her to the jail the long way, 
+      so as not to be seen.  He goes to the Tavern at 5 looking for Demi, only to find Cody has her restrained.  He takes "custody" of her, and 
+      they begin packing.
+      Madame can see that the Baroness was put in the jail at 5.
+      Cody goes back to the house to find the Baroness (and the emeralds) missing.
+      The strongarm 3000 dealer arrives at the Ranchhouse at 5.  Waits for an hour, talks to Cody, leaves town saying he will return in a week.
+      Madame lights the jailhouse on fire. at 6.  She says she was at the brothel, but nobody can place here there, and it is next to the jail.  
+      She has opportunity and motive.
+
+  - Madame: 
+    - >
+      Madame spends most of the day in the brothel, but helps with lunch at the Tavern.  From the brothel porch, she has a good view 
+      of the back and front of the jail, the tavern, and the ranchhouse.
+      She sees that Cowboy left the jail, and returns to the brothel.  She sees him again at lunch, where Baroness threatens to take the 
+      tavern once the strongarm 3000 gets here.  
+
+
+  - Demi: 
+    - > 
+      Has blowout with Baroness at the tavern.  Afterwards, has a drink with Cowboy, where he lets slip that the Baroness is getting the emeralds
+      from the bank.
+  
 
 
 
