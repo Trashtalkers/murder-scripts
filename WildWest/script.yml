@@ -1,3 +1,22 @@
+
+todo:
+  - who is Demi's parents
+  - Add remove audio/video 
+  - fix revelation to be 1st person
+  - The "fit of rage" doesn't come up in twist
+  - timeline should be all together at top right
+  - timeline is terrible.  Sometimes it says yesterdays
+  - Cole needs to know who bought the strongarm 
+  - Dakota saw cowboy at the tavern
+  - Why does Demi want the emeralds?
+  - Rusty needs to say that he wants to leave town with Demi
+  - Demi doesn't know that Rusty has the emeralds?
+  - Demi and Rusty don't know they are together
+  - Demi doesn't know where she was at 5:30
+  - Rusty doesn't know that he is at brothel at 5:45
+  - The accusation refresh bug!
+  - Demi had lots of gaps.  Money.  Why did she return?
+  - Force secrets. Clues would have helped.  More prompting
 characters:
   - Morrow:
     about: the barkeep.  A narrator with an opinion.
@@ -70,7 +89,6 @@ rounds:
           - >
             At this time, all players start to remember who they are, and what has happened in the 
             last two months, but the last two days is still foggy.
-          - >
             Everyone remembers the death of the Baron four weeks ago.  See clue #1.  
             The town has been in shock, and the ranch has been in disarray.
             The Baroness has been shrouded in grief.  
@@ -84,7 +102,7 @@ rounds:
           - Introduce yourself.
         information:        
           - >
-            Your home town did not fair well after the Ravage.  Resource became scarce, so you started traveling West, 
+            My home town did not fair well after the Ravage.  Resource became scarce, so you started traveling West, 
             following stories of prosperity.  You happened upon Dodgetown three years ago and Baron took you in like the 
             son he never had.
           - >
@@ -101,7 +119,9 @@ rounds:
       Demi:
         tasks:
           - Introduce yourself.
-        information:       
+        information:    
+          - > 
+            Your parents are Baron and Baroness.   
           - >
             You left town when you were 15 and left with the travelling circus.  That is the last time you have stepped 
             foot on the ranch.  You have seen the world, at least, what is left after the Ravage.  During your travels,
@@ -160,14 +180,14 @@ rounds:
             successfully.  The tribe is prosperous.  They trade with the surrounding villages, and they have 
             built up the reservation, in some ways better than Dodgetown.  You have a school, for example.
           - > 
-            You are the heir to be Chief(tess).  You have been groomed and educated to lead your people. It was 
+            I am the heir, to be Chief(tess).  You have been groomed and educated to lead your people. It was 
             you idea to build the school.  
         secrets:
           - >
             You believe the Baron is using his money and power to stranglehold the tribe.  Fewer people will trade 
             with the tribe.
           - >
-            Six months ago, Baron stole a large track of land, and held it with armed guards.  He begin mining the land
+            Six months ago, Baron stole a large track of land from the tribe, and held it with armed guards.  He begin mining the land
             soon thereafter.
           - > 
             You have been kicked out of the brothel a number of times.  You do not like Madame.
@@ -345,6 +365,11 @@ rounds:
         revelations:
           - I saw Rusty and Dakota having it out this morning.
           - Rusty has his own home, but he's been spending many nights at the brothel lately.
+      Rusty:
+        revelations:
+          - 
+        secrets:
+          - TODO
 
   - name: Final Clues
     script:
@@ -481,14 +506,15 @@ rounds:
   - name: Confession 1
     script:
       Cole:
-        - >
-          <p>
-          I loved  Baroness.  Though noone can attest to my whereabouts at 5:45, 
-          I was indeed at the Ranch house looking for my love.  We were going to live 
-          and rule the town with the StrongArm 3000.  Life was going to be great.</p>
-          <p>Baron, however, I was happy to see go.  I suspect that Cowboy had something to do
-          with his disappearance. </p>
-          <p> I believed that Demi was in the Jail, but I had no motive to kill. </p>
+        revelations:
+          - >
+            <p>
+            I loved  Baroness.  Though noone can attest to my whereabouts at 5:45, 
+            I was indeed at the Ranch house looking for my love.  We were going to live 
+            and rule the town with the StrongArm 3000.  Life was going to be great.</p>
+            <p>Baron, however, I was happy to see go.  I suspect that Cowboy had something to do
+            with his disappearance. </p>
+            <p> I believed that Demi was in the Jail, but I had no motive to kill. </p>
 
   - name: Confession 2
     script:
@@ -496,7 +522,7 @@ rounds:
         - >
           <p>I'll admit.  I murdered Baron.  The Baroness paid me well to do it. </p>
           <p>I had little motive to kill Baroness, and I was leaving town when the
-          fire started.  Madame saw me leave. </p>
+          fire started.   </p>
     
 
   - name: Confession 3
@@ -523,23 +549,22 @@ rounds:
           <p>I had amble motive, but no opportunity</p>
 
   - name: Confession 5
-  script:
-    Madame:
-      - >
-        <p>While the StrongArm delivery was apparently foiled, it was likely to occur in the future.  Baroness made that quite clear.  And once it was here, I was likely to be run out of town. </p>
-        <p>I had motive to kill the Baroness, and I knew she was in the jail. </p>
-        <p>However, I did not have opportunity.  I spotted Rusty at the brothel, probably packing Demi's things, at the time of the murder </p>
-
-
+    script:
+      Madame:
+        - >
+          <p>While the StrongArm delivery was apparently foiled, it was likely to occur in the future.  Baroness made that quite clear.  
+          And once it was here, I was likely to be run out of town. </p>
+          <p>I had motive to kill the Baroness, and I knew she was in the jail. </p>
+          <p>However, I did not have opportunity.  I spotted Rusty at the brothel, probably packing Demi's things, at the time of the murder </p>
   - name: Confession 6
-  script:
-    Dakota:
-      - >
-        <p>I started that fire.</p>
-        <p>I, too, was worried about the StrongArm 3000, but that wasn't why I lit that match</p>
-        <p>I thought Demi was in that jail. </p>
-        <p>She stole the love of my life, and I thought, with her gone, maybe Rusty would have eyes for me. </p>
-        
+    script:
+      Dakota:
+        - >
+          <p>I started that fire.</p>
+          <p>I, too, was worried about the StrongArm 3000, but that wasn't why I lit that match</p>
+          <p>I thought Demi was in that jail. </p>
+          <p>She stole the love of my life, and I thought, with her gone, maybe Rusty would have eyes for me. </p>
+
       
       
           
