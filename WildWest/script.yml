@@ -1,7 +1,6 @@
 
 todo:
   - Add remove audio/video 
-  - Why does Demi want the emeralds?
   - Rusty needs to say that he wants to leave town with Demi
   - Demi and Rusty don't know they are together?
   - Demi doesn't know where she was at 5:30?
@@ -41,23 +40,21 @@ rounds:
             Hi.  I am Morrow.  I am a robot <br />
             I am incapable of killing anyone, but I hear EVERYTHING.  You are all suspects in this murder mystery. <br />
             The County Marshall has locked us all in the tavern until he can get the lynching mob formed.  Mobs don't just form themselves! <br />
-            He also gave each of you a tonic, which has temporarily wiped your memory.  Don't worry, it will come back to you.  <br />
+            He also gave each of you a tonic, which has temporarily erased your memory.  Don't worry, it will come back to you.  <br />
             It is a tavern, after all, so while we wait, we should have a few drinks. <br />
-            We will have five drinks (rounds) before the marshall comes in and reveals the killer or killers.  Before each toast, it is likely that you will remember more information. <br />
+            We will have five toast (rounds) before the marshall comes in and reveals the killer or killers.  Before each toast, it is likely that you will remember more information. <br />
             This will include information, revelations, clues, tasks, and secrets. <br />  
             Information will help you remember who you are.  You should speak freely about this. <br />
-            Revelations should be mentioned as soon as you can work it into the conversation, after the round starts. <br />
+            Revelations should be mentioned as soon as you can work it into the conversation, after the round, err.. I mean toast starts. <br />
             Secrets include information about yourself that is, umm.. less pleasant.  If someone asks or mentions your secret, you should reveal all details of that secret. <br />
             Clues are pieces of visual pieces of information. They should help jog your memory.<br />
-            Tasks are things you must complete during the round. <br />
+            Tasks are things you must complete before the next toast. <br />
             Each round may not include all or any of the above for you. <br />
             I will send you this information before each toast so that you can review it. <br />
             Let me know when you are finished with each piece by "marking it as read." Then I'll know when all pieces are read and I will start the toast. <br />
             After the last toast, each of you will make an accusation.  You may be the murderer!  Don't worry, the lynch mob will be gentle. Hehe. <br />
             I feel a system update coming on.  I will need to reboot! I too will lose my memory, but don't worry.  It shall come back to me over time ... <br />
             3..2..1...  Hi!  My name is Morrow.  I am a robot.  What are we doing here?  Can I get you a drink?
-    clue:
-      An advertisement for a "StrongArm 3000, the robot guardian"  Guaranteed to keep the peace.. or cause trouble, for the right price.
   - name: Introduction
     script:
       All:
@@ -70,8 +67,8 @@ rounds:
             are beloved patriarches of Dodgetown.
           - >
             Today is Saturday.  You will still not remember Thursday or Friday, but your memory should start coming back to you after this toast.
-        clue:
-          - Map of the town
+        clues: 
+          - clues/Clue0.png
       Morrow: 
         revelations:
           - Good job.  You can all read.  Here's to Baron!  May he live long and prosper!
@@ -81,11 +78,11 @@ rounds:
       All:
         scenario: 
           - >
-            Everyone remembers the death of the Baron four weeks ago.  See clue #1.  
-            The town has been in shock, and the ranch has been in disarray.
-            The Baroness has been shrouded in grief.  
-        clue:
-          - Newspaper clipping.  Local Rancher dies in unsolved murder.  Found hung in the tavern.
+            Everyone remembers the death of the Baron four weeks ago.  See clue #1.   <br />
+            The town has been in shock, and the ranch has been in disarray. <br />
+            The Baroness has been shrouded in grief.   <br />
+        clues: 
+          - clues/Clue1.png
       Morrow:
         revelations:
           - This should be the last revelation.  "Here's to Dodgetown!  May it grow and prosper!"  
@@ -96,8 +93,8 @@ rounds:
           - >
             My home town did not fair well after the Ravage.  Resource became scarce, so I started traveling West, 
             following stories of prosperity.  I happened upon Dodgetown three years ago and Baron took you in like the 
-            son he never had.
-            I work hard at the ranch, and I have a "work hard - play hard" mentality. 
+            son he never had. <br />
+            I work hard at the ranch, and I have a "work hard - play hard" mentality.  <br />
             I want to be more than "just a ranchhand."  People see me as charming and ambitious. 
         secrets:
           - >
@@ -112,7 +109,7 @@ rounds:
             I am the only child of Baron and Baroness.   <br />
             I left town when I was 15 and left with the travelling circus.  That is the last time I have stepped 
             foot on the ranch or talked to my parents.  I have seen the world, at least, what is left after the Ravage.  During my travels,
-            I became a skilled trapeze artist, gymnist, and actor. <br />
+            I became a skilled trapeze artist, gymnast, and actor. <br />
             I am in the best shape of my life and with the latest success in my acting troupe, well renowned 
             around the world.
           - >
@@ -126,7 +123,7 @@ rounds:
           - >
             I made favor with a traveling acting group.  Unfortunately, and this is hard to admit, I have no formal acting training.  
             I gave it the ol college try, but they ended up 
-            giving me a non-speaking role.  My face portrayed on the announcement is a bit of a mockery, I'm aftaid.
+            giving me a non-speaking role.  My face portrayed on the announcement is a bit of a mockery, I'm afraid.
           - > 
             I don't have a gold coin to my name.  What little I made with the circus and other work, I used to
             get back home.  
@@ -213,8 +210,10 @@ rounds:
       All:
         scenario: 
           - >
-            The fog in everyone's mind is clearing.  Everyone remembers that the sheriff's station was burned down last night, but 
-            only the mornings activities are known at this time.    
+            The fog in everyone's mind is clearing.  Everyone remembers that the sheriff's Jail was burned down last night, but 
+            only the mornings activities are known at this time.   
+        clues: 
+          - clues/Clue2.png 
       Morrow:
         revelations:
           - (said at end of round) Weeelll.  That was uncomfortable. But raise your glasses.  "Here's to Baroness!  May she lead this ranch and town back to prosperity!"    
@@ -238,6 +237,8 @@ rounds:
             I have been staying at the brothel, since my mother wants nothing to do with me.  I have no money, so I've been having to work there for board.
           - >
             I have been spending time with Rusty.  He pays well.
+          - >
+            I fantasize of winning the lottery and becoming a famous actress.
       Cowboy:
         tasks:
           - Be the first person to state your revelations.
@@ -301,7 +302,7 @@ rounds:
             <strong>Your General Whereabouts Friday Morning:</strong> <br />
             Wake up — 9:00 AM: Brothel <br />
             9:00 AM — 10:00 PM: Ranch house <br />
-            12:30 PM —  1:30 PM: Tavern <br />
+            12:30 PM — 1:30 PM: Tavern <br />
         revelation:
           - I saw Baroness (mom? smh) arguing with Cowboy over lunch.  She was furious about something.
           - Afterwards, she laid into Madame.  Baroness said she would own this bar before the night was over.
@@ -329,6 +330,8 @@ rounds:
             I know that Baron had mined Emeralds from the mine and stored them at the bank.
           - >
             I know that the Baroness was going to use the emeralds to buy the StrongArm 3000.  That is something I'd rather not be involved in.
+          - >
+            If the Baron had bought the StrongArm 3000, I would be out of a job
       Cole:
         information:
           - >
@@ -371,9 +374,9 @@ rounds:
             9:00AM — 11:00 AM: Jail <br />
             11:00 PM — 1:30 PM: Tavern  <br />
         revelations:
-          - 
+          - I am still investigating the murder of Baron, and my prime suspect is Cowboy.
         secrets:
-          - TODO
+          - If Demi asked me to run away with her, I would.
 
   - name: Final Clues
     script:
@@ -490,7 +493,7 @@ rounds:
           - >
             I took custody of Demi around 5:30 and took her to the Jail.
           - >
-            Things are getting weird here.  That robot Strongarm things scares me.  I decided to just leave town.
+            Things are getting weird here.  That robot Strongarm things scares me.  I had decided to just leave town.
         secrets:
           - >
             I went with Demi to help steal the emeralds.  She tried to sneak in, but she was caught.  
@@ -513,7 +516,7 @@ rounds:
         revelations:
           - >
             <p>
-            I loved  Baroness.  Though noone can attest to my whereabouts at 5:45, 
+            I loved  Baroness.  Though no one can attest to my whereabouts at 5:45, 
             I was indeed at the Ranch house looking for my love.  We were going to live 
             and rule the town with the StrongArm 3000.  Life was going to be great.</p>
             <p>Baron, however, I was happy to see go.  I suspect that Cowboy had something to do
@@ -526,7 +529,7 @@ rounds:
         - >
           <p>I'll admit.  I murdered Baron.  The Baroness paid me well to do it. </p>
           <p>I had little motive to kill Baroness, and I was leaving town when the
-          fire started.  Madame saw me leave. </p>
+          fire started.  Madame saw me leave, and Marshall had me in custody when the fire started. </p>
     
 
   - name: Confession 3
@@ -549,7 +552,7 @@ rounds:
           <p>She disowned me in public. </p>
           <p>I had every right to kill her... but all I wanted what was rightfully mine. </p>
           <p>I did not see Rusty as a long term plan, but rather a means to an end.  I planned to 
-          take the emeralds for myself, but, I will admit.  He does make for a good alibi.</p>
+          take the emeralds for myself, but, I will admit..  Rusty does make for a good alibi.</p>
           <p>I had amble motive, but no opportunity</p>
 
   - name: Confession 5

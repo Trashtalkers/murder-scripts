@@ -1,0 +1,950 @@
+todo: 
+  - playerScore sucks with all videoOnly.
+  - accusations are complete
+  - fix redirect to https
+  - if muted, refresh should stay muted
+  - Need to make sure people know that this is a game to win, to get all the secrets.  Ask questions!
+  - Show how many secrets each person has left
+
+characters:
+  - name: Dr. Chelsea Barren
+    costume: 'Colorful Blouse, expensive Jewelry, disheveled hair, pen and notebook in hand'
+    about: 'After suffering a nervous breakdown, this psychiatrist and near-best-selling author moved to Northern California to relax... but she moved next door to the Killingsworths instead...'
+  - name: Enrique Graves
+    costume: 'Rolled up sleeves with muscle shirt or no shirt, slicked back hair, screwdriver in hand'
+    about: This young drifter wandered onto Killingsworth Farm last year just as Robert and Elizabeth were moving in.  Elizabeth took a liking to Enrique and he has lived on the farm ever since - tending to the fields... among other things.
+  - name: Kathryn Lawless
+    costume: Tweed skirt and jacket, plain white blouse, flat shoes, eyeglasses, large brooch, library book or pet cat in hand.
+    about: 'Best friend to Elizabeth, this local librarian and historian has a flare the eccentric.  She lives down the road with her 15 cats and loves true crime - especially the mysterious unsolved death of Robert Killingsworth'
+  - name: Michael Nightshade
+    costume: Charcoal business suit, confident tie, flashy watch, dark sunglasses, conservative hair, mobile phone in hand.
+    about: The real estate developer New York arrived unannounced with plans to buy Killingsworth Farm and develop it into a low-cost housing community. His boss ordered him to obtain the Killingsworth land at any cost...'
+  - name: 'Norman D''Adly'
+    costume: Khaki pants, casual shirt, understated belt, hiking shoes, relaxed hair, binoculars in hand.
+    about: 'A real estate broker from New Jersey and husband to Vicki, Norman is trying to salvage his job and his marriage while traveling across the country on vacation'
+  - name: 'Vicki D''Adly'
+    costume: Short skirt, tight low-cut blouse, high heels, chunky jewelry, big hair, tabloid magazine in hand.
+    about: 'Elizabeth''s estranged sister from New Jersey, she and her husband were traveling on vacation when Vicki decided to drop by Killingsworth Farm for a visit... a surprise visit'
+rounds:
+
+  - name: Rules
+    script:
+      All:
+        scenario:
+          - >
+            You are about to become a suspect in a murder mystery.  It is up to you to figure out whodunit
+            by deducing the guilty secrets of others while trying to prove your innocence.<br />
+            <strong>Please remain in character throughout the game.</strong><br />
+            Game play will proceed in Rounds. <br />
+            Each round will provide tasks to complete, information for you to reveal, and clues you will use to interrogate each
+            suspect in the mystery.<br />
+            Players must answer questions according to their information section. Suspects that
+            have guilty secrets may be given misleading information to help keep their secrets a secret. It is
+            up to you to sift through this misleading information to discover the truth.<br />
+            The murderer or murderers will not know before the solution round that he or she is the
+            murderer. Thus, all players should suspect even themselves.<br />
+            In addition, "Clues" will provide special information used to further the mystery. <br />
+            After all clues have been revealed, all players will be given the opportunity to write down their accusation
+            to the mystery: Whodunit? How? And Why?<br />
+            After everyone submits their accusation, each player will be given a confession which they will read aloud. <br />
+            The Winner of the game is the person whose accusation form most closely matches the actual
+            solution to the mystery as revealed by the last confession<br />
+            <strong>Good Luck! The Game is Afoot!</strong><br />
+  - name: Introduction
+    script:
+      All:
+        scenario: 
+          - >
+            One year ago, Robert Killingsworth bought the farm.  Six months later, he was dead - leaving his widow
+            Elizabeth to tend to their fledgling vineyard and winery on the outskirts of California's wine country.  With mounting debts and no idea how to run a business, Elizabeth is desperate to sell the farm and recoup her losses. The fierce drought and shaky economy, however, have left Killingsworth Farm on the market for far too long. 
+            One early autumn day, six people passed through the gates of Killingsworth Farm to see Elizabeth...  <br />
+            One of them, a cold-blooded Killer.
+  - name: The Start
+    script:
+      All:
+        scenario:
+          - >
+            The sun is setting beyond the rolling hills of California's lush wine country, and you find yourself standing in the
+            front hall of the main house on Killingsworth Farms.
+            You arrived earlier today to see Elizabeth Killingsworth, a recent widow who, due to hard times, is looking to sell
+            the farm that she and her husband purchased just over a year ago.
+            Five others have joined you in the hall. Elizabeth, however, is not present. The strangers around you are looking
+            at you with interest. You help yourself to a glass of wine from the hall table and introduce yourself.        
+        clues:
+          - /clues/mm1_clue1.png
+      Dr. Chelsea Barren:
+        tasks:
+          - Introduce yourself.
+        information:        
+          - >
+            Although you do not consider yourself a friend to Elizabeth (just nodding terms as you pass), you live next door
+            to the Killingsworth Farm. You bought your land just about a year ago (the same time as the Killingsworths)
+            when the original farm was sub-divided and sold
+          - >
+            You are a retired psychiatrist. You lived in Los Angeles for many years and brought mental peace to many big
+            name stars, but you have a strict policy against name-dropping. While most of your patients droned on and on
+            about their boring problems, you daydreamed about murder and mayhem. Soon you completed a mystery novel
+            that sold very well Gust 17 books away from the top ten best-seller list) and allowed you to move to Marcocain
+            and focus on writing a sequel.   
+          - >
+            Your husband is currently overseas on business, but that does not stop you from socializing. You enjoy your
+            newfound fame and often host parties for the cream of the society's crop. In fact, you came to Killingsworth
+            Farm today to ask if you could use some of Elizabeth's farmland for extra valet parking for your party next week.
+        secrets:
+          - >
+            The novel that made you famous also made you a social outcast m Los Angeles. Your fictional novel about a
+            celebrity murder was assumed by some to be based on fact — facts you were told by your celebrity patients. As
+            rumors of your sources surfaced, your career plunged. Celebrity clients found new psychiatrists and you had no
+            work. Invitations stopped arriving. You were blackballed. You had to move.     
+          - >
+            With your husband constantly away, the pressures of social climbing alone can be too much. You like to find
+            relief in the arms of the hot farm hand next door. But he is not the only one you have been having an affair with.
+          - >
+            You fell in love with Robert Killingsworth before he died. He had promised to leave Elizabeth for you, but when
+            she discovered your tryst, Robert felt so ashamed that he decided to work it out with Elizabeth and save their
+            marriage. He died only days later..
+      Enrique Graves:
+        information:
+          - >
+            You work on the Killingsworth Farm helping with the crop and doing odd jobs as needed. Little is known of your
+            past, and you like to keep it that way. A year ago, you were a drifter with no ambition. While hitchhiking to
+            Mexico you camped for the night in the Killingsworth's Barn. Elizabeth found you the next morning, but rather
+            than kick you out, she took a liking to you and allowed you to stay on the farm if you worked for your keep. You
+            have been working the farm ever since.
+          - >
+            Encouraged and financed by Elizabeth, you have even returned to college (you dropped out of Hoboken College -
+            in New Jersey - as a freshman). You seem to have really turned yourself around. You work days and spend
+            nights in school or at the library where you have become good friends with Kathryn, the librarian.          
+          - >  
+            Life was really looking good. until Robert died. Now that the farm is going under, you are worried that you will
+            have to drop out of college again and do who knows what for a living.
+        secrets:
+          - >
+            You did not drop out of Hoboken College. You were kicked out of school after being arrested for selling drugs to
+            an undercover police officer. You spent only a little time in jail, but it was enough for your family to disown you.          
+            With nobody to turn to, you headed out west — everyone heads out west eventually — to make a name for yourself
+            and show them back home that you ARE somebody.
+          - >
+            You enjoy your new lifestyle with a cushy job and free education, but you cannot escape the power of drugs and
+            still indulge in them frequently. You even grow your own marijuana crop down near the barn by the lake.
+          - >
+            For English class, you are writing a paper on the history of the town. Since Kathryn is an amateur historian, you
+            have worked out a deal — she does the research that you need, and you keep her company on lonely nights.
+          - >
+            Kathryn is not the only one with whom you are having an affair. While Kathryn does your homework, you are
+            free for more pleasurable pursuits. The psychiatrist next door seems to like to play when her husband is away. <br />
+            You have seen her bedroom on more than one occasion.
+      Kathryn Lawless:
+        tasks:
+          - Introduce yourself.
+        information:
+          - >
+            You are Elizabeth Killingsworth's best friend. Elizabeth often volunteered at the local library where, for the last
+            ten years, you have been the head (and only) librarian. You are unmarried, but have several nieces and nephews
+            on which you dote almost as much as your fifteen cats.
+          - >
+            Not only are you the town's librarian, but it's historian (and biggest gossip) as well. It is almost impossible to
+            keep a secret in such a small town and you are proud of the fact that you know everything about everybody. You
+            have read every novel by Agatha Christie, Patricia Cornwell and, of course, Lilian Jackson Braun (The Cat
+            Who... series). Sometimes, on rainy days, you feel like picking up a Steven King.
+          - >
+            Today, you dropped by the Killingsworth Farm to visit Elizabeth and savor a nice cup of tea. You are sad that
+            Elizabeth is selling the farm and are going to miss her terribly when she moves back to the East Coast.
+        secrets:
+          - >
+            Enrique, the Killingsworth Farm farmhand, is writing a paper on the history of the town for his college English
+            course. He came to you one day and worked out a deal — you do the research he needs, and he keeps you company
+            on lonely nights. He is beautiful, and you are single... In the back of your mind, though, you know he is only
+            using you.
+          - >
+            As you dug deeper into the history of Marcocain, you uncovered an Interesting story about the previous owner of
+            Killingsworth Farm who discovered a gold vein on the property. With a little more research using that new-
+            fangled Internet thing you figured out that the farmer died before mining the gold, and it could still be buried on
+            the land. You called the one nephew you have in real estate to come and buy the farm from Elizabeth and sell it
+            to you for at a small profit. You like Elizabeth, but the thought of such a great deal of money and a life outside
+            this small town is too tempting.
+      Michael Nightshade:
+        tasks:
+          - Introduce yourself.
+        information:
+          - >
+            You have come from New York to California on business. Business is your life and your cellular telephone is
+            almost a permanent fixture in your hand. As a land development consultant, you've been hired by the state of
+            California to find an inexpensive tract of land to develop into a low-cost housing project. <br />
+            When you are not working (a rare occurrence) you enjoy hitting the clubs. You are young and energetic and quite
+            charismatic. The ladies tend to fawn over you, but you suspect that is because of the 2.6 million dollars you made
+            last year in land development. If you can pull off this job for the state of California, you may even become a
+            partner in your firm. Unfortunately, the state has given you a minuscule budget with which to acquire and
+            develop the land. It was almost a dream-come-true to find the Killingsworth Farm available under the current
+            market value. Elizabeth's misfortune was your good fortune. You hoped that she would see that your mission
+            was for a good cause and give you an even better deal. <br />
+            You arrived today without an appointment. You saw the real estate listing in the newspaper and rushed right
+            over. <br />
+            You have spent much of the day surveying the Killingsworth Farm and have sketched out a map of the area. <br />
+        secrets:
+          - >
+            You are not Michael Nightshade, land developer. You are Michael Nightshade, junior executive trainee at a real
+            estate brokerage firm in New York City. You do not have millions of dollars, but you are charismatic and can
+            easily convince others that you are made of money.
+          - >
+            You have never been to California before which is exactly why your Aunt Kathryn Lawless insisted you come.
+            You know that she is crazy, and she wouldn't give you exact details, but she told you that there would be a lot of
+            money in it for you if you could get Elizabeth Killingsworth to sell the farm to you and you sell it in turn to her.
+            Katherine insisted, however, that you keep her identity and your relationship to her a secret. But why?
+        revelations:
+          - I have spent much of the day surveying the Killingsworth Farm and have sketched out a map of the area.  Look in your "Clues" section. 
+      Norman D'Adly:
+        tasks:
+          - Introduce yourself.
+        information:
+          - >
+            You grew up in the same city as Elizabeth (Jersey City, New Jersey). It was through her that you met her sister,
+            Vicki. You and Vicki instantly fell in love and eloped as soon as she turned 18. You currently work - are
+            overworked actually —as a real estate broker in New York City. You and Vicki have decided to take a vacation to
+            get away from the hustle and bustle of your daily lives and maybe even fall in love all over again.
+          - >
+            For the last week, you have been traveling around the country 111 your new RV. You arrived at Killingsworth
+            Farms yesterday to visit your sister-in-law.
+          - >
+            In your spare time, you are an amateur ornithologist. You almost never go out without your binoculars and look
+            forward to looking around Killingsworth Farms for interesting birds.
+        secrets:
+          - >
+            You feel trapped in your current life. You married Vicki so young... Actually, you first dated her sister,
+            Elizabeth. Elizabeth was a virgin and would not let you get past first base with her. Elizabeth's sister, Vicki,
+            however, was quite different she exuded sexuality. It was not long before Vicki seduced you. After Vicki
+            became pregnant, however, you eloped and have been with her ever since. You know that when Vicki stole you
+            from Elizabeth, it tore the two apart and they have not spoken since.
+          - >  
+            You travel around with your binoculars to look at birds, but use the binoculars for so much more. You and Vicki
+            are not close at all, so you must get your sexual thrills whatever way you can — a little voyeurism here, an affair
+            there... As for this vacation, it is not really a vacation at all. You are currently on administrative leave from your
+            job as a real estate broker for sexually harassing the office receptionist. To make matters worse, you now have no
+            way to cover up the evidence that you've been skimming money from your real estate transactions (Vicki lives
+            way beyond your means — man, you hate her). You have kept the sexual harassment suit and the skimming from
+            the company a secret from Vicki. You told her that you need money for gambling debts. You had to sell your
+            house to return most of the money to the company, but it isn't enough. Times are getting desperate.
+            Your hope was to visit Elizabeth and ask for a loan to get you through the next couple of months. Or maybe even
+            to get her to fall in love with you again. Whatever it takes.
+      Vicki D'Adly:
+        tasks:
+          - Introduce yourself.
+        information:
+          - >
+            You are the (one year) younger sister of Elizabeth. As a child, you adored your older sister and were the best of
+            friends. As she grew older, however, and discovered boys, the two of you drifted apart from each other. When
+            Elizabeth married Robert Killingsworth and moved to California, you lost touch completely. After graduating
+            high school, you mamed your high school sweetheart, Norman, and remained in your hometown of Jersey City,
+            New Jersey. Currently you are a part time homemaker taking care of your three boys and also work part time at
+            the make-up counter of the mall's department store. You are hopelessly addicted to daytime soap operas and talk
+            shows. Your claim to fame is that you once appeared on the Gerry Springer Show — the episode titled "What I'd
+            Do For a Buck" is still the talk of the beauty shop.
+          - >
+            You and Norman have been traveling around the country In your new RV. Yesterday, you arrived at
+            Killingsworth Farms. You were hoping to take this opportunity to build a better relationship with your sister.
+        secrets:
+          - >
+            Elizabeth has not spoken to you in years — ever since you stole her high school boyfriend, Norman. You hated the
+            fact that she was in love with Norman and stopped spending time with you. Not only did Elizabeth despise you
+            for stealing Norman from her, but your parents resented it as well. At age 18 you secretly eloped with Norman
+            and have lived with him ever since. You do not love Norman, but with three kids and no college education, you
+            feel trapped. Norman, unfortunately, is an insecure loser. He has a gambling problem, and owes money to some
+            very powerful people. You have a plan to get out of this terrible situation, though. You have decided to drop by
+            on Elizabeth and tell her that Norman was abusive to you in hopes of getting a loan, dumping dumb Norman, and
+            moving out on your own — perhaps to California and become a soap opera actress... no... soap opera diva!         
+  - name: The Search
+    script:
+      All:
+        scenario:
+          - >
+            A quarter of an hour has passed. You hastily gulped down a glass of the Killingsworth Farm wine, but a somber
+            mood still lingers in the air. Where is Elizabeth Killingsworth? You feel ill at ease with this strange group of
+            uninvited guests. One of the other guests — you do not notice who suggests the group split up to find Elizabeth.
+            You wonder about the people around you and the circumstances that brought each person to Killingsworth Farm
+            today. As the group begins to spread in different directions in search of Elizabeth, you decide to use this
+            opportunity to find out more about the others.
+        clues:
+          - /clues/mm1_clue2.png
+      Dr. Chelsea Barren:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            Wake up — Noon: At home working on your next booking <br />
+            Noon — 1:15 PM: Tending your garden of <br />
+            2:30 PM — 3:45 PM: working on your book <br />
+            3:45 PM — 4:00 PM: At Killingsworth Farm talking to Elizabeth <br />
+            4:00 PM — 6:00 PM: At home resting <br />
+            6:45 PM — 7:00 PM: Return to Killingsworth Farm to talk to Elizabeth <br />
+            7:00 PM — Present: Return to the Killingsworth farmhouse <br />
+        revelations:
+          - >
+            While tending my garden around noon, I noticed Michael Nightshade drive up to Killingsworth Farm. 
+            Being curious, I watched as he went to the door and talked with Elizabeth Killingsworth on the front porch.
+            Through an open window of the farmhouse, I saw Kathryn Lawless rooting through a medicine cabinet in the bathroom.
+            She took something that looked like a small pill bottle and put it into her pocket. By 12: 15, she joined Elizabeth
+            and Michael on the front porch.
+          - >
+            I have spent much of the week in the library doing research. I have seen Enrique Graves there a number of
+            times, but never studying. He always comes in, takes papers from the librarian — never any books, though and
+            leaves. I've also noticed Michael Nightshade's car in the parking lot of the library every day for the last four
+            days.
+        secrets:
+          - >
+            When a certain hollywood star thought your last novel was about him, he sued your for millions.
+            You have been low on cash since, but now you have a novel coming out based on Robert Killingsworth's murder.  Things are
+            finally starting to look up fro you financially.
+          - >
+            You have virtually no cash left.  If your book deal falls through, you will have nothing left 
+            but your little tract of land next to Killingsworth Farms.  If Michael Nightshade turns it into low-cost housing, you
+            suspect your property value will diminish considerably.
+          - >
+            You have always suspected that Elizabeth Killingsworth killed her husband Robert to collect the life
+            insurance money and escape the failing farm -- this is, in fact, the plot for your next novel
+      Enrique Graves:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            6:00 — 9:00 AM: Chores in the fields <br />
+            9:00 AM — Noon: Cleaning the Farmhouse  <br />
+            Noon — 3:00 PM: Lunch alone and resting in the Barn  <br />
+            3:00 — 4:00 PM: Fixing the wiring in the Wine Vault  <br />
+            4:00 — 5:00 PM: Resting in the Barn  <br />
+            6:30 — 7:00 PM: Return to fix wiring in the Wine Vault  <br />
+            7:00 PM — Present: Return to the Killingsworth farmhouse <br />
+        revelations:
+          - >
+            Around 9:30 AM this morning, I was cleaning the farmhouse windows from outside when I heard Vicki
+            D'Adly sobbing and speaking to someone. She was in the breakfast room at the time.
+          - >
+            When Robert Killingsworth died, Elizabeth felt alone and distraught. She had no other living family except her
+            sister, whom she said she had not seen since high school. Elizabeth wanted to make amends with her sister, but
+            said that she never wanted to see her brother-in-law again. She never made contact with her sister.
+        secrets:
+          - >
+            Around 12:45 PM, Dr. Chelsea Barren came to you and asked about the man who had driven up to Killingsworth
+            Farm (Michael Nightshade). You did a little snooping for her and found out that he was a real estate developer
+            who intended to buy the farm to develop it into low-cost housing. You reported this news back to Dr. Barren at
+            about I PM. She seemed horrified by the thought of low-cost housing next to her property. She vowed to put a
+            stop to the plan.
+            You have been at the library a lot this week as Kathryn Lawless has been helping you with your homework.
+            Elizabeth Killingsworth was especially attentive and generous to you immediately following Robert's death. You
+            think that she was afraid you would leave the farm and she would be alone.
+      Kathryn Lawless:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            8:00 — 9:00 AM: At the Library shelving books and watering plants  <br />
+            9:00 — 11:00 AM: Running errands in town  <br />
+            11 AM — Noon: Morning coffee with Elizabeth Killingsworth at her Farm <br />
+            Noon — 12:15 PM: Michael Nightshade arrives and speaks with Elizabeth <br />
+            12:15 — 1:30 PM: Making Lunch at Killingsworth Farm <br />
+            1:30 — 2:30 PM: Eating Lunch with Elizabeth, Vicki D'Adly, and Dr. Barren <br />
+            2:30 — 7:00 PM: Sitting on Farmhouse porch reading and waiting for Elizabeth <br />
+            7:00 PM — Present: Return to the Killingsworth Farmhouse
+        revelations:
+          - >
+            I recognize Dr. Chelsea Barren from her book cover. Her last novel was nearly a best seller but was
+            surrounded in controversy. I recall hearing that she was sued over it. I wonder if she is still writing.
+          - >
+            I went into the town Library early this morning to shelve books and water the plants. As I was leaving,
+            I noticed Norman in the gift shop next door. The cashier placed a few items into Norman's bag. I am
+            certain that one of them was made of gold.
+          - >
+            At morning coffee with Elizabeth, she showed me a corkscrew that Norman had given to her just half an hour
+            earlier. Elizabeth seemed very flustered by the gift. She did not seem to realize that it was still in her hands when
+            the doorbell rang at Noon.
+          - >
+            I recall that Enrique Graves seemed to have a lot more disposable income after Robert Killingsworth's death
+            spending more time on his car and friends and less time at the library.
+        secrets:
+          - >
+            At noon, Michael Nightshade arrived to consider buying the Killingsworth Farm. You were not feeling well at
+            the time, so while Elizabeth spoke to Michael Nightshade on the porch, you went to the bathroom to look for
+            some antacid.
+          - >
+            Michael Nightshade has been in the library often this week. You've pulled some research materials for him
+            regarding the town history.
+      Michael Nightshade:
+        information:
+          - > 
+            <strong>Your General Whereabouts:</strong> <br />
+            Morning — Noon: Traveling to Killingsworth Farm <br />
+            Noon — 12:15 PM: Discussing buying the Farm with Elizabeth Killingsworth <br />
+            12:15 — 1:00 PM: Looking around the Farm with Elizabeth Killingsworth <br />
+            1:00: Elizabeth is stung by a bee in the Rose Garden <br />
+            1 — 1:15 PM: Return with Elizabeth Killingsworth to Farmhouse <br />
+            1:15 — 3:00 PM: Making business phone calls in car <br />
+            3:00 — 5:15 PM: Examining Killingsworth Farm alone <br />
+            5:15 — 6:45 PM: Wine tasting with Elizabeth Killingsworth in the Wine Vault <br />
+            6:45 — 7:00 PM: Lights go out in the Wine Vault. Elizabeth Killingsworth goes to investigate <br />
+            7:00 PM — Present: Return to the Killingsworth farmhouse <br />
+        revelations:
+          - >
+            I arrived at Killingsworth Farm at noon. I approached the house to ask Elizabeth Killingsworth if I
+            could look around the grounds and she seemed very happy to oblige. In fact, she almost seemed desperate to
+            show you around. Behind Elizabeth, I could see Kathryn Lawless who came out to join me on the front porch
+            at about 12:15.
+          - >
+            While Elizabeth and I were walking around the grounds, I noticed that she was carrying around a small
+            object. I did not think she even realized that she was carrying it as she had been so engrossed in talking about
+            the farm. At about I PM, we were in the Rose Garden when a bee stung Elizabeth. She dropped the object
+            she was carrying in the grass and ran back inside the house. I followed her.
+        secrets:
+          - >
+            You have spent the last four days at the library researching all aspects of the town. You need to report back to
+            your company to begin a marketing campaign for the new housing development.
+          - >
+            Norman D'Adly passed his resume to you this afternoon. He seemed too desperate to gain employment, so you
+            told him that your company was not hiring. You wonder about his current work situation.
+      Norman D'Adly:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            8:30 — 10:00 AM: Wake up and go into town to run errands <br />
+            10:00 — 10:30 AM: Bird watching on Farm  <br />
+            10:30 — 11 AM: Talking with Elizabeth Killingsworth <br />
+            11:00 AM — 1 PM: Bird watching on Farm <br />
+            1 PM — 2:30 PM: Making business phone calls <br />
+            2:30 — 3:30 PM: In room with Vicki D'Adly <br />
+            3:30 — 5:30 PM: Taking a walk <br />
+            5:30 — 6:30 PM: Relaxing in the Rose Garden  <br />
+            6:30 — 6:45 PM: Exploring the Farm  <br />
+            6:45 — 7:00 PM: Lights go out in the Wine Vault; go to see what happened  <br />
+            7:00 PM — Present: Return to the Killingsworth farmhouse  <br />
+        revelations:
+          - >
+            While searching for the missing Elizabeth, I entered her bedroom and found a small shrine dedicated to her late
+            husband Robert. One particular article caught my attention.  You can see a copy of it in your "clues" section.
+          - >
+            While bird watching around at 12:45 PM, I noticed Enrique Graves stalking around. He seemed to be secretly
+            observing something. I did not want to pry, so I continued walking.
+          - >  
+            I gave Michael Nightshade my resume and told him of my background in real estate. Michael told me that
+            the company was not hiring as the market was down. Odd, I have heard the opposite - that the housing market
+            is booming right now.
+        secrets:
+          - > 
+            You have been having a rough marital time with Vicki. You woke up early and went into town to buy her a silver
+            charm bracelet to get back into her good graces.
+          - > 
+            At 10:30 AM, you gave Elizabeth an engraved corkscrew as a gift for her hospitality to you and Vicki during your
+            vacation.
+      Vicki D'Adly:
+        information:
+          - >
+            <strong>Your General Whereabouts:</strong> <br />
+            9:00 — 9:30 AM: Wake up and get dressed  <br />
+            9:30 — 10:00 AM: Breakfast with Elizabeth Killingsworth <br />
+            10:00 — 1:30 PM: Lounging around Farmhouse <br />
+            1:30 — 2:30 PM: Lunch with Elizabeth, Kathryn Lawless, and Dr. Barren  <br />
+            2:30 — 3:30 PM: In room with Norman <br />
+            3:30 — 6:30 PM: Exploring the Farm <br />
+            6:45 — 7:00 PM: Exploring the Wine Vault  <br />
+            7:00 PM — Present: Return to the Killingsworth farmhouse  <br />
+        revelations:
+          - >
+            Norman D'Adly was not in bed when I woke up and I did not see him again until that afternoon. This was
+            fine with me, as I enjoyed the peace and quiet for once.
+          - >
+            I have heard that Dr. Chelsea Barren is writing a novel about a man who was bludgeoned to death and dumped into a
+            lake. The murder goes unsolved. The plot line sounds vaguely familiar. I wonder which of the suspects Dr.
+            Barren believes is the killer
+        secrets:
+          - >
+            You did not know that Robert Killingsworth had died before this visit. Apparently Elizabeth still had not forgiven
+            you for marrying her high school sweetheart and did not want to see you. You wonder if she wanted you out of
+            her life for good.
+          - >
+            You met Elizabeth Killingsworth for a private breakfast this morning at around 9:30 AM. You mentioned that
+            you were having some financial difficulties and asked Elizabeth for help. Elizabeth, however, was financially
+            strapped, as Robert had no life insurance when he died.
+  - name: The Discovery
+    script:
+      All:
+        scenario:
+          - >
+            Almost as soon as all of the guests split up in search of the missing Elizabeth Killingsworth, the sound of
+            screaming draws everyone deep into the labyrinth that makes up the Killingsworth Wine Vault — an expansive
+            wine storage facility behind the Killingsworth Farmhouse. The lights will not turn on and only a sliver of
+            moonlight shines through the window. As your eyes adjust to the darkness, you see a body face down in a large
+            pool of blood. Your intuition tells you that you have found the body of Elizabeth Killingsworth. <br />
+            The darkness of the Wine Vault makes an examination of the body impossible. The group decides to return to the
+            main house to call the police. You suspect someone in this group is responsible for the murder of Elizabeth
+            Killingsworth, and you have a few questions to ask.
+        clues:
+          - /clues/mm1_clue3.png
+      Dr. Chelsea Barren:
+        revelations:
+          - >
+            I joined (invited myself) in for lunch with Elizabeth at 1:30 PM. Kathryn Lawless and Vicki D'Adly were
+            there as well.
+          - >
+            I have known for a long time now that Enrique Graves grows his own marijuana crop down by the lake. I
+            wonder if he has a drug problem or if anybody else knows about it.
+          - >
+            Elizabeth Killingsworth initially offered a large cash reward for information leading to the arrest of her husband's
+            killer, but retracted the offer days later.
+        secrets:
+          - >
+            Six months ago, you were the last person to see Robert Killingsworth alive. You met Robert for lunch at
+            Killingsworth Farm as you often did. After lunch, you left him in order to keep an appointment with your book
+            publisher. Robert was very much alive at the time when you left.
+          - > 
+            You are sleeping with Enrique Graves. After your usual 3:00 PM tryst in the Wine Vaults, you noticed a piece of
+            paper had fallen out of his pocket. You picked it up to look at it and headed straight to the Farmhouse to find
+            Elizabeth Killingsworth.
+      Enrique Graves:
+        revelations:
+          - >
+            When Norman and Vicki D'Adly arrived last night, I helped them with some luggage from their RV. I
+            noticed the RV was filled with boxes — much more than two people would ever need on vacation.
+            At about 3:00 PM, I was fixing the wiring in the Wine Vaults when Dr. Chelsea Barren joined me. I have
+            been sleeping around with Dr. Barren, but know that she is just using me to get information about the
+            Killingsworths for her next book.
+        secrets:
+          - >
+            You have lost a page of pin-codes and bank information. You suspect Dr. Barren took it from you this afternoon.
+            You had not realized that she was that hard up for money.
+            You have a special friendship with Kathryn Lawless. She writes your college papers for you in return for
+            spending evenings with her. As librarian, she has access to valuable historical reference materials — some of
+            which you stole in hopes of selling for extra cash.
+      Kathryn Lawless:
+        revelations:
+          - >
+            I knew Robert Killingsworth well. He was a strong and capable man. The fact that he was bludgeoned to
+            death is unsettling. His killer must have surprised him — or tricked him. Who was the last person to see him
+            alive?
+          - >
+            Around 1 PM, the Killingsworth telephone rang and I answered it. It was a law firm calling for Norman.
+            He was on the phone in the study for the next hour and a half. I listened into the phone call and heard Norman
+            talking to a lawyer about a sexual harassment lawsuit and something about embezzlement.
+          - >  
+            At 1 PM, Dr. Chelsea Barren joined me, Vicki D'Adly, and Elizabeth for lunch at the Killingsworth
+            Farmhouse. Though Elizabeth tried to change the subject many times, the conversation mainly revolved around
+            Michael Nightshade wanting to turn the farm into a low cost housing development. Dr. Barren was very unhappy
+            about the prospects.
+        secrets:
+          - >
+            You are very attracted to Enrique and have been sleeping with him. You also do his homework for him. You
+            were writing a research paper on the Gold Rush Era when you ran across a letter written by Samuel Friedmont, an
+            early founder of Marcocain. He died shortly after the letter was written when he drown in a lake on his property.
+          - >  
+            You are quite infatuated with Enrique Graves — almost to the point of stalking him. After performing a
+            background check on him via the Internet, you discovered that he had been arrested for selling drugs to an under-
+            cover police officer over a year ago. Apparently, he skipped town after serving a short jail sentence.
+      Michael Nightshade:
+        revelations:
+          - >
+            After Elizabeth was stung by a bee in the Rose Garden, she hurried back to the farmhouse to tend to her wound.
+          - >
+            I spent the next two hours in my car making business calls.
+          - >  
+            At 3 PM, Elizabeth had not come back out of the farmhouse, so I decided to look around the farm on my
+            own. At about 3:15 PM, I saw a woman enter the Wine Vaults. I could see Enrique Graves inside the door
+            and the two were speaking conspiratorially. I walked away and did not see when the woman came out of the
+            Wine Vaults.
+        secrets:
+          - >
+            You are not a real estate developer. You are a junior executive trainee for a real estate brokerage in New York.
+          - >
+            You are trying to make a name for yourself within the company. You wanted to buy the land cheap to sell high
+            later and prove your business-savvy to the company higher-ups.
+          - >
+            Kathryn Lawless is your Aunt. She gave you the tip to come to California to buy the Killingsworth Farm. You
+            do not have much money, though. Kathryn, however, promised to buy it back from you afterwards at a profit.
+          - >
+            She did not tell you why, but seemed quite eager to get her hands on the land. It is all moot, however, because
+            Elizabeth was asking more for the farm than you could afford. You spent much of the day making calls to get
+            more money and talking to Elizabeth to get her to lower her price.
+      Norman D'Adly:
+        revelations:
+          - >
+            Vicki is Elizabeth's only living relative. She is the rightful heir to the Killingsworth Farm now that Elizabeth is
+            dead.
+          - >
+            Around 3 PM, I overhead a heated conversation between Elizabeth Killingsworth and Dr. Chelsea Barren.
+            Elizabeth was telling Chelsea that she would rather deny any evidence in the murder of Robert Killingsworth than
+            let Chelsea expose any of it in her book.
+          - >
+            Every time I have seen Enrique today, he seemed to be looking underneath furniture, in drawers, etc. as if he
+            had lost something.
+        secrets:
+          - >
+            During your conversation at 10:30 AM this morning with Elizabeth in the Rose Garden, she told you that Vicki
+            had told her that you have been physically abusive to her. You were shocked, as you have never laid a finger on
+            Vicki. <br />
+            You received a phone call today at 1:00 PM from your boss. For the last couple of weeks, you have been on
+            administrative leave for sexual harassing your office receptionist. While performing necessary checks for the
+            upcoming lawsuit, your boss had found evidence that you had been siphoning money from the company Into your
+            personal account. He called to inform you that you are fired.
+      Vicki D'Adly:
+        revelations:
+          - >
+            At 1 PM, Dr. Chelsea Barren seemed to invite herself to lunch with Kathryn Lawless, Elizabeth, and myself. I
+            could sense that Elizabeth was uncomfortable. She admitted to you later that she hates Dr. Chelsea Barren.
+          - >  
+            During lunch, I took a peek through Dr. Barren's notebook and noticed her notes regarding Robert
+            Killingsworth's murder. Dr. Barren seems to think that Robert was killed in his own home - a drop of blood was
+            found on the carpet in front of his study computer, his files had been rifled through, and his phone was off of the
+            hook. Elizabeth believes the bloodstain had been there for years. She could not explain the disarray of the phone
+            or papers, however.
+          - >
+            Michael Nightshade looks very familiar and I finally recognize him. I met him last year at Norman's
+            company holiday party. They must work at the same real estate brokerage firm. You did not know that the
+            company developed land, though - and certainly not in California.
+        secrets:
+          - >
+            You lied to Elizabeth th1S morning at breakfast. You told her that Norman was physically abusive to you, but
+            your lies were just an attempt to gain Elizabeth's sympathy. You partially wanted to see how she would react to
+            the news, but also to see if she still had feelings for Norman. Elizabeth did seem surprised that Norman was
+            abusive, but she told you that you got what you deserved. You want to divorce Norman, but you rely on him too
+            much financially.
+          - >  
+            You had to sell your home because of Norman's debts. You are now living in your RV.
+  - name: The Examination
+    script:
+      All:
+        scenario: 
+          - >
+            You have returned to the Wine Vaults with a flashlight in hand. In the light, you can see the many meandering
+            paths formed by the stacked oak barrels of wine and almost get lost. Coming upon the body, you confirm that it
+            is, in fact, Elizabeth Killingsworth, and you immediately see the cause of her death. A golden corkscrew juts
+            from the right side of her neck. There appears to be something inscribed on the corkscrew, but the pool of blood
+            prevents you from getting close enough to the body for a closer inspection. <br />
+            The sight of Elizabeth's body is too gruesome for some of the guests and you decide to return, once again, to the
+            main house to ponder these new clues.
+        clues:
+          - /clues/mm1_clue4.png
+      Dr. Chelsea Barren:
+        revelations:
+          - >
+            I looked at the clock in the Wine Vaults. It stopped when the power went out at 6:45 PM. Where was
+            everybody? Who was the last person to see Elizabeth Killingsworth alive? I last saw Elizabeth at 3:45 PM
+            when I had a brief conversation with her in the farmhouse about my upcoming novel. I left Elizabeth and
+            went home to call my publisher.
+          - >
+            At 5:30 PM, I was swimming in my pool when I saw Enrique Graves and Vicki D'Adly in the Rose
+            Garden. By the time I got out of the pool to find out what was going on, Vicki had left.
+          - > 
+            About 6:45 PM, I saw Vicki D'Adly heading toward the Wine Vault. I noticed that she was wearing a
+            different outfit than she had been that afternoon. I also noticed that Kathryn Lawless was sitting on the back
+            porch of Killingsworth Farmhouse watching me, but I followed Vicki into the Wine Vault anyway. I
+            trailed her as she made her way through the labyrinth of halls never letting her out of my sight.
+
+        secrets:
+          - >
+            You loved Robert Killingsworth. You had an affair with him just prior to his death. Elizabeth suspected the
+            affair confronted Robert about it. Robert and Elizabeth decided to seek counseling to try to save their
+            marriage. Robert broke off his affair with you immediately. He died only days later.
+      Enrique Graves:
+        revelations:
+          - >
+            I last saw Elizabeth Killingsworth alive around 5:30 PM while I were taking a break. Elizabeth was
+            heading into the Wine Vaults with Michael Nightshade.
+          - >
+            At 6:30 PM, I went to the Wine Vault to work on the short in the wiring. I was sure that I turned off the
+            electricity, but at about 6:45 PM I was shocked by a jolt of electricity that knocked me unconscious for the
+            next quarter of an hour. The jolt of electricity must have shorted out the lights in the Wine Vault.
+          - >
+            Dr. Chelsea Barren was almost as devastated by Robert Killingsworth's death as Elizabeth. I wonder just why
+            Dr. Barren is so interested in the life and death Robert. Her interest seems too extreme to be strictly professional.
+        secrets:
+          - >
+            At 5:30 PM, you were cleaning the Fountain in the Rose Garden when Vicki approached you. You talked for a
+            while. The two of you began to flirt and were soon kissing passionately.
+      Kathryn Lawless:
+        revelations:
+          - Beside Elizabeth's body, I found a piece of paper.
+          - >
+            I last saw Elizabeth Killingsworth alive during lunch. Around 4:00 PM, I quickly drove back to the library
+            and checked out a copy of Dr. Chelsea Barren's last book. Soon afterwards, I was sitting on Killingsworth
+            Farm's back porch reading the book and waiting for Elizabeth to finish showing Michael Nightshade around the
+            farm. She never returned.
+          - >
+            At around 6:45 PM, I noticed Dr. Chelsea Barren come from her house next door. She followed someone into
+            the Wine Vaults. Moments later, the lights in the window of the Wine Vaults flicker and go out.
+        secrets:
+          - >
+            You have always dreamed of becoming a star in Hollywood or on the Broadway stage. Today, you quit your job
+            at the library.
+      Michael Nightshade:
+        revelations:
+          - >
+            The handwriting on Elizabeth Killingsworth's note (Secret Clue — Round Four) looks familiar — like I have
+            seen it somewhere else recently.
+          - >
+            At 5:15 PM, I met with Elizabeth Killingsworth again. Together, we found a cozy corner in the Wine Vaults
+            to sample various wines and discuss the sale of Killingsworth Farm. we were still drinking together when the
+            lights flickered and went out. We heard some one screaming from the other end of the Wine Vaults. Elizabeth
+            Killingsworth told me to wait there while she went and investigated. That was the last time I saw her alive.
+        secrets:
+          - >
+            You demanded that your Aunt Kathryn tell you why she wanted you to pretend to be a real estate developer to try
+            and buy the Killingsworth Farm cheaply or you would not go through with the ruse. Kathryn told you a story of
+            gold buried on the land worth millions. Her plans to obtain the land seemed deranged, but she kept saying that
+            she was desperate to leave this small town and promising you a nice profit from the deal.
+          - >  
+            At 2:15 PM, Kathryn Lawless sneaked out to your car with a bottle of sleeping pills. She told you to crush them
+            and keep them in your pocket. If Elizabeth Killingsworth refused to sell the farm to you, you were to slip them in
+            her drink the first chance you could get.
+      Norman D'Adly:
+        revelations:
+          - >
+            I last saw Elizabeth Killingsworth alive around 3 PM when I passed by the farmhouse and overheard her
+            talking to Dr. Chelsea Barren about her book. I then continued on my bird watching walk in the fields.
+          - >  
+            I had just finished a business phone call in the study when I saw Kathryn Lawless approach Michael
+            Nightshade. He was sitting in his car just outside the study window. I heard bits and pieces of a hushed
+            conversation and I am certain that I heard Michael Nightshade say, "Are you sure about this, Aunt
+            Kathryn?" She then handed him a small pill bottle.
+          - >
+            I was bird watching most of the afternoon. I was out in the grape fields when you noticed the Wine
+            Vault lights flicker and go out. I thought it was odd, but then I heard Vicki screaming. I ran inside the
+            Wine Vaults from the back door, but soon got lost in the labyrinth of halls. I did not find Vicki until I came
+            back into the Farmhouse and saw the other guests.
+        secrets:
+          - >
+            At 2:00 PM, you were in your room with Vicki. She was distraught that Elizabeth would not give her a loan.
+            Vicki broke down and cried right in front of you.
+          - >
+            You were bird watching in the Rose Garden's Gazebo at 5:30 PM. You saw your wife flirting and kissing
+            Enrique Graves.
+      Vicki D'Adly:
+        revelations:
+          - >
+            I last saw Elizabeth Killingsworth alive during lunchtime. I spent much of the day by myself, but I did
+            meet with Norman for a short while in our bedroom at 2:00 PM.
+          - >
+            I sat with Kathryn Lawless on the back porch for a short time and the discussion turned toward life-goals.
+          - >
+            I told Kathryn that I would like to go to Hollywood and become a star if only I was not burdened with
+            a husband and two kids. Kathryn seemed to lose herself, and she told meet of her similar dream of getting out of
+            this small town to live an exciting life — and that she was going to do something about it. She did not elaborate,
+            though. She only grinned and laughed — almost maniacally.
+        secrets:
+          - >
+            At 5:30 PM, you found yourself by the Fountain in the Rose Garden. Enrique Graves was there and you began
+            talking and flirting. Soon the situation became passionate and you started kissing. You left soon afterward,
+            however, deciding to meet up with Enrique later that evening after Norman fell asleep. By 6:00 PM, you had left
+            the Rose Garden to change clothes.
+          - >
+            At about 6:45 PM, you decided to go find Enrique again. You did not see him outside, so decided to check the
+            Wine Vaults. As you were making your way down the labyrinth of halls, you suddenly ran into Enrique. At the
+            same time you saw him, however, you heard a loud popping sound. The lights flickered and went out. You
+            screamed. You do not remember what happened after that until you found yourself back at the Farmhouse with
+            the rest of the guests.
+  - name: The Final Clues
+    script:
+      All:
+        scenario:
+          - >
+            You can hear the wail of distant police sirens.  Soon investigators will be swarming Killingsworth Farms
+            and asking questions you may not want to answer.  You still have a few minutes, though, and there
+            are a few issues with your fellow guests you want to clear up....
+        clues:
+          - /clues/mm1_clue5.png
+      Dr. Chelsea Barren:
+        revelations:
+          - >
+            Enrique Graves seems desperate to retrieve the piece of paper that fell out of his 
+            wallet during our 3:00 PM tryst.  I wonder if the paper has something to do with 
+            Bob's death.  I showed the paper to Elizabeth Killingsworth at 3:45PM
+      Enrique Graves:
+        revelations:
+          - >
+            The day that Robert Killingsworth was killed, he had lunch with Dr. Chelsea Barren. She pleaded with him to see
+            her the next day as well, but Robert refused. Chelsea continued to beg, but Robert said he would only let her back
+            on his property over his "dead body." I wonder if that was just an expression.
+        secrets:
+          - >
+            You were the last person to see Robert Killingsworth alive.
+      Kathryn Lawless:
+        revelations:
+          - >
+            While in Elizabeth's study, I noticed a candlestick on the fireplace mantle. Enrique Graves gave me an
+            identical candlestick months ago as a birthday gift. Mine, however, is dented and not in as nice of condition.
+      Michael Nightshade:
+        revelations:
+          - >
+            Earlier in the day, I bumped into Vicki D'Adly and, thinking it was Elizabeth, began asking her questions
+            about the extent of the farmlands. Vicki interrupted me to tell me that she was not Elizabeth. Vicki and
+            Elizabeth look nearly identical.
+          - >
+            You recognize the handwriting on Elizabeth Killingsworth's suicide note (Secret Clue — Round 4). It matches the
+            note scribbled on the bottom of the letter by Samuel Friedmont (Secret Clue — Round 3)
+      Norman D'Adly:
+        revelations:
+          - >
+            While on a walk at about 3 PM, I passed the Farmhouse and heard Elizabeth Killingsworth aruing with Dr.
+            Chelsea Barren. Dr. Barren was claiming to have proof of who killed Robert Killingsworth, but Elizabeth would
+            not listen.
+      Vicki D'Adly:
+        revelations:
+          - >
+            I returned to Elizabeth's body to get a closer look at the corkscrew. The corkscrew is engraved, "To Elizabeth.
+            I will always love you. Let's toast to a new life together." On the floor of the hall nearby was a bottle for
+            prescription sleeping pills. The date on the bottle indicated that it was refilled only two days ago. The bottle was
+            empty.
+  - name: Accusations
+  - name: Confession MYSTERY
+    script:
+      Kathryn Lawless:
+        revelations:
+          - >
+            My life has revolved around books. That is why I became a librarian. Some people, however,
+            might call me a dreamer. I will admit that I have always longed for a more exciting life.<br />
+            Tonight has been especially exciting for me. For once, I do not have to be content just reading a
+            mystery in one of my library books. I can finally live the adventure.<br />
+            As a mystery novel fan, I've learned the crucial factors in solving any murder. The killer must
+            have a motive to murder, the means to commit the crime, and the opportunity to do so.<br />
+            I was Elizabeth Killingsworth's best friend. I would never have dreamed of killing her. In fact, I
+            could not have killed her. We know that Elizabeth was murdered in the Wine Vaults this
+            evening. I was nowhere near the Wine Vaults today.<br />
+            Furthermore, Elizabeth was found with a corkscrew jutting out of her neck. Earlier today,
+            Elizabeth told me that Norman D'Adly had given that same corkscrew to her as a gift. He had
+            even inscribed it to her. Elizabeth mentioned that she dropped the corkscrew in the Rose Garden
+            today after being stung by a bee. She rushed back to the Farmhouse for treatment. The time was
+            1 PM.<br />
+            Only the people who were in the Rose Garden today would have had access to the murder
+            weapon used to kill Elizabeth. I am innocent.<br />
+  
+  - name: Confession MAYHEM
+    script:
+      Michael Nightshade:
+        revelations:
+          - >
+            I was in the Rose Garden this afternoon with Elizabeth Killingsworth. She was showing me
+            around the Farm. I probably could have picked up the corkscrew when Elizabeth dropped it, but
+            I did not do so. My mind was elsewhere. <br />
+            I am not exactly who I appear to be. And I am not the only one. My Aunt, Kathryn Lawless, is
+             not exactly the best friend to Elizabeth that she would make us believe.<br />
+            I am not a real estate developer. I am a junior executive trainee at a real estate brokerage in New
+            York City. I came to see Elizabeth in order to buy her farm inexpensively. While helping
+            Enrique Graves with his college research, Kathryn uncovered clues to millions of dollars in gold
+            somewhere in the Killingsworth Farm fields. This was a secret she kept even from me.<br />
+            Kathryn and I first planned to buy Elizabeth's farm outright — I was to buy the farm and sell it to
+            Kathryn afterwards at a tidy profit. Unfortunately, Elizabeth's asking price was much more than
+            I could afford on my modest salary.<br />
+            Unable to persuade Elizabeth to lower her selling-price enough, Kathryn decided to take our plan
+            to the next level. She was desperate to escape her mundane life here in Marcocain and obtaining
+            the gold on the Killingsworth Farm would have provided her with the financial freedom to
+            pursue all of her life's dreams.<br />
+            While I was out seeing the grounds with Elizabeth, Kathryn stole some sleeping pills from
+            Elizabeth's medicine cabinet and slipped them to me later while I was making phone calls from
+            my car.<br />
+            I crushed the sleeping pills and slipped them into Elizabeth's wine while we were wine-tasting in
+            the vaults just before she was killed. Kathryn had forged a suicide note for Elizabeth with
+            instructions that Kathryn should be given the Killingsworth Farm. Kathryn was trying to get the
+            farm for free and leave me completely out of the picture - without even having made a profit
+            selling the land to her. Had I known that Kathryn was trying to give me the shaft, I would never
+            have gone along with her crazy plan. I admit that I tried to kill Elizabeth, but somebody else got
+            to her first. I certainly did not stab her in the neck with a corkscrew.<br />
+
+  - name: Confession MURDER
+    script:
+      Dr. Chelsea Barren:
+        revelations:
+          - >
+            <p>Well, I was certainly fooled by Michael Nightshade's deception. I was terrified that he was
+            going to turn the Killingsworth Farm into low-cost housing. I have already lost my practice and
+            book deals. If Elizabeth sold her farm, my property value would have plummeted. I would have
+            had nothing left. I would be completely broke. But I would not have killed Elizabeth over a few
+            dollars. I am a doctor, after all.</p>
+            <p>On the other hand, I had always suspected that Elizabeth Killingsworth murdered her husband,
+            Robert, six months ago. I loved Robert and had been having an affair with him. When his death
+            went unsolved, I made it my mission to expose Elizabeth as his killer and make the story my
+            next best-selling book.</p>
+            <p>I had assumed that Elizabeth had killed Robert for his life insurance, but I was surprised to see
+            her even worse off financially after his death.</p>
+            <p>I have been sleeping with Enrique Graves, the farmhand, in order to gain inside information into
+            Elizabeth's life. Today, I struck gold! I found a clue to Robert's killer. I found a list of bank
+            records, pin codes, and financial transactions from immediately after Robert's death. I was
+            shocked to learn that it was not Elizabeth who killed Robert. I came to her with this evidence,
+            but she would not accept it. Anyway, you can read in my next book who killed Robert
+            Killingsworth. As for Elizabeth, however, I am baffled.</p>
+
+  - name: Confession MALICE
+    script:
+      Enrique Graves:
+        revelations:
+          - >
+            I never liked Robert Killingsworth, Elizabeth's husband, and he never liked me. He was jealous
+            of my relationship with Elizabeth. Even though our relationship was never physical, she adored
+            me. <br />
+            Robert did not trust me — for good reason. I did not drop out of college a year ago. I was kicked
+            out for drug possession and for attempting to sell marijuana to an undercover police officer. This
+            was an offense for which I was arrested. After serving a short jail sentence, I headed West to
+            California. <br />
+            I really was doing well for myself here. Elizabeth had me enrolled in College and I had that
+            librarian, Kathryn Lawless, so wrapped around my little finger that she was doing all the work
+            for me. <br />
+            Robert Killingsworth, however, had tried to ruin everything for me. He did some searching into
+            my past and discovered my arrest. As fate would have it, Robert decided to confront me just as I
+            was searching through his bank files in his study for a way to get at the Killingsworth money.
+            Robert was enraged and tried to call the police. I could not let that happen. As soon as he turned
+            around to pick up the phone, I grabbed a candlestick from the fireplace mantle and hit him over
+            the head. I dumped Robert's lifeless body into Friedmont Mill Lake, but I should have weighted
+            it down. Robert's body surfaced two weeks later. I cleaned the murder weapon and disposed of
+            it by giving it to Kathryn Lawless as a birthday present. If Elizabeth ever found out that I killed
+            her husband, I would have had to kill her too. <br />
+            Vicki D'Adly and I were in the Rose Garden fooling around tonight around 5:30 PM. Either one
+            of us could have found the corkscrew. There is only my word, however, that I did not find it.
+            Besides, I was unconscious at the time that Elizabeth was killed. I had been working on the
+            wiring short in the Wine Vault when I was nearly electrocuted and blacked-out. Vicki can attest
+            to that. There is no way I could have killed Elizabeth Killingsworth. <br />
+
+  - name: Confession MASTERMIND
+    script:
+      Vicki D'Adly:
+        revelations:
+          - >
+            I did see Enrique Graves get shocked and fall unconscious. That is true. It is also true that I was
+            with him in the Rose Garden at 5:30 PM and could have had access to the corkscrew.
+            I will be the first to admit that my sister and I did not get a long. Until this weekend, Elizabeth
+            Killingsworth and I have been estranged since high school when I stole her boyfriend away and
+            married him. What a mistake that was! Recently, we had to sell hour house because Norman
+            was sued for sexual harassing a co-worker. I also know that he has been stealing from his
+            company to pay his debts. <br />
+            I do not want to be married to Norman any longer. Even after I lied to Elizabeth and told her that
+            Norman was beating me, she would not — or could not — give me a loan to start a new life.
+            I was more appalled to find out that Norman still loved Elizabeth and was scheming to become a
+            part of her life again. <br />
+            It dawned on me that if I killed Elizabeth, I would be her closest living relative and would inherit
+            her money. I would then be free to move to Hollywood to become a star. The only downside is
+            that I would have had to share the money with Norman. A more sensible plan, I decided, would
+            be to divorce Norman before knocking off Elizabeth. <br />
+            I believe that Dr. Chelsea Barren was spying on me at the time of Elizabeth's death. She can
+            attest to the fact that I did not kill my sister. <br />
+
+  - name: Confession MADNESS
+    script:
+      Norman D'Adly:
+        revelations:
+          - >
+            I have never stopped loving Elizabeth Killingsworth. Even after marrying her sister, Vicki, I
+            could never stop thinking of Elizabeth. I came to Killingsworth Farm not only because my job
+            was in jeopardy and I needed a loan, but because I wanted to leave Vicki and marry Elizabeth.
+            I bought Elizabeth the golden corkscrew as a gift and told her of my intentions. Elizabeth,
+            however, said she could never forgive me for leaving her so many years ago. I still loved
+            Elizabeth and hoped that one day we would be together again. For the time being, however, I
+            found myself stuck with Vicki to whom I despise being married. <br />
+            I was at the Gazebo in the Rose Garden tonight when I saw Vicki kissing the farmhand, Enrique
+            Graves. I was so enraged that I wanted them dead that very moment. I saw the corkscrew that I
+            had given to Elizabeth laying in the grass and believed it was a sign. I slipped the corkscrew into
+            my pocket. <br />
+            After a few minutes, Enrique and Vicki split up and left the Rose Garden. I followed Enrique to
+            the Wine Vault and watched him turn off the electricity from the main power switch in the rear
+            of the building. He then walked down a maze of halls and he began working on some exposed
+            wires. Doubling back, I returned to the electrical box and turned on the electricity. I heard a
+            sharp crack of electricity and the lights went dark. I could hear Vicki scream. She must have
+            seen Enrique get shocked. <br />
+            Fumbling down the passageways, I made my way toward the sound of Vicki's scream. Suddenly
+            I was standing behind her. I pulled the corkscrew from my pocket and slammed it into the side
+            of her neck. She fell to the floor - her blood spilling everywhere. <br />
+            I ran back to the Farmhouse to figure out what to do next when I found everyone gathering in the
+            main hall. To my horror, Vicki stood among the group of strangers. That is when I realized my
+            terrible mistake. I did not know that Elizabeth was in the Wine Vault. Elizabeth must have been
+            wandering the halls following Vicki's scream. In the dark I assumed she was Vicki, as they look
+            nearly identical even in good lighting. I thought I was killing my wife, but instead, killed the
+            only woman I've ever truly loved. I killed Elizabeth Killingsworth.<br />
+  - name: Show Accusations
