@@ -26,4 +26,7 @@ later todos
 - In script, add items & money.
 - In script, add items that are distributed by dm
 - In script, add optional players.  Add depends on player to story_pieces
-- 
+- Optional players
+  - Add optional to player description
+  - Add ordinal for optional players
+  - What about groups of new players? Maybe make the DM select those in CreateRoom? 
