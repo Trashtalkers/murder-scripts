@@ -21,7 +21,8 @@ Script HLD.
 - DM page with all things, and drop down for individual players
 
 later todos
-- import endpoint validation
+- move script import to an endpoing
+  - Use a pgsql transaction
 - create Round page that shows round, description and queue of DM things (fight, etc)
 - In script, add items & money.
 - In script, add items that are distributed by dm
