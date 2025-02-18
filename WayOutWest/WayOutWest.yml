@@ -2,6 +2,9 @@ todo:
   - todo
 
 characters:
+  - name: The Bartender
+    costume: "Saloon apron"
+    about: "A friendly face with a sharp ear for gossip."
   - name: Able Blane
     costume: "Sheriff's attire" 
     about: "A natural leader in town."
