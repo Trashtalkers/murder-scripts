@@ -1,0 +1,259 @@
+todo:
+  - todo
+
+characters:
+  - name: Able Blane
+    costume: "Sheriff's attire" 
+    about: "A natural leader in town."
+  - name: Lucy Calhoun
+    costume: "Western dress with boots"
+    about: "A resourceful young woman with a keen eye."
+  - name: Mel Easton
+    costume: "Rancher's outfit"
+    about: "A straightforward character with a big heart."
+  - name: Elijah Entwhistle
+    costume: "Preacher's garb"
+    about: "A kindly soul with a secretive past."
+  - name: Dan Fairweather
+    costume: "Deputy uniform"
+    about: "Loyal and dependable, though sometimes overlooked."
+  - name: Doc Faraday
+    costume: "Smart vest and bow tie"
+    about: "Quick-witted and always armed with a deck of cards."
+  - name: Kalamata Kate
+    costume: "Waitress costume with a touch of flair"
+    about: "Sharp, observant, and always ready for action."
+  - name: Christy Martin
+    costume: "Storekeeper's apron"
+    about: "Honest and entrepreneurial."
+  - name: Slick O'Hare
+    costume: "Hired-hand rugged look"
+    about: "A sly character with a dangerous edge."
+  - name: Clem Parham
+    costume: "Railway executive suit"
+    about: "Calculating and reserved."
+  - name: John Paulson
+    costume: "Judge-like attire"
+    about: "Stoic and with an eye for detail."
+  - name: Runs Like a Deer
+    costume: "Native-inspired outfit"
+    about: "Quiet, observant, and swift."
+  - name: Blaise Sadler
+    costume: "Saloon keeper chic"
+    about: "Smooth-talking with secrets aplenty."
+  - name: Three Feathers
+    costume: "Mystical, feathered ensemble"
+    about: "An enigmatic presence with a shaman's wisdom."
+  - name: Etta Johnson
+    costume: "Rancher's hat and dress"
+    about: "The town gossip with an uncanny knack for details."
+  - name: Widder James
+    costume: "Busybody's attire"
+    about: "Always in the know about everyone."
+  - name: Ol' Barr
+    costume: "Scruffy, worn-in clothes"
+    about: "A reclusive trapper with a rugged charm."
+  - name: Maxwell Jebediah Adams
+    costume: "Simple rancher outfit"
+    about: "Quietly confident with a quick draw."
+  - name: Minnie May Adams
+    costume: "Country chic"
+    about: "Sweet on the surface with a mischievous streak."
+  - name: Frederick Lloyd
+    costume: "Dapper British suit"
+    about: "A smooth-talking investor with secret ambitions."
+  - name: Ruby Sapphire
+    costume: "Glamorous stage dress"
+    about: "A singer with a fiery temper and a sharp mind."
+  - name: Robert Barnaby
+    costume: "Plain work clothes"
+    about: "A humble legal clerk with little to hide."
+  - name: Soon Li
+    costume: "Simple immigrant attire"
+    about: "Resourceful and determined despite her troubles."
+  - name: Marco the Mesmerizing
+    costume: "A flamboyant magician's outfit"
+    about: "A showman with a mysterious past."
+
+rounds:
+  - name: Rules
+    script:
+      All:
+        scenario: >
+          You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
+          Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
+          Remain in character at all times. Good luck—the game is afoot!
+      The Bartender:
+        items:
+          - title: "High Noon"
+            url: "items/high_noon.png"
+          - title: "You have been poisoned"
+            url: "items/poison.png"
+          - title: "With your last dying breath"
+            url: "items/dying.png"
+      Able Blane:
+        items:
+          - title: "First Aid kit"
+            url: "items/first_aid.png"
+            uses: 4
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 20
+      Lucy Calhoun:
+        items:
+          - title: "Half of a map (Three Fingers Rock)"
+            url: "items/map_three_fingers.png"
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 11
+      Mel Easton:
+        items: []
+        money: 120
+      Elijah Entwhistle:
+        items:
+          - title: "Half of a map (Red Mule Point)"
+            url: "items/map_red_mule.png"
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 30
+      Dan Fairweather:
+        items:
+          - title: "Half of a map (Dead Dog Ravine)"
+            url: "items/map_dead_dog.png"
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 15
+      Doc Faraday:
+        items:
+          - title: "Deck of cards"
+            url: "items/deck_missing_three.png"
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 35
+      Kalamata Kate:
+        items:
+          - title: "Stocking-top knife"
+            url: "items/knife.png"
+        money: 11
+      Christy Martin:
+        items:
+          - title: "Banker's draft"
+            url: "items/draft.png"
+        money: 30
+      Slick O'Hare:
+        items:
+          - title: "Garotte"
+            url: "items/garotte.png"
+          - title: "Poison pills"
+            url: "items/poison_pills.png"
+            uses: 2
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 20
+      Clem Parham:
+        items:
+          - title: "Wanted poster"
+            url: "items/wanted_poster.png"
+        money: 90
+      John Paulson:
+        items: []
+        money: 80
+      Runs Like a Deer:
+        items:
+          - title: "Indian hunting knife"
+            url: "items/hunting_knife.png"
+          - title: "Wawambe seeds"
+            url: "items/seeds.png"
+            uses: 2
+          - title: "Yerba buena seeds"
+            url: "items/seeds_2.png"
+            uses: 3
+        money: 1
+      Blaise Sadler:
+        items:
+          - title: "Half of a map (Dead Man's Bluff)"
+            url: "items/map_dead_mans_bluff.png"
+          - title: "Three playing cards"
+            url: "items/three_cards.png"
+        money: 21
+      Three Feathers:
+        items:
+          - title: "Indian hunting knife"
+            url: "items/hunting_knife.png"
+          - title: "Wawambe seeds"
+            url: "items/seeds.png"
+            uses: 2
+          - title: "Yerba buena seeds"
+            url: "items/seeds_2.png"
+            uses: 3
+        money: 0
+      Etta Johnson:
+        items:
+          - title: "Wanted poster"
+            url: "items/wanted_poster.png"
+        money: 15
+      Widder James:
+        items:
+          - title: "China dog"
+            url: "items/china_dog.png"
+          - title: "Bible"
+            url: "items/bible.png"
+        money: 70
+      Ol' Barr:
+        items:
+          - title: "Indian hunting knife"
+            url: "items/hunting_knife.png"
+        money: 1
+      Maxwell Jebediah Adams:
+        items:
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 25
+      Minnie May Adams:
+        items:
+          - title: "Leather cosh"
+            url: "items/cosh.png"
+          - title: "Bill of sale"
+            url: "items/bill_of_sale.png"
+        money: 5
+      Frederick Lloyd:
+        items:
+          - title: "Revolver"
+            url: "items/revolver.png"
+          - title: "Ophir Silver Mine Stock Certificate 1"
+            url: "items/certificate.png"
+          - title: "Ophir Silver Mine Stock Certificate 2"
+            url: "items/certificate.png"
+          - title: "Ophir Silver Mine Stock Certificate 3"
+            url: "items/certificate.png"
+        money: 100
+      Ruby Sapphire:
+        items:
+          - title: "Woman's pistol"
+            url: "items/pistol.png"
+          - title: "Contract"
+            url: "items/contract.png"
+        money: 90
+      Robert Barnaby:
+        items: []
+        money: 17
+      Soon Li:
+        items:
+          - title: "Immigration papers"
+            url: "items/immigrations_papers.png"
+        money: 0
+      Marco the Mesmerizing:
+        items:
+          - title: "Magician's hat"
+            url: "items/hat.png"
+          - title: "Revolver"
+            url: "items/revolver.png"
+            uses: 6
+        money: 40
