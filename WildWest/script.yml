@@ -526,57 +526,57 @@ rounds:
   - name: Confession 2
     script:
       Cowboy:
-        - >
-          <p>I'll admit.  I murdered Baron.  The Baroness paid me well to do it. </p>
-          <p>I had little motive to kill Baroness, and I was leaving town when the
-          fire started.  Madame saw me leave, and Marshall had me in custody when the fire started. </p>
+        revelations:
+          - >
+            <p>I'll admit.  I murdered Baron.  The Baroness paid me well to do it. </p>
+            <p>I had little motive to kill Baroness, and I was leaving town when the
+            fire started.  Madame saw me leave, and Marshall had me in custody when the fire started. </p>
     
 
   - name: Confession 3
     script:
       Rusty:
-        - >
-          <p>I've lived here my whole life, and I expected to die here.  But not any time soon!</p>
-          <p>Yes, I stole those emeralds, and I feel bad for hurting the Baroness when I did.</p>
-          <p>But my plan was to run off with the pretty actress and start a new life with these emeralds.</p>
-          <p>I had little motive to want to kill Baroness, and I have an alibi with Demi. </p>
+        revelations:
+          - >
+            <p>I've lived here my whole life, and I expected to die here.  But not any time soon!</p>
+            <p>Yes, I stole those emeralds, and I feel bad for hurting the Baroness when I did.</p>
+            <p>But my plan was to run off with the pretty actress and start a new life with these emeralds.</p>
+            <p>I had little motive to want to kill Baroness, and I have an alibi with Demi. </p>
     
 
   - name: Confession 4
     script:
       Demi:
-        - >
-          <p>I had every reason in the world to kill my mother. </p>
-          <p>I believe she killed my father. </p>
-          <p>She stole my inheritance. </p>
-          <p>She disowned me in public. </p>
-          <p>I had every right to kill her... but all I wanted what was rightfully mine. </p>
-          <p>I did not see Rusty as a long term plan, but rather a means to an end.  I planned to 
-          take the emeralds for myself, but, I will admit..  Rusty does make for a good alibi.</p>
-          <p>I had amble motive, but no opportunity</p>
+        revelations:
+          - >
+            <p>I had every reason in the world to kill my mother. </p>
+            <p>I believe she killed my father. </p>
+            <p>She stole my inheritance. </p>
+            <p>She disowned me in public. </p>
+            <p>I had every right to kill her... but all I wanted what was rightfully mine. </p>
+            <p>I did not see Rusty as a long term plan, but rather a means to an end.  I planned to 
+            take the emeralds for myself, but, I will admit..  Rusty does make for a good alibi.</p>
+            <p>I had amble motive, but no opportunity</p>
 
   - name: Confession 5
     script:
       Madame:
-        - >
-          <p>While the StrongArm delivery was apparently foiled, it was likely to occur in the future.  Baroness made that quite clear.  
-          And once it was here, I was likely to be run out of town. </p>
-          <p>I had motive to kill the Baroness, and I knew she was in the jail. </p>
-          <p>However, I did not have opportunity.  I spotted Rusty at the brothel, probably packing Demi's things, at the time of the murder </p>
+        revelations:
+          - >
+            <p>While the StrongArm delivery was apparently foiled, it was likely to occur in the future.  Baroness made that quite clear.  
+            And once it was here, I was likely to be run out of town. </p>
+            <p>I had motive to kill the Baroness, and I knew she was in the jail. </p>
+            <p>However, I did not have opportunity.  I spotted Rusty at the brothel, probably packing Demi's things, at the time of the murder </p>
   - name: Confession 6
     script:
       Dakota:
-        - >
-          <p>I started that fire.</p>
-          <p>I, too, was worried about the StrongArm 3000, but that wasn't why I lit that match</p>
-          <p>I thought Demi was in that jail. </p>
-          <p>She stole the love of my life, and I thought, with her gone, maybe Rusty would have eyes for me. </p>
+        revelations:
+          - >
+            <p>I started that fire.</p>
+            <p>I, too, was worried about the StrongArm 3000, but that wasn't why I lit that match</p>
+            <p>I thought Demi was in that jail. </p>
+            <p>She stole the love of my life, and I thought, with her gone, maybe Rusty would have eyes for me. </p>
   - name: Show Accusations
-
-      
-      
-          
-
 
 
 # script extras
