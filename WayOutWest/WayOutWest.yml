@@ -102,7 +102,7 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 20
+        money: [20]
       Lucy Calhoun:
         items:
           - title: "Half of a map (Three Fingers Rock)"
@@ -110,10 +110,10 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 11
+        money: [11]
       Mel Easton:
         items: []
-        money: 120
+        money: [120]
       Elijah Entwhistle:
         items:
           - title: "Half of a map (Red Mule Point)"
@@ -121,7 +121,7 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 30
+        money: [30]
       Dan Fairweather:
         items:
           - title: "Half of a map (Dead Dog Ravine)"
@@ -129,7 +129,7 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 15
+        money: [15]
       Doc Faraday:
         items:
           - title: "Deck of cards"
@@ -137,17 +137,17 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 35
+        money: [35]
       Kalamata Kate:
         items:
           - title: "Stocking-top knife"
             url: "items/knife.png"
-        money: 11
+        money: [11]
       Christy Martin:
         items:
           - title: "Banker's draft"
             url: "items/draft.png"
-        money: 30
+        money: [30]
       Slick O'Hare:
         items:
           - title: "Garotte"
@@ -158,15 +158,15 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 20
+        money: [20]
       Clem Parham:
         items:
           - title: "Wanted poster"
             url: "items/wanted_poster.png"
-        money: 90
+        money: [90]
       John Paulson:
         items: []
-        money: 80
+        money: [80]
       Runs Like a Deer:
         items:
           - title: "Indian hunting knife"
@@ -177,14 +177,14 @@ rounds:
           - title: "Yerba buena seeds"
             url: "items/seeds_2.png"
             uses: 3
-        money: 1
+        money: [1]
       Blaise Sadler:
         items:
           - title: "Half of a map (Dead Man's Bluff)"
             url: "items/map_dead_mans_bluff.png"
           - title: "Three playing cards"
             url: "items/three_cards.png"
-        money: 21
+        money: [21]
       Three Feathers:
         items:
           - title: "Indian hunting knife"
@@ -195,37 +195,37 @@ rounds:
           - title: "Yerba buena seeds"
             url: "items/seeds_2.png"
             uses: 3
-        money: 0
+        money: [0]
       Etta Johnson:
         items:
           - title: "Wanted poster"
             url: "items/wanted_poster.png"
-        money: 15
+        money: [15]
       Widder James:
         items:
           - title: "China dog"
             url: "items/china_dog.png"
           - title: "Bible"
             url: "items/bible.png"
-        money: 70
+        money: [70]
       Ol' Barr:
         items:
           - title: "Indian hunting knife"
             url: "items/hunting_knife.png"
-        money: 1
+        money: [1]
       Maxwell Jebediah Adams:
         items:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 25
+        money: [25]
       Minnie May Adams:
         items:
           - title: "Leather cosh"
             url: "items/cosh.png"
           - title: "Bill of sale"
             url: "items/bill_of_sale.png"
-        money: 5
+        money: [5]
       Frederick Lloyd:
         items:
           - title: "Revolver"
@@ -236,22 +236,22 @@ rounds:
             url: "items/certificate.png"
           - title: "Ophir Silver Mine Stock Certificate 3"
             url: "items/certificate.png"
-        money: 100
+        money: [100]
       Ruby Sapphire:
         items:
           - title: "Woman's pistol"
             url: "items/pistol.png"
           - title: "Contract"
             url: "items/contract.png"
-        money: 90
+        money: [90]
       Robert Barnaby:
         items: []
-        money: 17
+        money: [17]
       Soon Li:
         items:
           - title: "Immigration papers"
             url: "items/immigrations_papers.png"
-        money: 0
+        money: [0]
       Marco the Mesmerizing:
         items:
           - title: "Magician's hat"
@@ -259,4 +259,4 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
-        money: 40
+        money: [40]

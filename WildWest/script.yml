@@ -68,7 +68,7 @@ rounds:
           - >
             Today is Saturday.  You will still not remember Thursday or Friday, but your memory should start coming back to you after this toast.
         clues: 
-          - clues/Clue0.png
+          - url: clues/Clue0.png
       Morrow: 
         revelations:
           - Good job.  You can all read.  Here's to Baron!  May he live long and prosper!
@@ -82,7 +82,7 @@ rounds:
             The town has been in shock, and the ranch has been in disarray. <br />
             The Baroness has been shrouded in grief.   <br />
         clues: 
-          - clues/Clue1.png
+          - url: clues/Clue1.png
       Morrow:
         revelations:
           - This should be the last revelation.  "Here's to Dodgetown!  May it grow and prosper!"  
@@ -213,7 +213,7 @@ rounds:
             The fog in everyone's mind is clearing.  Everyone remembers that the sheriff's Jail was burned down last night, but 
             only the mornings activities are known at this time.   
         clues: 
-          - clues/Clue2.png 
+          - url: clues/Clue2.png 
       Morrow:
         revelations:
           - (said at end of round) Weeelll.  That was uncomfortable. But raise your glasses.  "Here's to Baroness!  May she lead this ranch and town back to prosperity!"    
