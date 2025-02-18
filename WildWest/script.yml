@@ -510,6 +510,7 @@ rounds:
 
 
   - name: Accusations
+    script:
   - name: Confession 1
     script:
       Cole:
