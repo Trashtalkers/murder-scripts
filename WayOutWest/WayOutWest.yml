@@ -230,11 +230,11 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
           - title: "Ophir Silver Mine Stock Certificate 1"
-            url: "items/certificate.png"
+            url: "items/stock_certificate.png"
           - title: "Ophir Silver Mine Stock Certificate 2"
-            url: "items/certificate.png"
+            url: "items/stock_certificate.png"
           - title: "Ophir Silver Mine Stock Certificate 3"
-            url: "items/certificate.png"
+            url: "items/stock_certificate.png"
         money: [100]
       Ruby Sapphire:
         items:
@@ -249,7 +249,7 @@ rounds:
       Soon Li:
         items:
           - title: "Immigration papers"
-            url: "items/immigrations_papers.png"
+            url: "items/immigration_papers.png"
       Marco the Mesmerizing:
         items:
           - title: "Magician's hat"
