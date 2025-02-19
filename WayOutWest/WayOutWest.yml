@@ -133,7 +133,7 @@ rounds:
       Doc Faraday:
         items:
           - title: "Deck of cards"
-            url: "items/deck_missing_three.png"
+            url: "items/deck_missing_3.png"
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
