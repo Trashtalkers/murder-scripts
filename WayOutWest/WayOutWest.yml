@@ -195,7 +195,6 @@ rounds:
           - title: "Yerba buena seeds"
             url: "items/seeds_2.png"
             uses: 3
-        money: [0]
       Etta Johnson:
         items:
           - title: "Wanted poster"
@@ -251,7 +250,6 @@ rounds:
         items:
           - title: "Immigration papers"
             url: "items/immigrations_papers.png"
-        money: [0]
       Marco the Mesmerizing:
         items:
           - title: "Magician's hat"
