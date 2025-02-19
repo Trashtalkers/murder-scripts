@@ -27,6 +27,7 @@ later todos
 - In script, add items & money.
 - In script, add items that are distributed by dm
 - In script, add optional players.  Add depends on player to story_pieces
+- Move script images to buckets
 - Optional players
   - Add optional to player description
   - Add ordinal for optional players
