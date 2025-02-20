@@ -13,10 +13,8 @@ Script HLD.
   -   task completed_on
   -   item new player_id
 
-
-- add scripts to database
-- Copy auth from scaffold
-- build murder page for tablet and mobile
+# Todo before mvp
+- Money
 - on new round, pop-up for new items.
 - DM page with all things, and drop down for individual players
 
