@@ -327,7 +327,7 @@ rounds:
               The stagecoach has arrived in town, and with it
       Kalamata Kate:
         items:
-          - title: "Skirt"’
+          - title: "Skirt"
             url: "items/skirt.png"
       Able Blane:
         items:
