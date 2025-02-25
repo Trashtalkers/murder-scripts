@@ -80,6 +80,7 @@ characters:
 
 rounds:
   - name: Rules
+    duration: 30
     script:
       All:
         scenario: >
@@ -94,6 +95,19 @@ rounds:
             url: "items/poison.png"
           - title: "With your last dying breath"
             url: "items/dying.png"
+        revelations:
+          - title: "The scene of the crime"
+            markdown: >
+              The body of Zeke Calhoun is slumped in the corner of the stables, out of sight of the
+              door. He is battered about the face and body, with a nasty bruise to the left temple.
+              His wrists are chafed, reddened, and in an awkward position behind his back as
+              though they have been tied together. On the ground nearby are short lengths of rope,
+              cut with a sharp knife. A toppled chair is nearby.
+              The top pocket of Zeke's plaid shirt has been cut open and is flapping empty. Apart
+              from that, his pockets contain the usual sorts of things and do not seem to have been
+              searched.
+              There are no signs of shooting, stabbing or strangling. It does not look like the blow on
+              the head was enough to kill him.
       Able Blane:
         items:
           - title: "First Aid kit"
@@ -102,7 +116,35 @@ rounds:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
+        secrets:
+          - title: You have no secrets. (If someone uses an Ability to make you reveal this, they do not have to count it as a 'use')
         money: [20]
+        clues:
+          - title: Judge Paulson has been dithering over who to award Fat Bull Range to, although it seems obvious that Doc cheated.
+        abilities:
+          - title: "Interrogation"
+            markdown: >
+              After talking forcefully to another character,
+              show them this. They must then show you
+              their Secret.
+            uses: 3
+          - title: "Power of Arrest"
+            markdown: >
+              You may arrest someone under suspicion
+              and throw them in jail. The Bartender will
+              restrict their movement and prevent them
+              from using their abilities. However, if you
+              cannot present suitable evidence to the
+              Bartender within 15 minutes (or 5 minutes if
+              the judgment hasn't yet been delivered),
+              they will be released.
+            uses: 3
+          - title: "Sharpshooting"
+            markdown: >
+              When you shoot someone, you hit them if
+              you win or tie at rock-paper-scissors, rather
+              than just when you win as is normal.
+            uses: 3
       Lucy Calhoun:
         items:
           - title: "Half of a map (Three Fingers Rock)"
@@ -258,3 +300,90 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         money: [40]
+  - name: "Zeke's body"
+    duration: 2700
+    script:
+      The Bartender:
+        revelations:
+          - title: "Zeke's Body"
+            markdown: >
+              Folks, I'm sorry to stop the celebrations. I have some real bad news to tell you.
+              The stable hand has found Zeke Calhoun lying in the stable, and I'm afraid to say…
+              He's dead!
+              Looks like he'd been in some sort of fight and got a nasty blow to the head. Also looks
+              as if his hands were tied, but the rope has already been cut.
+              One other strange thing, the top pocket of his shirt had been cut open—there ain't
+              nothing inside.
+              I can't tell you what the cause of death was yet; there are no signs of shooting or
+              strangling or that the blow on the head was enough to kill him.
+              Folks, no one is to leave town until this mystery has been solved.
+  - name: "Stagecoach Arrives"
+    duration: 300
+    script:
+      The Bartender:
+        revelations:
+          - title: "Stagecoach Arrives"
+            markdown: >
+              The stagecoach has arrived in town, and with it
+      Kalamata Kate:
+        items:
+          - title: "Skirt"’
+            url: "items/skirt.png"
+      Able Blane:
+        items:
+          - title: "Letter"
+            url: "items/letter.png"
+  - name: "Telegram Fixed"
+    duration: 2400
+    script:
+      The Bartender:
+        revelations:
+          - title: "Telegram Fixed"
+            markdown: >
+              The telegraph operator has fixed the telegram machine.
+              You can now send and receive telegrams.
+        items:
+          - title: "Telegram for Sheriff Blane"
+            url: "items/telegram_able_blane.png"
+          - title: "Telegram for Clem Parham"
+            url: "items/telegram_clem_parham.png"
+          - title: "Telegram for Mel Easton"
+            url: "items/telegram_mel_easton.png"
+  - name: "The Judgement"
+    duration: 3600
+    script:
+      The Bartender:
+        revelations:
+          - title: "The Judgement"
+            markdown: >
+              We need a judgement regarding the Fat Bull Range.
+          - title: "Death"
+            markdown: >
+              People can perish.
+  - name: "The solution"
+    duration: 300
+    script:
+      The Bartender:
+        revelations:
+          - title: "The solution"
+            markdown: >
+              Everyone point at who they think killed Zeke Calhoun
+        items:
+          - title: "The solution"
+            markdown: >
+              Zeke Calhoun is dead, sure enough, and it was greed that did for him. His own greed,
+              gambling in a crooked game with Doc Faraday, and the greed of the people who
+              wanted his land.
+              Zeke lost Fat Bull Range to Doc, but a witness saw Doc cheat: Blaise Sadler. So the
+              people who wanted Fat Bull Range for their railroad needed another tactic in case the
+              judgment went in Zeke's favor. They had a hold over Judge Paulson, with evidence of
+              his frauds back East: but if he was discredited, the Sheriff or Deputy would make the
+              judgment, and they were less easy to manipulate. So the villains confronted Zeke and
+              tried to force him to agree to sell to them.
+              Zeke was an elderly and unfit man, and the strain of being threatened and beaten was
+              too much for his poor heart. The killers didn't mean to murder him, I don't reckon—
+              but they're guilty of his death, for sure.
+              Who was it, then, who had all these pieces—an agreement with Doc, a hold over the
+              judge, and a history of ruthless greed? Step forward Clem Parham of Mid West Rail
+              and Clem's hired killer Slick O'Hare, or Saul Jackson as he's really named. It's the
+              gallows for you both—hang 'em high!
