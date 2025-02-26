@@ -84,11 +84,11 @@ rounds:
     script:
       All:
         scenario: 
-        - title: "It begins"
-          markdown: > 
-            You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
-            Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
-            Remain in character at all times. Good luck—the game is afoot!
+          - title: "It begins"
+            markdown: > 
+              You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
+              Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
+              Remain in character at all times. Good luck—the game is afoot!
       The Bartender:
         revelations:
           - title: "The scene of the crime"
