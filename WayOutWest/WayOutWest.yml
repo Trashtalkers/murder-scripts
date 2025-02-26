@@ -120,11 +120,11 @@ rounds:
             uses: 6
         secrets:
           - title: You have no secrets. 
-          - markdown: (If someone uses an Ability to make you reveal this, they do not have to count it as a 'use')
+            markdown: (If someone uses an Ability to make you reveal this, they do not have to count it as a 'use')
         money: [20]
         clues:
           - title: Fat Bull Range
-          - markdown: Judge Paulson has been dithering over who to award Fat Bull Range to, although it seems obvious that Doc cheated.
+            markdown: Judge Paulson has been dithering over who to award Fat Bull Range to, although it seems obvious that Doc cheated.
         abilities:
           - title: "Interrogation"
             markdown: >
