@@ -332,7 +332,7 @@ rounds:
       Able Blane:
         items:
           - title: "Letter"
-            url: "items/letter.png"
+            url: "items/letter_to_sheriff.png"
   - name: "Telegram Fixed"
     duration: 2400
     script:

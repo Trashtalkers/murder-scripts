@@ -18,6 +18,7 @@ Script HLD.
 - on new round, pop-up for new items.
 - add phone numbers
 - fix seen_at for all
+- Add use of items and abilities
 - allow moderator to preset invites, then click invite all
 - 
 - add "uses" message to DM?
