@@ -16,7 +16,12 @@ Script HLD.
 # Todo before mvp
 - Money
 - on new round, pop-up for new items.
-- DM page with all things, and drop down for individual players
+- add phone numbers
+- fix seen_at for all
+- allow moderator to preset invites, then click invite all
+- 
+- add "uses" message to DM?
+- add character content to "them" from bios
 
 later todos
 - move script import to an endpoing

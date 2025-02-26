@@ -88,13 +88,6 @@ rounds:
           Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
           Remain in character at all times. Good luck—the game is afoot!
       The Bartender:
-        items:
-          - title: "High Noon"
-            url: "items/high_noon.png"
-          - title: "You have been poisoned"
-            url: "items/poison.png"
-          - title: "With your last dying breath"
-            url: "items/dying.png"
         revelations:
           - title: "The scene of the crime"
             markdown: >
@@ -108,6 +101,13 @@ rounds:
               searched.
               There are no signs of shooting, stabbing or strangling. It does not look like the blow on
               the head was enough to kill him.
+        items:
+          - title: "High Noon"
+            url: "items/high_noon.png"
+          - title: "You have been poisoned"
+            url: "items/poison.png"
+          - title: "With your last dying breath"
+            url: "items/dying.png"
       Able Blane:
         items:
           - title: "First Aid kit"
