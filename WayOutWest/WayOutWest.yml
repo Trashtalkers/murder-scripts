@@ -83,10 +83,12 @@ rounds:
     duration: 30
     script:
       All:
-        scenario: >
-          You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
-          Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
-          Remain in character at all times. Good luck—the game is afoot!
+        scenarios: 
+        - title: "It begins"
+          markdown: > 
+            You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
+            Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
+            Remain in character at all times. Good luck—the game is afoot!
       The Bartender:
         revelations:
           - title: "The scene of the crime"
@@ -117,10 +119,12 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         secrets:
-          - title: You have no secrets. (If someone uses an Ability to make you reveal this, they do not have to count it as a 'use')
+          - title: You have no secrets. 
+          - markdown: (If someone uses an Ability to make you reveal this, they do not have to count it as a 'use')
         money: [20]
         clues:
-          - title: Judge Paulson has been dithering over who to award Fat Bull Range to, although it seems obvious that Doc cheated.
+          - title: Fat Bull Range
+          - markdown: Judge Paulson has been dithering over who to award Fat Bull Range to, although it seems obvious that Doc cheated.
         abilities:
           - title: "Interrogation"
             markdown: >
