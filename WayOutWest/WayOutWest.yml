@@ -83,7 +83,7 @@ rounds:
     duration: 30
     script:
       All:
-        scenarios: 
+        scenario: 
         - title: "It begins"
           markdown: > 
             You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
