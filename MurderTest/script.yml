@@ -30,6 +30,7 @@ rounds:
               Remain in character at all times. Good luck—the game is afoot!
   - name: Rules
     duration: 30
+    script:
       The Bartender:
         revelations:
           - title: "The scene of the crime"
