@@ -31,7 +31,7 @@ rounds:
   - name: Rules
     duration: 30
     script:
-      The Bartender:
+      The Moderator:
         revelations:
           - title: "The scene of the crime"
             markdown: >
@@ -98,7 +98,7 @@ rounds:
   - name: "Plot Starts"
     duration: 2700
     script:
-      The Bartender:
+      The Moderator:
         revelations:
           - title: "Another Revelation"
             markdown: >
@@ -109,7 +109,7 @@ rounds:
   - name: "The solution"
     duration: 300
     script:
-      The Bartender:
+      The Moderator:
         revelations:
           - title: "The solution"
             markdown: >

@@ -14,6 +14,8 @@ Script HLD.
   -   item new player_id
 
 # Todo before mvp
+- invite link is not going to CreateRoom
+- CreateRoom meeting link isn't working
 - Money
 - on new round, pop-up for new items.
 - add phone numbers
