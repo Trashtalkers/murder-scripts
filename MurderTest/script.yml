@@ -1,0 +1,119 @@
+todo:
+  - todo
+
+characters:
+  - name: The Moderator
+    costume: "Saloon apron"
+    about: "A friendly face with a sharp ear for gossip."
+  - name: Able Blane
+    costume: "Sheriff's attire" 
+    about: "A natural leader in town."
+  - name: Lucy Calhoun
+    costume: "Western dress with boots"
+    about: "A resourceful young woman with a keen eye."
+  - name: Mel Easton
+    costume: "Rancher's outfit"
+    about: "A straightforward character with a big heart."
+
+rounds:
+  - name: Begin
+    duration: 15
+  - name: Begin 2
+    duration: 15
+    script:
+      All:
+        scenario: 
+          - title: "It begins"
+            markdown: > 
+              You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
+              Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
+              Remain in character at all times. Good luck—the game is afoot!
+  - name: Rules
+    duration: 30
+      The Bartender:
+        revelations:
+          - title: "The scene of the crime"
+            markdown: >
+              The body of Zeke Calhoun is slumped in the corner of the stables, out of sight of the
+              door. He is battered about the face and body, with a nasty bruise to the left temple.
+              His wrists are chafed, reddened, and in an awkward position behind his back as
+              though they have been tied together. On the ground nearby are short lengths of rope,
+              cut with a sharp knife. A toppled chair is nearby.
+              The top pocket of Zeke's plaid shirt has been cut open and is flapping empty. Apart
+              from that, his pockets contain the usual sorts of things and do not seem to have been
+              searched.
+              There are no signs of shooting, stabbing or strangling. It does not look like the blow on
+              the head was enough to kill him.
+        items:
+          - title: "Knife"
+            url: "items/knife.png"
+          - title: "Pistol"
+            url: "items/pistol.png"
+            uses: 2
+          - title: "Letter"
+            url: "items/letter.png"
+        clues:
+          - title: Fat Bull Range
+            markdown: Judge Paulson has been dithering over who to award Fat Bull Range to, although it seems obvious that Doc cheated.
+        abilities:
+          - title: "Interrogation"
+            markdown: >
+              something
+              something 
+              something
+            uses: 3
+          - title: "Power of Arrest"
+            markdown: >
+              You may arrest someone under suspicion
+              and throw them in jail. The Bartender will
+              restrict their movement and prevent them
+              from using their abilities. However, if you
+              cannot present suitable evidence to the
+              Bartender within 15 minutes (or 5 minutes if
+              the judgment hasn't yet been delivered),
+              they will be released.
+            uses: 1
+          - title: "Sharpshooting"
+            markdown: >
+              When you shoot someone, you hit them if
+              you win or tie at rock-paper-scissors, rather
+              than just when you win as is normal.
+            uses: 100
+          
+      Able Blane:
+        revelations:
+          - title: "The scene of the crime"
+            markdown: >
+              Just an **example ** of how to use markdown.
+        secrets:
+          - title: You have no secrets. 
+            markdown: (If someone uses an Ability to make you reveal this, **they do not have to count it as a 'use'**)
+        money: [20]
+        
+      Lucy Calhoun:
+        money: [21]
+      Mel Easton:
+        items: []
+  - name: "Plot Starts"
+    duration: 2700
+    script:
+      The Bartender:
+        revelations:
+          - title: "Another Revelation"
+            markdown: >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec
+        items:
+          - title: "Bill of Sale"
+            url: "items/bill_of_sale.png"
+  - name: "The solution"
+    duration: 300
+    script:
+      The Bartender:
+        revelations:
+          - title: "The solution"
+            markdown: >
+              Everyone point at who they think killed Zeke Calhoun
+        items:
+          - title: "The solution"
+            markdown: >
+              Some markdown in an item
