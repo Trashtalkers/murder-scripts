@@ -79,7 +79,7 @@ characters:
     about: "A showman with a mysterious past."
 
 rounds:
-  - name: Rules
+  - name: Start
     duration: 30
     script:
       All:
@@ -99,6 +99,9 @@ rounds:
               town, and quarrels with the Indians all add to a tense atmosphere.
               Join us in the Silver Dollar Saloon as celebrations begin, and find
               out how the evening unfolds…
+  - name: Rules
+    duration: 30
+    script:
       The Bartender:
         revelations:
           - title: "The scene of the crime"
