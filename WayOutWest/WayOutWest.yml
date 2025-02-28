@@ -870,25 +870,43 @@ rounds:
           - title: "Collect Alibis"
             markdown: >
               Gather alibis from townsfolk regarding their whereabouts at the time of Zeke's death.
-     
+      Lucy Calhoun:
+        goals:
+          - title: "Avenge Father's Death"
+            markdown: >
+              Seek justice for your father's murder by uncovering clues about the killer.
+          - title: "Protect Fat Bull Range"
+            markdown: >
+              Ensure that the Indian burial grounds on Fat Bull Range are preserved.
+          - title: "Investigate Dan"
+            markdown: >
+              Find out what is affecting Deputy Dan Fairweather.
+        tasks:
+          - title: "Talk to Runs Like a Deer"
+            markdown: >
+              Speak with Runs Like a Deer to learn what she witnessed or was about to say.
+          - title: "Consult Deputy Dan"
+            markdown: >
+              Ask Deputy Dan Fairweather about the law's plan regarding your father's death.
+
       Mel Easton:
         tasks:
+        goals:
           - title: "Express Sympathy"
             markdown: >
-              Express your sympathies and deepest regrets to Lucy about the death of her father.
-              Then explain your negotiations with Zeke and hope that she's willing to honor the deal.
+              Express your deepest sympathies to Lucy regarding her father's death.
           - title: "Expose Clem Parham"
             markdown: >
-              Make sure that everyone knows how devious and double-crossing Clem Parham can be,
-              and that you're the person to deal with him.
-          - title: "Negotiate Railroad Deal"
+              Make sure everyone is aware of Clem Parham's devious, double-crossing ways.
+          - title: "Negotiate Ethically"
             markdown: >
-              Make an ethical deal that avoids desecrating the Indian burial grounds.
+              Negotiate a deal that protects the Indian burial grounds while keeping the project viable.
           - title: "Check Budget"
             markdown: >
-              As soon as the telegraph is fixed, contact your head office and check how much of a budget you may negotiate with.
+              Contact your head office as soon as the telegraph is fixed to determine your spending limit.
+
       Elijah Entwhistle:
-        tasks:
+        goals:
           - title: "Avenge Zeke"
             markdown: >
               Find out who murdered Zeke, and make sure they pay in blood.
@@ -905,7 +923,7 @@ rounds:
             markdown: >
               Ensure that Fat Bull Range is returned to Lucy.
       Dan Fairweather:
-        tasks:
+        goals:
           - title: "Comfort Lucy"
             markdown: >
               Comfort Lucy in her hour of grief over her father's death.
@@ -921,6 +939,14 @@ rounds:
           - title: "Win Lucy's Heart"
             markdown: >
               Work on getting Lucy to wear a skirt for the dance and ultimately build the courage to propose to her.
+        tasks:
+          - title: "Report Suspicious Behavior"
+            markdown: >
+              Inform Sheriff Blane that you lost track of Slick O'Hare and mention any suspicious activity.
+          - title: "Console Lucy"
+            markdown: >
+              Console Lucy and promise your help in finding the truth about her father's death.
+
       Doc Faraday:
         tasks:
           - title: "Secure $22,000"
@@ -949,215 +975,375 @@ rounds:
           - title: "Pair Dan and Lucy"
             markdown: >
               Facilitate the budding relationship between Dan and Lucy.
+        goals:
+          - title: "Offer Support"
+            markdown: >
+              Console Lucy and offer your help.
+          - title: "Consult Elijah"
+            markdown: >
+              Speak with Elijah Entwhistle (Jake Calhoun) to learn about his plans.
+          - title: "Persuade Blaise"
+            markdown: >
+              Attempt to persuade Blaise Sadler to hand over the marked cards.
+
       Christy Martin:
+        goals:
+          - title: "Secure Railroad for Your Store"
+            markdown: >
+              Ensure that the railroad is built into Cactus Gulch to support your new store.
+          - title: "Find a Business Partner"
+            markdown: >
+              Identify a local partner, potentially Lucy, to invest in your store franchise.
+          - title: "Establish Trade"
+            markdown: >
+              Negotiate trade with local Indians for medicinal herbs.
+          - title: "Be a Model Citizen"
+            markdown: >
+              Demonstrate exemplary behavior to gain the trust of local dignitaries.
         tasks:
-          - title: "Ensure Railroad"
+          - title: "Meet Local Authorities"
             markdown: >
-              Confirm that the railroad comes to Cactus Gulch to support your store franchise.
-          - title: "Find Business Partner"
+              Speak with the sheriff, deputy, and Judge Paulson to offer your assistance.
+          - title: "Consult the Indians"
             markdown: >
-              Approach Lucy Calhoun to discuss a potential business partnership for your new store.
-          - title: "Negotiate with Indians"
+              Ask local Indians about medicinal herbs and potential trade.
+          - title: "Identify Partners"
             markdown: >
-              Investigate trade opportunities with the local Indians for medicinal herbs.
-          - title: "Be a Good Citizen"
-            markdown: >
-              Inform the sheriff of any suspicious activities and act as a model citizen.
+              Talk to various townsfolk to identify potential business partner        
       Slick O'Hare:
+        goals:
+          - title: "Secure Railroad for Your Store"
+            markdown: >
+              Ensure that the railroad is built into Cactus Gulch to support your new store.
+          - title: "Find a Business Partner"
+            markdown: >
+              Identify a local partner, potentially Lucy, to invest in your store franchise.
+          - title: "Establish Trade"
+            markdown: >
+              Negotiate trade with local Indians for medicinal herbs.
+          - title: "Be a Model Citizen"
+            markdown: >
+              Demonstrate exemplary behavior to gain the trust of local dignitaries.
         tasks:
-          - title: "Protect Identity"
+          - title: "Meet Local Authorities"
             markdown: >
-              Ensure that no one discovers your true identity as Saul Jackson.
-          - title: "Shift Blame"
+              Speak with the sheriff, deputy, and Judge Paulson to offer your assistance.
+          - title: "Consult the Indians"
             markdown: >
-              Make sure you're not blamed for Zeke's death; if necessary, point the finger at Clem.
-          - title: "Assist Clem"
+              Ask local Indians about medicinal herbs and potential trade.
+          - title: "Identify Partners"
             markdown: >
-              Provide support to Clem Parham in securing the railroad deal.
-          - title: "Locate Silver Mine Map"
-            markdown: >
-              Search for the map to the silver lode to secure your future.
+              Talk to various townsfolk to identify potential business partner
       Clem Parham:
-        tasks:
-          - title: "Expose Mel Easton"
+        goals:
+          - title: "Discredit Mel Easton"
             markdown: >
-              Make sure everyone knows that Mel Easton is useless and that you are the one to deal with.
+              Expose Mel Easton's ineffectiveness and establish yourself as the stronger negotiator.
           - title: "Shift Murder Blame"
             markdown: >
-              Ensure that if anyone is charged with murder, it is Saul (Slick O'Hare) who takes the fall.
-          - title: "Secure Railroad Deal"
+              Ensure that if any murder charges arise, they fall on Saul (Slick O'Hare) rather than you.
+          - title: "Secure the Railroad Deal"
             markdown: >
-              Once the telegraph is fixed, check with head office to determine how much you can spend and secure the railroad deal for MWR.
+              Confirm your spending limit with head office and secure the railroad deal for Mid West Rail.
+        tasks:
+          - title: "Leverage Judge Paulson"
+            markdown: >
+              Remind Judge Paulson of your leverage and ensure he rules favorably for Doc Faraday.
+          - title: "Pressure Blaise"
+            markdown: >
+              Investigate whether Blaise Sadler holds the marked cards and apply pressure accordingly.
+
       John Paulson:
+        goals:
+          - title: "Maintain Order"
+            markdown: >
+              Ensure that law and order prevail and that Zeke's killer is brought to justice.
+          - title: "Gather Evidence"
+            markdown: >
+              Obtain physical evidence to prove that Doc Faraday cheated at cards.
+          - title: "Protect Your Reputation"
+            markdown: >
+              Keep your own shady past hidden to maintain your position as judge.
         tasks:
-          - title: "Ensure Law and Order"
+          - title: "Consult with Authorities"
             markdown: >
-              Work with the sheriff to investigate Zeke's death and ensure that the killer is brought to justice.
-          - title: "Seek Proof"
+              Speak with the sheriff and deputy about the investigation into Zeke's death.
+          - title: "Investigate Clem"
             markdown: >
-              Gather physical evidence to prove that Doc Faraday cheated at cards.
-          - title: "Protect Your Past"
-            markdown: >
-              Keep your shady past secret to preserve your reputation as a judge.
+              Determine whether Clem Parham has dropped his blackmail and adjust your approach accordingly.
+
       Runs Like a Deer:
-        tasks:
-          - title: "Protect Burial Grounds"
-            markdown: >
-              Take action to ensure that the Indian burial grounds remain undisturbed by the railroad.
-          - title: "Safeguard Lucy"
-            markdown: >
-              Ensure Lucy Calhoun's safety in the aftermath of her father's death.
-          - title: "Assist Three Feathers"
-            markdown: >
-              Work with the shaman to protect your tribe's ancestral lands.
-          - title: "Clear Your Name"
-            markdown: >
-              Make sure you are not implicated in Zeke's death.
-      Blaise Sadler:
-        tasks:
-          - title: "Secure Retirement Funds"
-            markdown: >
-              Find a way to secure at least $2000 or a share in Zeke's silver mine for a comfortable retirement.
-          - title: "Find the Other Half of the Map"
-            markdown: >
-              Investigate who holds the other half of the map to the silver mine.
-          - title: "Decide on Marked Cards"
-            markdown: >
-              Determine whether to blackmail Doc Faraday with your knowledge of the marked cards or offer them to the judge.
-      Three Feathers:
-        tasks:
+        goals:
           - title: "Protect Burial Grounds"
             markdown: >
               Ensure that the Indian burial grounds remain undisturbed by the railroad.
+          - title: "Safeguard Lucy"
+            markdown: >
+              Ensure the safety of Lucy Calhoun in the aftermath of her father's death.
+          - title: "Assist the Shaman"
+            markdown: >
+              Work with Three Feathers to protect your tribe's ancestral lands.
+          - title: "Avoid Implication"
+            markdown: >
+              Make sure you are not implicated in Zeke's death.
+        tasks:
+          - title: "Inform Lucy"
+            markdown: >
+              Console Lucy and inform her of what you witnessed.
+          - title: "Coordinate with Three Feathers"
+            markdown: >
+              Consult with Three Feathers to establish a plan of action.
+      Blaise Sadler:
+        goals:
+          - title: "Secure Retirement"
+            markdown: >
+              Obtain the funds needed for your comfortable retirement (either $2,000 or a share in the silver mine).
+          - title: "Find the Map's Other Half"
+            markdown: >
+              Determine who holds the other half of the map to the silver lode.
+          - title: "Decide on the Marked Cards"
+            markdown: >
+              Choose whether to blackmail Doc Faraday with the marked cards or to offer them to the judge.
+        tasks:
+          - title: "Negotiate with Doc Faraday"
+            markdown: >
+              Inquire if Doc Faraday is willing to negotiate a deal for your silence.
+          - title: "Gauge Suitor Potential"
+            markdown: >
+              Talk with the men in town to evaluate potential rich suitors.
+      Three Feathers:
+        goals:
+          - title: "Defend Burial Grounds"
+            markdown: >
+              Protect the Indian burial grounds at all costs.
           - title: "Aid Judge Paulson"
             markdown: >
-              Help Judge Paulson overcome his current difficulties, honoring the bond formed when you saved his life.
+              Help Judge Paulson overcome his current difficulties.
           - title: "Represent Your Tribe"
             markdown: >
-              Act as your people's representative and safeguard your tribe's ancestral lands.
+              Safeguard your tribe's ancestral lands and interests.
           - title: "Utilize Herbal Knowledge"
             markdown: >
-              Employ your herbal medicinal skills to protect your people and ensure the proper respect for your craft.
-      Etta Johnson:
+              Effectively use your herbal medicinal skills to protect your people.
         tasks:
-          - title: "Expose Blaise Sadler"
+          - title: "Consult with the Judge"
             markdown: >
-              Gather evidence to prove that Blaise Sadler either knew about or was responsible for Zeke's death.
+              Speak with Judge Paulson about preventing the railroad from disturbing the burial grounds and inquire about any issues with Clem Parham.
+          - title: "Coordinate with Runs Like a Deer"
+            markdown: >
+              Establish a plan of action with Runs Like a Deer to protect your tribe.
+
+      Etta Johnson:
+        goals:
+          - title: "Expose Responsibility"
+            markdown: >
+              Prove that Blaise Sadler either knew of or was responsible for Zeke's death.
           - title: "Undermine Doc Faraday"
             markdown: >
-              Use your knowledge about Judge Paulson to undermine Doc Faraday's position.
+              Use your knowledge of Judge Paulson to weaken Doc Faraday's position.
           - title: "Question Elijah"
             markdown: >
-              Confront Elijah Entwhistle about his true identity and secure his secret for a favor.
-          - title: "Maintain Façade"
+              Confront Elijah Entwhistle about his true identity and secure his secret.
+          - title: "Maintain Your Façade"
             markdown: >
-              Keep up your public persona as the sweet, gossipy schoolmarm while hiding your dark secret about Mortimer.
-      Widder James:
+              Keep up your image as the sweet, gossipy schoolmarm while concealing your dark secret.
         tasks:
+          - title: "Offer Assistance"
+            markdown: >
+              Offer your help to the sheriff, deputy, and Judge Paulson.
+          - title: "Gather Gossip"
+            markdown: >
+              Collect gossip and clues about those involved in Zeke's death.
+      Widder James:
+        goals:
           - title: "Expose Elijah"
             markdown: >
-              Find evidence that Elijah Entwhistle is not the preacher he claims to be and expose his true identity.
+              Find out who the man really is. Several townspeople hint that his true name is on the tip of their tongues. When you uncover proof that he is no preacher, expose him and have him driven out of town.
           - title: "Lecture Judge Paulson"
             markdown: >
-              Confront Judge Paulson with a stern lecture on the nature of righteousness.
+              Give Judge Paulson a stern lecture on the nature of righteousness and ensure that he keeps his nose clean.
           - title: "Discredit Etta Johnson"
             markdown: >
-              Work to discredit Etta Johnson from her teaching position.
+              Work to undermine Etta Johnson and remove her from her teaching position.
           - title: "Investigate Ol' Barr"
             markdown: >
-              Find out why Ol' Barr has come into town and keep him out of trouble.
-      Ol' Barr:
+              Discover why your half-crazed sibling, Ol' Barr (Jamie), has come into town and take steps to keep him out of trouble.
         tasks:
-          - title: "Intervene with Judge Paulson"
+          - title: "Question Ol' Barr"
+            markdown: >
+              Find a quiet corner to question Ol' Barr about his sudden appearance in town.
+          - title: "Exploit Etta Johnson's Curiosity"
+            markdown: >
+              Tell Etta Johnson that you've heard Elijah Entwhistle is a thief working for Mid West Rail, and see what information she reveals.
+      Ol' Barr:
+        goals:
+          - title: "Intervene with the Judge"
             markdown: >
               Prevent Judge Paulson from ruling against Zeke and Lucy on Fat Bull Range.
-          - title: "Stop the Poison"
+          - title: "Prevent Poisoning"
             markdown: >
-              Work to prevent Three Feathers from using the poison on anyone.
+              Stop Three Feathers from using poison on anyone.
           - title: "Expose the Torturer"
             markdown: >
-              Investigate who tortured Zeke and bring their deeds to light.
+              Identify and expose the person responsible for torturing Zeke.
+        tasks:
+          - title: "Discuss with the Judge"
+            markdown: >
+              Use the issue of stolen furs to start a conversation with Judge Paulson about Fat Bull Range.
+          - title: "Hint About Theft"
+            markdown: >
+              Drop hints about sheep theft in casual conversation to gather information.
+      
       Maxwell Jebediah Adams:
+        goals:
+          - title: "Transfer Fat Bull Range"
+            markdown: >
+              Work to get Fat Bull Range into the hands of Mid West Rail.
+          - title: "Avoid the Law"
+            markdown: >
+              Ensure you are not caught for your sheep rustling activities.
+          - title: "Assist Minnie May"
+            markdown: >
+              Support your wife in her efforts to discredit or silence Widder James.
         tasks:
-          - title: "Discuss a Deal"
+          - title: "Discuss a Deal with Clem"
             markdown: >
-              Pull Clem Parham aside to discuss a deal.
-          - title: "Hint about the Killer"
-            markdown: >
-              If you're questioned by Sheriff Blane, Deputy Fairweather or Judge Paulson about sheep rustling, hint that you might know something about who killed Zeke. If necessary, suggest that Slick O'Hare did the job—tell them you saw him coming out of the stable earlier this evening. You're lying, but they'll never know for sure. Slick has been in and out of the Saloon all night.
- 
+              Pull Clem Parham aside to discuss a potential deal.
+          - title: "Hint at the Killer"
+            markdown: >        
+              If questioned about sheep rustling, hint that you know something about who killed Zeke.
+
+
       Minnie May Adams:
+        goals:
+          - title: "Discredit Widder James"
+            markdown: >
+              Find a way to discredit or silence Widder James in the eyes of the law.
+          - title: "Arrange Legal Cover"
+            markdown: >
+              Set up a legal cover for yourself and Maxwell, possibly by using incriminating evidence against Sheriff Blane.
         tasks:
-          - title: "Play up to Widder James's Importance"
+          - title: "Support Widder"
             markdown: >
-              Play up to Widder James’s sense of importance by following her around and making sure she has your verbal support—and no privacy!
-          - title: "Ask About Suspicions"
+              Play up to Widder James's sense of importance by following her and offering supportive comments.
+          - title: "Consult with Sheriff Blane"
             markdown: >
-              Ask Sheriff Blane whether he has any suspicions about who killed Zeke. You don't care who killed Zeke—you just want to find out whether Able is suspicious about anything concerning you or Maxwell.
+              Ask Sheriff Blane if he has any suspicions regarding Zeke's death.
       Frederick Lloyd:
+        goals:
+          - title: "Identify the Killer"
+            markdown: >
+              Determine who killed Zeke and fleece them before alerting the authorities.
+          - title: "Maintain False Identity"
+            markdown: >
+              Keep your true identity hidden and maintain the facade of a British investor.
+          - title: "Persuade Lucy"
+            markdown: >
+              Sweet-talk Lucy Calhoun into purchasing your fake Ophir stock certificates.
+          - title: "Negotiate with Christy"
+            markdown: >
+              Persuade Christy Martin to invest in your fake stocks, keeping Lucy's funds out of your way.
         tasks:
           - title: "Talk to Christy Martin"
             markdown: >
-              Talk to Christy Martin—see if there's any interest in Ophir Stocks.
+              Initiate a conversation with Christy Martin to gauge her interest in Ophir stocks.
           - title: "Ask Around"
             markdown: >
-              Ask around: who benefits from Zeke's death?
+              Inquire with locals to determine who might benefit from Zeke's death.
+
       Ruby Sapphire:
-        tasks:
-          - title: "Sweet-talk Lucy"
+        goals:
+          - title: "Secure the Inheritance"
             markdown: >
-              Persuade Lucy Calhoun to purchase Ophir stock certificates in a way that honors your vendetta.
+              Ensure that Fat Bull Range (the inheritance) goes to you and your family.
           - title: "Take Revenge on Zeke"
             markdown: >
-              Channel your vengeance by making Zeke's daughter suffer for her father's past.
+              Take out your vengeance on Zeke's daughter, Lucy, as retribution for your past.
           - title: "Sever Ties with Frederick"
             markdown: >
-              Cut off all connections with Frederick Lloyd to secure your independence.
-          - title: "Investigate Marco"
+              Cut off your association with Frederick Lloyd.
+          - title: "Let Down Robert"
             markdown: >
-              Look into Marco the Mesmerizing's true intentions and expose any collusion.
-      Robert Barnaby:
-        tasks:
-          - title: "Prevent Mabel's Blame"
-            markdown: >
-              Ensure that Ruby Sapphire does not pin Zeke's murder on your childhood sweetheart.
-          - title: "Confront the Judge"
-            markdown: >
-              Approach Judge Paulson to discuss his decision and push for justice.
-          - title: "Support Deputy Fairweather"
-            markdown: >
-              Convince Dan Fairweather that your sweetheart had nothing to do with Zeke's death.
+              Find a way to let your childhood sweetheart Robert Barnaby down without causing harm.
           - title: "Expose Marco"
             markdown: >
-              Challenge Marco the Mesmerizing to a fight or otherwise divert his attention from Ruby.
-      Soon Li:
+              Reveal the true nature of Marco the Mesmerizing.
         tasks:
+          - title: "Consult Judge Paulson"
+            markdown: >
+              Talk with Judge Paulson about your heritage and the wrongs done to your family.
+          - title: "Speak with Lucy"
+            markdown: >
+              Pull Lucy aside and reveal the true nature of her father.
+      
+      Robert Barnaby:
+        goals:
+          - title: "Prevent Mabel's Blame"
+            markdown: >
+              Prevent Ruby Sapphire (Mabel) from taking the blame for Zeke's murder.
+          - title: "Confront the Judge"
+            markdown: >
+              Discuss with Judge Paulson his decision regarding Fat Bull Range.
+          - title: "Support Deputy Fairweather"
+            markdown: >
+              Convince Dan Fairweather that your childhood sweetheart is not responsible for Zeke's death.
+          - title: "Expose Marco"
+            markdown: >
+              Challenge Marco the Mesmerizing and expose his fraudulent nature.
+        tasks:
+          - title: "Ask Judge Paulson"
+            markdown: >
+              Inquire which legal precedents Judge Paulson plans to use in the Fat Bull Range case.
+          - title: "Reassure Ruby"
+            markdown: >
+              Reassure Ruby Sapphire that you fully support her, regardless of past events.
+
+      Soon Li:
+        goals:
           - title: "Rescue Pan Choi"
             markdown: >
-              Convince Saul Jackson to release your husband, Pan Choi, and secure his safe treatment.
+              Ensure that Saul Jackson releases your husband, Pan Choi, and secure his safe treatment.
           - title: "Inform Lucy"
             markdown: >
-              Discreetly tell Lucy Calhoun what you know about Slick O'Hare without alerting him or Clem.
+              Discreetly share your suspicions about Slick O'Hare with Lucy Calhoun.
           - title: "Find Alternate Travel"
             markdown: >
-              Determine a safe alternative method to travel to San Francisco once Zeke is dead.
-      Marco the Mesmerizing:
+              Identify a safe alternative method to travel to San Francisco once Zeke is dead.
         tasks:
+          - title: "Discuss with Lucy"
+            markdown: >
+              Talk to Lucy about your knowledge of Slick O'Hare and Mid West Rail without alerting others.
+          - title: "Seek Justice Partner"
+            markdown: >
+              Look for someone with a strong sense of justice to help rescue Pan Choi.
+      
+      Marco the Mesmerizing:
+        goals:
           - title: "Obtain Con Proof"
             markdown: >
-              Secure evidence that Frederick Lloyd is peddling fake silver stock certificates.
+              Secure evidence that Frederick Lloyd is peddling fake Ophir stock certificates.
           - title: "Send a Telegram"
             markdown: >
-              As soon as the telegraph is fixed, send a message to your contacts in San Francisco about your findings.
-          - title: "Investigate Ruby"
+              As soon as the telegraph is fixed, send a telegram to your contacts in San Francisco about your findings.
+          - title: "Expose Ruby's Identity"
             markdown: >
-              Discover whether Ruby Sapphire and Frederick Lloyd are partners, and determine Ruby's true identity.
-          - title: "Assess Sheriff Able"
+              Determine whether Ruby Sapphire and Frederick Lloyd are partners and discover Ruby's true identity.
+          - title: "Inform Sheriff Able"
             markdown: >
-              Evaluate Sheriff Able Blane's competence and share any clues about Zeke's murder with him or Deputy Fairweather.
+              Share any clues about Zeke's murder with Sheriff Able Blane or Deputy Fairweather.
           - title: "Question Soon Li"
             markdown: >
-              Ask Soon Li about her observations regarding Slick O'Hare and the reasons behind her vigilance.
+              Ask Soon Li about her observations regarding Slick O'Hare and why she remains so vigilant.
+        tasks:
+          - title: "Purchase Stock Certificates"
+            markdown: >
+              Test Frederick Lloyd's offer by purchasing some Ophir Silver Stock certificates.
+          - title: "Flirt with Ruby"
+            markdown: >
+              Ask Ruby Sapphire about her knowledge of Frederick Lloyd and the stock certificates with a hint of flirtation.
+
+
+ 
   - name: "Stagecoach Arrives"
     duration: 300
     script:
