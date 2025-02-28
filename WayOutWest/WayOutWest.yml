@@ -1116,48 +1116,48 @@ rounds:
           - title: "Investigate Marco"
             markdown: >
               Look into Marco the Mesmerizing's true intentions and expose any collusion.
-        Robert Barnaby:
-          tasks:
-            - title: "Prevent Mabel's Blame"
-              markdown: >
-                Ensure that Ruby Sapphire does not pin Zeke's murder on your childhood sweetheart.
-            - title: "Confront the Judge"
-              markdown: >
-                Approach Judge Paulson to discuss his decision and push for justice.
-            - title: "Support Deputy Fairweather"
-              markdown: >
-                Convince Dan Fairweather that your sweetheart had nothing to do with Zeke's death.
-            - title: "Expose Marco"
-              markdown: >
-                Challenge Marco the Mesmerizing to a fight or otherwise divert his attention from Ruby.
-        Soon Li:
-          tasks:
-            - title: "Rescue Pan Choi"
-              markdown: >
-                Convince Saul Jackson to release your husband, Pan Choi, and secure his safe treatment.
-            - title: "Inform Lucy"
-              markdown: >
-                Discreetly tell Lucy Calhoun what you know about Slick O'Hare without alerting him or Clem.
-            - title: "Find Alternate Travel"
-              markdown: >
-                Determine a safe alternative method to travel to San Francisco once Zeke is dead.
-        Marco the Mesmerizing:
-          tasks:
-            - title: "Obtain Con Proof"
-              markdown: >
-                Secure evidence that Frederick Lloyd is peddling fake silver stock certificates.
-            - title: "Send a Telegram"
-              markdown: >
-                As soon as the telegraph is fixed, send a message to your contacts in San Francisco about your findings.
-            - title: "Investigate Ruby"
-              markdown: >
-                Discover whether Ruby Sapphire and Frederick Lloyd are partners, and determine Ruby's true identity.
-            - title: "Assess Sheriff Able"
-              markdown: >
-                Evaluate Sheriff Able Blane's competence and share any clues about Zeke's murder with him or Deputy Fairweather.
-            - title: "Question Soon Li"
-              markdown: >
-                Ask Soon Li about her observations regarding Slick O'Hare and the reasons behind her vigilance.
+      Robert Barnaby:
+        tasks:
+          - title: "Prevent Mabel's Blame"
+            markdown: >
+              Ensure that Ruby Sapphire does not pin Zeke's murder on your childhood sweetheart.
+          - title: "Confront the Judge"
+            markdown: >
+              Approach Judge Paulson to discuss his decision and push for justice.
+          - title: "Support Deputy Fairweather"
+            markdown: >
+              Convince Dan Fairweather that your sweetheart had nothing to do with Zeke's death.
+          - title: "Expose Marco"
+            markdown: >
+              Challenge Marco the Mesmerizing to a fight or otherwise divert his attention from Ruby.
+      Soon Li:
+        tasks:
+          - title: "Rescue Pan Choi"
+            markdown: >
+              Convince Saul Jackson to release your husband, Pan Choi, and secure his safe treatment.
+          - title: "Inform Lucy"
+            markdown: >
+              Discreetly tell Lucy Calhoun what you know about Slick O'Hare without alerting him or Clem.
+          - title: "Find Alternate Travel"
+            markdown: >
+              Determine a safe alternative method to travel to San Francisco once Zeke is dead.
+      Marco the Mesmerizing:
+        tasks:
+          - title: "Obtain Con Proof"
+            markdown: >
+              Secure evidence that Frederick Lloyd is peddling fake silver stock certificates.
+          - title: "Send a Telegram"
+            markdown: >
+              As soon as the telegraph is fixed, send a message to your contacts in San Francisco about your findings.
+          - title: "Investigate Ruby"
+            markdown: >
+              Discover whether Ruby Sapphire and Frederick Lloyd are partners, and determine Ruby's true identity.
+          - title: "Assess Sheriff Able"
+            markdown: >
+              Evaluate Sheriff Able Blane's competence and share any clues about Zeke's murder with him or Deputy Fairweather.
+          - title: "Question Soon Li"
+            markdown: >
+              Ask Soon Li about her observations regarding Slick O'Hare and the reasons behind her vigilance.
   - name: "Stagecoach Arrives"
     duration: 300
     script:
