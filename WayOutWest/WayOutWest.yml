@@ -86,11 +86,12 @@ rounds:
         scenario: 
           - title: "It begins"
             markdown: > 
-              Welcome to **Way out West**.
+              # Welcome to **Way out West**.
               It is the spring of 1884. America's west coast is slowly being
               populated with small towns full of settlers who come to prospect
               for precious metals, set up ranches and run dubious saloons—and
-              now the railroad is coming!
+              now the *railroad is coming!*
+              ---
               Cactus Gulch is one such small town. Founded twenty years ago,
               tonight it has a festive air as the townsfolk get set to start their 20th
               anniversary celebrations. However, all is not running smoothly.
