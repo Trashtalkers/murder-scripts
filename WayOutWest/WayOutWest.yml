@@ -338,6 +338,15 @@ rounds:
               I can't tell you what the cause of death was yet; there are no signs of shooting or
               strangling or that the blow on the head was enough to kill him.
               Folks, no one is to leave town until this mystery has been solved.
+      
+      Able Blane:
+        tasks:
+          - title: "Remind Dan"
+            markdown: "Remind Dan, your deputy, to keep an eye on Slick O'Hare."
+          - title: "Alibis"
+            markdown: >
+              Speak to each of the townsfolk and visitors about their movements
+              over the last few hours, see who looks guilty or doesn't have an alibi.
   - name: "Stagecoach Arrives"
     duration: 300
     script:
