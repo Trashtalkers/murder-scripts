@@ -219,7 +219,7 @@ rounds:
         clues:
           - title: "Judge Paulson"
             markdown: Judge Paulson has been acting strange lately, and you are worried he may decide against Zeke.
-            Elijah Entwhistle:
+      Elijah Entwhistle:
         items:
           - title: "Half of a map (Red Mule Point)"
             url: "items/map_red_mule.png"
@@ -247,7 +247,7 @@ rounds:
         secrets:
           - title: "True Identity"
             markdown: >
-              You are really Jake Calhoun, Zeke’s brother (and Lucy’s uncle).
+              You are really Jake Calhoun, Zeke's brother (and Lucy's uncle).
               You are a gun for hire. You came here to protect Zeke.
               Zeke gave you half of a map to the silver lode.
         clues:
@@ -262,6 +262,32 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         money: [15]
+        abilities:
+          - title: "It's Just a Flesh Wound!"
+            markdown: >
+              Play this immediately after someone has defeated you in combat.
+              The blow has no effect: you are not injured and may now either strike back or flee.
+              Does not work against poison.
+            uses: 3
+          - title: "Power of Arrest"
+            markdown: >
+              You may arrest someone under suspicion and throw them in jail.
+              The Bartender will restrict their movement and prevent them from using their abilities.
+              However, if you cannot present suitable evidence to the Bartender within 15 minutes (or 5 minutes if the judgment hasn’t yet been delivered),
+              they will be released.
+            uses: 3
+          - title: "Interrogation"
+            markdown: >
+              After talking forcefully to another character, show them this.
+              They must then show you their Secret.
+            uses: 3
+        secrets:
+          - title: "Love for Lucy"
+            markdown: You are madly in love with Lucy Calhoun.
+        clues:
+          - title: "Suspicious Sight"
+            markdown: You saw Runs Like a Deer emerging furtively from the stables clutching a knife, just before Zeke’s body was discovered.
+
       Doc Faraday:
         items:
           - title: "Deck of cards"
