@@ -31,10 +31,7 @@ rounds:
   - name: Rules
     duration: 30
     script:
-      The Moderator:
-        revelations:
-          - title: "The scene of the crime"
-            markdown: >
+      The Moderator:round_order
               The body of Zeke Calhoun is slumped in the corner of the stables, out of sight of the
               door. He is battered about the face and body, with a nasty bruise to the left temple.
               His wrists are chafed, reddened, and in an awkward position behind his back as

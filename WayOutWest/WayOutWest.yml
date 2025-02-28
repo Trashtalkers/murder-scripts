@@ -86,9 +86,18 @@ rounds:
         scenario: 
           - title: "It begins"
             markdown: > 
-              You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
-              Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
-              Remain in character at all times. Good luck—the game is afoot!
+              Welcome to **Way out West**.
+              It is the spring of 1884. America's west coast is slowly being
+              populated with small towns full of settlers who come to prospect
+              for precious metals, set up ranches and run dubious saloons—and
+              now the railroad is coming!
+              Cactus Gulch is one such small town. Founded twenty years ago,
+              tonight it has a festive air as the townsfolk get set to start their 20th
+              anniversary celebrations. However, all is not running smoothly.
+              Land disputes, disreputable card games, strange folk from out of
+              town, and quarrels with the Indians all add to a tense atmosphere.
+              Join us in the Silver Dollar Saloon as celebrations begin, and find
+              out how the evening unfolds…
       The Bartender:
         revelations:
           - title: "The scene of the crime"
