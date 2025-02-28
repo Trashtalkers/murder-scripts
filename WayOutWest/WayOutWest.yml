@@ -93,6 +93,8 @@ rounds:
               for precious metals, set up ranches and run dubious saloons—and
               now the *railroad is coming!*  
 
+              ___
+
               Cactus Gulch is one such small town. Founded twenty years ago,
               tonight it has a festive air as the townsfolk get set to start their 20th
               anniversary celebrations. However, all is not running smoothly. 
@@ -107,19 +109,6 @@ rounds:
     duration: 30
     script:
       The Bartender:
-        revelations:
-          - title: "The scene of the crime"
-            markdown: >
-              The body of Zeke Calhoun is slumped in the corner of the stables, out of sight of the
-              door. He is battered about the face and body, with a nasty bruise to the left temple.
-              His wrists are chafed, reddened, and in an awkward position behind his back as
-              though they have been tied together. On the ground nearby are short lengths of rope,
-              cut with a sharp knife. A toppled chair is nearby.
-              The top pocket of Zeke's plaid shirt has been cut open and is flapping empty. Apart
-              from that, his pockets contain the usual sorts of things and do not seem to have been
-              searched.
-              There are no signs of shooting, stabbing or strangling. It does not look like the blow on
-              the head was enough to kill him.
         items:
           - title: "High Noon"
             url: "items/high_noon.png"
@@ -174,10 +163,63 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         money: [11]
+        abilities:
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another
+              player must reveal their Secret to you.
+            uses: 3
+          - title: "Sharpshooting"
+            markdown: >
+              When you shoot someone, you hit them if
+              you win or tie at rock-paper-scissors, rather
+              than just when you win as is normal.
+            uses: 3
+          - title: "Let's gossip"
+            markdown: >
+              Another player must first tell you who is
+              listed in their Other People section, and
+              then read out the details of a character of
+              your choice.
+
+              You must then tell them who is listed in
+              your Other People section and read out the
+              details of a character of their choice.
+            uses: 3
+        secrets:
+          - title: Map 
+            markdown: You have half of the map to Zeke's new silver discovery.
+        clues:
+          - title: Zeke 
+            markdown: >
+              Zeke was close to clinching
+              a deal with South West
+              Rail when he died.
       Mel Easton:
         items: []
         money: [120]
-      Elijah Entwhistle:
+        abilities:
+          - title: "Success!"
+            markdown: >
+              You can make a failed or tied rock–paper–scissors challenge succeed.
+              It need not be a challenge you are involved in.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+          - title: "Let's share what we know"
+            markdown: >
+              After talking to another player, show them your Clue.
+              They must then show you their Clue.
+            uses: 3
+        secrets:
+          - title: "Deal with Zeke"
+            markdown: You agreed a deal with Zeke to pay $18,000 for Fat Bull Range and avoid the Indian burial ground.
+        clues:
+          - title: "Judge Paulson"
+            markdown: Judge Paulson has been acting strange lately, and you are worried he may decide against Zeke.
+            Elijah Entwhistle:
         items:
           - title: "Half of a map (Red Mule Point)"
             url: "items/map_red_mule.png"
@@ -185,6 +227,33 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         money: [30]
+        abilities:
+          - title: "It's only a flesh wound"
+            markdown: >
+              Use this after another player has defeated you in combat.
+              The wound has no effect: you are not injured and may now take an action.
+              Does not work against poison.
+            uses: 3
+          - title: "Sharpshooting"
+            markdown: >
+              When you shoot someone, you hit them if you win or tie at rock-paper-scissors,
+              rather than just when you win as is normal.
+            uses: 3
+          - title: "Intimidate"
+            markdown: >
+              Speak in an intimidating manner to another character.
+              They must then reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "True Identity"
+            markdown: >
+              You are really Jake Calhoun, Zeke’s brother (and Lucy’s uncle).
+              You are a gun for hire. You came here to protect Zeke.
+              Zeke gave you half of a map to the silver lode.
+        clues:
+          - title: "Fake Map"
+            markdown: The half map Zeke gave to Blaise is a fake.
+
       Dan Fairweather:
         items:
           - title: "Half of a map (Dead Dog Ravine)"
@@ -338,7 +407,19 @@ rounds:
               I can't tell you what the cause of death was yet; there are no signs of shooting or
               strangling or that the blow on the head was enough to kill him.
               Folks, no one is to leave town until this mystery has been solved.
-      
+          - title: "The scene of the crime"
+            markdown: >
+              The body of Zeke Calhoun is slumped in the corner of the stables, out of sight of the
+              door. He is battered about the face and body, with a nasty bruise to the left temple.
+              His wrists are chafed, reddened, and in an awkward position behind his back as
+              though they have been tied together. On the ground nearby are short lengths of rope,
+              cut with a sharp knife. A toppled chair is nearby.
+              The top pocket of Zeke's plaid shirt has been cut open and is flapping empty. Apart
+              from that, his pockets contain the usual sorts of things and do not seem to have been
+              searched.
+              There are no signs of shooting, stabbing or strangling. It does not look like the blow on
+              the head was enough to kill him.
+
       Able Blane:
         tasks:
           - title: "Remind Dan"
@@ -347,6 +428,16 @@ rounds:
             markdown: >
               Speak to each of the townsfolk and visitors about their movements
               over the last few hours, see who looks guilty or doesn't have an alibi.
+      Lucy Calhoun:
+        tasks:
+          - title: "Runs Like a Deer"
+            markdown: >
+              Talk to Runs Like a Deer and find out what she had been about
+              to say to you
+          - title: "Deputy Dan"
+            markdown: >
+              Talk to Deputy Dan and find out what the law is proposing to do
+              about your father’s death.
   - name: "Stagecoach Arrives"
     duration: 300
     script:
