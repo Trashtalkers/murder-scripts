@@ -296,16 +296,80 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         money: [35]
+        abilities:
+          - title: "Success!"
+            markdown: >
+              You can make a failed or tied rock-paper-scissors challenge succeed.
+              It need not be a challenge you are involved in.
+            uses: 3
+          - title: "You've revealed more than you intended"
+            markdown: >
+              Another player has revealed more than they intended and must reveal their Secret to you.
+            uses: 3
+          - title: "Pickpocket"
+            markdown: >
+              Tell the Bartender which item you want to pickpocket from another player.
+              If that player does not have what you seek, the Bartender will take something else at random.
+            uses: 3
+        secrets:
+          - title: "Marked Cards"
+            markdown: You used marked cards to win Fat Bull Range away from Zeke.
+        clues:
+          - title: "Minimum Price"
+            markdown: You are keen to get $22,000 for Fat Bull Range.
+        
       Kalamata Kate:
         items:
           - title: "Stocking-top knife"
             url: "items/knife.png"
         money: [11]
+        abilities:
+          - title: "Flattery"
+            markdown: >
+              After briefly paying compliments to a member of the opposite sex, show them this.
+              They must show you their Clue.
+            uses: 3
+          - title: "Who do you know here?"
+            markdown: >
+              Another player must tell you who is listed in their Other People section and then read out the details of a character of your choice.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "No Secrets"
+            markdown: You have no secrets.
+        clues:
+          - title: "Herbal Trade"
+            markdown: You think that the Indians have some herbs with special medicinal properties.
+
       Christy Martin:
         items:
           - title: "Banker's draft"
             url: "items/draft.png"
         money: [30]
+        abilities:
+          - title: "Flattery"
+            markdown: >
+              After briefly paying compliments to a member of the opposite sex, show them this.
+              They must show you their Clue.
+            uses: 3
+          - title: "Who do you know here?"
+            markdown: >
+              Another player must tell you who is listed in their Other People section and then read out the details of a character of your choice.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "No Secrets"
+            markdown: You have no secrets.
+        clues:
+          - title: "Herbal Insight"
+            markdown: You think that the Indians have some herbs with special medicinal properties.
+
       Slick O'Hare:
         items:
           - title: "Garotte"
@@ -317,11 +381,53 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         money: [20]
+        abilities:
+          - title: "Intimidate"
+            markdown: >
+              Speak in an intimidating manner to another character.
+              They must then reveal their Secret to you.
+            uses: 3
+          - title: "Sharpshooting"
+            markdown: >
+              When you shoot someone, you hit them if you win or tie at rock-paper-scissors,
+              rather than just when you win as is normal.
+            uses: 3
+          - title: "Tight-lipped"
+            markdown: >
+              If another player forces you to reveal your Secret or Clue, it has no effect—you give nothing away.
+            uses: 3
+        secrets:
+          - title: "True Identity"
+            markdown: Your real name is Saul Jackson, and you are a hired gunslinger.
+        clues:
+          - title: "Missing Map"
+            markdown: Zeke was not carrying the map to his new silver strike when he died.
+        
       Clem Parham:
         items:
           - title: "Wanted poster"
             url: "items/wanted_poster.png"
         money: [90]
+        abilities:
+          - title: "Let's share what we know"
+            markdown: >
+              After talking to another player, show them your Clue.
+              They must then show you their Clue.
+            uses: 3
+          - title: "I've barred my heart -- you bare yours"
+            markdown: >
+              Reveal your Secret to another player—they must reveal their Secret to you.
+            uses: 3
+          - title: "Thorough appraisal"
+            markdown: >
+              After speaking to another player, they must show you all their item cards and money.
+            uses: 3
+        secrets:
+          - title: "Dirt on Paulson"
+            markdown: You have enough dirt on Judge Paulson's past land swindle to blackmail him.
+        clues:
+          - title: "Shady Judge"
+            markdown: Judge Paulson has a shady past as a swindler back East.
       John Paulson:
         items: []
         money: [80]
@@ -454,16 +560,123 @@ rounds:
             markdown: >
               Speak to each of the townsfolk and visitors about their movements
               over the last few hours, see who looks guilty or doesn't have an alibi.
-      Lucy Calhoun:
+      Mel Easton:
         tasks:
-          - title: "Runs Like a Deer"
+          - title: "Express Sympathy"
             markdown: >
-              Talk to Runs Like a Deer and find out what she had been about
-              to say to you
-          - title: "Deputy Dan"
+              Express your sympathies and deepest regrets to Lucy about the death of her father.
+              Then explain your negotiations with Zeke and hope that she's willing to honor the deal.
+          - title: "Expose Clem Parham"
             markdown: >
-              Talk to Deputy Dan and find out what the law is proposing to do
-              about your father’s death.
+              Make sure that everyone knows how devious and double-crossing Clem Parham can be,
+              and that you're the person to deal with him.
+          - title: "Negotiate Railroad Deal"
+            markdown: >
+              Make an ethical deal that avoids desecrating the Indian burial grounds.
+          - title: "Check Budget"
+            markdown: >
+              As soon as the telegraph is fixed, contact your head office and check how much of a budget you may negotiate with.
+      Elijah Entwhistle:
+        tasks:
+          - title: "Avenge Zeke"
+            markdown: >
+              Find out who murdered Zeke, and make sure they pay in blood.
+          - title: "Investigate Blaise Sadler"
+            markdown: >
+              Find out why Zeke thought Blaise could prove that Doc cheated.
+          - title: "Reveal True Identity"
+            markdown: >
+              Reveal to Lucy that you are her uncle, Jake Calhoun.
+          - title: "Find the Real Map"
+            markdown: >
+              Locate the real map to the silver lode, since the one given to Blaise is false.
+          - title: "Secure Fat Bull Range"
+            markdown: >
+              Ensure that Fat Bull Range is returned to Lucy.
+      Dan Fairweather:
+        tasks:
+          - title: "Comfort Lucy"
+            markdown: >
+              Comfort Lucy in her hour of grief over her father's death.
+          - title: "Track Slick O'Hare"
+            markdown: >
+              Inform Sheriff Blane about losing track of Slick O'Hare and mention any suspicious behavior.
+          - title: "Assist Sheriff Blane"
+            markdown: >
+              Help Sheriff Blane in his investigation by keeping a close eye on suspicious activities.
+          - title: "Manage the Map"
+            markdown: >
+              Decide what to do with your half of the map, and search for the other half.
+          - title: "Win Lucy's Heart"
+            markdown: >
+              Work on getting Lucy to wear a skirt for the dance and ultimately build the courage to propose to her.
+      Doc Faraday:
+        tasks:
+          - title: "Secure $22,000"
+            markdown: >
+              Ensure you get at least $22,000 for Fat Bull Range.
+          - title: "Cover Cheating"
+            markdown: >
+              Prevent Judge Paulson from obtaining any proof of your cheating.
+          - title: "Retrieve Marked Cards"
+            markdown: >
+              Talk to Blaise Sadler to determine if she has your marked cards and take action to secure them.
+          - title: "Influence Judgment"
+            markdown: >
+              Do whatever it takes to ensure the judgment goes in your favor.
+      Kalamata Kate:
+        tasks:
+          - title: "Secure Marked Cards"
+            markdown: >
+              Persuade Blaise Sadler to give the marked cards to the sheriff.
+          - title: "Assist in Investigation"
+            markdown: >
+              Help Elijah (Jake Calhoun) in solving Zeke's murder.
+          - title: "Deliver Skirt"
+            markdown: >
+              When Lucy's skirt arrives on the stagecoach, deliver it to her and persuade her to wear it.
+          - title: "Pair Dan and Lucy"
+            markdown: >
+              Facilitate the budding relationship between Dan and Lucy.
+      Christy Martin:
+        tasks:
+          - title: "Ensure Railroad"
+            markdown: >
+              Confirm that the railroad comes to Cactus Gulch to support your store franchise.
+          - title: "Find Business Partner"
+            markdown: >
+              Approach Lucy Calhoun to discuss a potential business partnership for your new store.
+          - title: "Negotiate with Indians"
+            markdown: >
+              Investigate trade opportunities with the local Indians for medicinal herbs.
+          - title: "Be a Good Citizen"
+            markdown: >
+              Inform the sheriff of any suspicious activities and act as a model citizen.
+      Slick O'Hare:
+        tasks:
+          - title: "Protect Identity"
+            markdown: >
+              Ensure that no one discovers your true identity as Saul Jackson.
+          - title: "Shift Blame"
+            markdown: >
+              Make sure you're not blamed for Zeke's death; if necessary, point the finger at Clem.
+          - title: "Assist Clem"
+            markdown: >
+              Provide support to Clem Parham in securing the railroad deal.
+          - title: "Locate Silver Mine Map"
+            markdown: >
+              Search for the map to the silver lode to secure your future.
+      Clem Parham:
+        tasks:
+          - title: "Expose Mel Easton"
+            markdown: >
+              Make sure everyone knows that Mel Easton is useless and that you are the one to deal with.
+          - title: "Shift Murder Blame"
+            markdown: >
+              Ensure that if anyone is charged with murder, it is Saul (Slick O'Hare) who takes the fall.
+          - title: "Secure Railroad Deal"
+            markdown: >
+              Once the telegraph is fixed, check with head office to determine how much you can spend and secure the railroad deal for MWR.
   - name: "Stagecoach Arrives"
     duration: 300
     script:
