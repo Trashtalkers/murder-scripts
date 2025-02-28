@@ -431,6 +431,27 @@ rounds:
       John Paulson:
         items: []
         money: [80]
+        abilities:
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+          - title: "Let's share what we know"
+            markdown: >
+              After talking to another player, show them your Clue.
+              They must then show you their Clue.
+            uses: 3
+          - title: "Not so fast!"
+            markdown: >
+              An ability played by another player has no effect on you; they must check a circle and may not use that ability on you again.
+            uses: 2
+        secrets:
+          - title: "Shady Past"
+            markdown: When you were younger, you were involved in major land swindles back East and had to head West to escape justice.
+        clues:
+          - title: "Physical Evidence"
+            markdown: It will be impossible to prove that Doc cheated Zeke without some physical evidence.
+
       Runs Like a Deer:
         items:
           - title: "Indian hunting knife"
@@ -442,6 +463,28 @@ rounds:
             url: "items/seeds_2.png"
             uses: 3
         money: [1]
+        abilities:
+          - title: "Herbal Wisdom"
+            markdown: >
+              You know the properties of local herbs. Once per round, you may use a herb to heal an injury or cure poison.
+            uses: 3
+          - title: "Nature's Intuition"
+            markdown: >
+              After observing another player's actions, you gain insight into their true intentions, forcing them to reveal one of their clues.
+            uses: 3
+          - title: "Silent Step"
+            markdown: >
+              You may move quietly, allowing you to overhear conversations without revealing your presence.
+            uses: 3
+        secrets:
+          - title: "Sacred Relic"
+            markdown: >
+              You have been entrusted with a sacred relic by your tribe, the location of which must remain hidden from outsiders.
+        clues:
+          - title: "Cursed Grounds"
+            markdown: >
+              Your tribe believes that the burial grounds are cursed and must never be disturbed.
+
       Blaise Sadler:
         items:
           - title: "Half of a map (Dead Man's Bluff)"
@@ -449,6 +492,29 @@ rounds:
           - title: "Three playing cards"
             url: "items/three_cards.png"
         money: [21]
+        abilities:
+          - title: "Pickpocket"
+            markdown: >
+              Tell the Bartender which item you want to pickpocket from another player.
+              If that player does not have what you seek, the Bartender will take something else at random.
+            uses: 3
+          - title: "Let's gossip"
+            markdown: >
+              Another player must first tell you who is listed in their Other People section, then read out the details of a character of your choice.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "Marked Cards and Map"
+            markdown: >
+              You know that Doc cheated Zeke by using marked cards, and you possess three of the marked cards along with half of the map.
+        clues:
+          - title: "Watch Elijah"
+            markdown: >
+              Elijah Entwhistle has been keeping a very close eye on you—there's something sinister about him.
+
       Three Feathers:
         items:
           - title: "Indian hunting knife"
@@ -459,11 +525,58 @@ rounds:
           - title: "Yerba buena seeds"
             url: "items/seeds_2.png"
             uses: 3
+        abilities:
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+          - title: "Success!"
+            markdown: >
+              You can make a failed or tied rock-paper-scissors challenge succeed.
+              It need not be a challenge you are involved in.
+            uses: 3
+          - title: "Use seeds"
+            markdown: >
+              Use one yerba buena seed to heal any injury or cure poisoning.
+              (This is a permanent ability.)
+            uses: 0
+        secrets:
+          - title: "No Secrets"
+            markdown: >
+              You have no secrets.
+        clues:
+          - title: "Life-saving Act"
+            markdown: >
+              You saved the lives of Judge Paulson and Blaise Sadler fifteen years ago when they had creek water fever.
+
       Etta Johnson:
         items:
           - title: "Wanted poster"
             url: "items/wanted_poster.png"
         money: [15]
+        abilities:
+          - title: "Pickpocket"
+            markdown: >
+              Tell the Bartender which item you want to pickpocket from another player.
+              If that player does not have what you seek, the Bartender will take something else at random.
+            uses: 3
+          - title: "Put-pocket"
+            markdown: >
+              Show this card to the Bartender when you wish to plant a single item or money card into someone's pocket or handbag.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "Guilty Secret"
+            markdown: >
+              You deliberately killed your fiancé, Mortimer Sneed, by striking him on the back of the head with a shovel.
+        clues:
+          - title: "Hidden Identity"
+            markdown: >
+              You recognize 'Elijah Entwhistle' as being Zeke's own flesh and blood—his brother, Jake Calhoun.
+
       Widder James:
         items:
           - title: "China dog"
@@ -471,17 +584,80 @@ rounds:
           - title: "Bible"
             url: "items/bible.png"
         money: [70]
+        abilities:
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+          - title: "Sudden insight"
+            markdown: >
+              After talking to another player, you realize they have revealed more than they intended. They must show you their Clue.
+            uses: 3
+          - title: "Let's gossip!"
+            markdown: >
+              Another player must tell you who is listed in their Other People section and then read out the details of a character of your choice.
+            uses: 3
+        secrets:
+          - title: "Exposed Identity"
+            markdown: >
+              Your true identity is hidden behind a guise of piety, but you harbor a wicked smirk.
+        clues:
+          - title: "Suspicions on Elijah"
+            markdown: >
+              You suspect that Elijah is not the preacher he appears to be.
       Ol' Barr:
         items:
           - title: "Indian hunting knife"
             url: "items/hunting_knife.png"
         money: [1]
+        abilities:
+          - title: "Mumble"
+            markdown: >
+              If anyone uses an ability to force you to reveal your Secret or Clue, you can mumble incoherently so they can't understand a word.
+            uses: 3
+          - title: "Haunting Whispers"
+            markdown: >
+              The ghosts that follow you sometimes reveal hidden truths. Use this ability once per round to gain an extra clue.
+            uses: 3
+          - title: "Flesh Wound Recovery"
+            markdown: >
+              After being defeated in combat, you recover quickly as if uninjured.
+            uses: 3
+        secrets:
+          - title: "Haunted Past"
+            markdown: >
+              You are tormented by the ghosts that have followed you since childhood, and you secretly fear they might expose your deepest vulnerabilities.
+        clues:
+          - title: "Trapper's Insight"
+            markdown: >
+              Your years in the hills have taught you the secrets of the land, including the true worth and hidden paths of Fat Bull Range.
+
       Maxwell Jebediah Adams:
         items:
           - title: "Revolver"
             url: "items/revolver.png"
             uses: 6
         money: [25]
+        abilities:
+          - title: "Success!"
+            markdown: >
+              You can make a failed or tied rock-paper-scissors challenge succeed.
+              It need not be a challenge you are involved in.
+            uses: 3
+          - title: "Sharpshooting"
+            markdown: >
+              When you shoot someone, you hit them if you win or tie at rock-paper-scissors.
+            uses: 3
+          - title: "Who do you know here?"
+            markdown: >
+              Another player must tell you who is listed in their Other People section and then read out the details of a character of your choice.
+            uses: 3
+        secrets:
+          - title: "Rustling Sheep"
+            markdown: You're the one who has been rustling sheep.
+        clues:
+          - title: "Wife's Suspicions"
+            markdown: Your wife, Minnie, hates the Widder.
       Minnie May Adams:
         items:
           - title: "Leather cosh"
@@ -489,6 +665,26 @@ rounds:
           - title: "Bill of sale"
             url: "items/bill_of_sale.png"
         money: [5]
+        abilities:
+          - title: "Pickpocket"
+            markdown: >
+              Tell the Bartender which item you want to pickpocket from another player.
+              If that player does not have what you seek, the Bartender will take something else at random.
+            uses: 3
+          - title: "Put-pocket"
+            markdown: >
+              Show this card to the Bartender when you wish to plant a single item or money card into someone's pocket or handbag.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              You are an astute judge of character: another player must reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "Wicked Smirk"
+            markdown: Behind your pious smile lies a wicked smirk.
+        clues:
+          - title: "Sheep Rustling"
+            markdown: Your husband, Maxwell, has been stealing sheep.
       Frederick Lloyd:
         items:
           - title: "Revolver"
@@ -500,6 +696,28 @@ rounds:
           - title: "Ophir Silver Mine Stock Certificate 3"
             url: "items/stock_certificate.png"
         money: [100]
+        abilities:
+          - title: "Cheat"
+            markdown: >
+              You can automatically win any gambling contest you take part in (excluding rock-paper-scissors challenges).
+            uses: 3
+          - title: "Sharpshooting"
+            markdown: >
+              When you shoot someone, you hit them if you win or tie at rock-paper-scissors.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              Another player must reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "False Identity"
+            markdown: >
+              You are actually Paul M. Jonas from Boston, not a true British investor.
+        clues:
+          - title: "Fake Stocks"
+            markdown: >
+              The Ophir Silver Mine stock certificates you peddle are fake.
+
       Ruby Sapphire:
         items:
           - title: "Woman's pistol"
@@ -507,13 +725,77 @@ rounds:
           - title: "Contract"
             url: "items/contract.png"
         money: [90]
+        abilities:
+          - title: "Enchanting Performance"
+            markdown: >
+              When you perform, you may charm another player, causing them to reveal one of their clues.
+            uses: 3
+          - title: "Silver Tongue"
+            markdown: >
+              Use your charm to persuade another player to reveal their Secret.
+            uses: 3
+          - title: "Astute judge of character"
+            markdown: >
+              Another player must reveal their Secret to you.
+            uses: 3
+        secrets:
+          - title: "Family Vengeance"
+            markdown: >
+              Your real name is Mabel Hannigan, and you seek revenge on Zeke Calhoun for ruining your family.
+        clues:
+          - title: "Stolen Inheritance"
+            markdown: >
+              Zeke Calhoun stole money from your family, leaving them destitute.
       Robert Barnaby:
         items: []
         money: [17]
+        abilities:
+          - title: "It's only a flesh wound"
+            markdown: >
+              After being defeated in combat, you may use this ability to negate any injury.
+            uses: 3
+          - title: "Brawling"
+            markdown: >
+              When fighting with your bare hands, you can injure your opponent if you tie or win the rock-paper-scissors contest.
+            uses: 3
+          - title: "Who do you know here?"
+            markdown: >
+              Another player must tell you who is listed in their Other People section and then read out the details of a character of your choice.
+            uses: 3
+        secrets:
+          - title: "Childhood Heartbreak"
+            markdown: >
+              Your childhood sweetheart left a lasting mark on your heart, fueling your resentment.
+        clues:
+          - title: "Swindled Family"
+            markdown: >
+              Zeke Calhoun swindled money from your family, leaving them in ruin.
       Soon Li:
         items:
           - title: "Immigration papers"
             url: "items/immigration_papers.png"
+        abilities:
+          - title: "Pickpocket"
+            markdown: >
+              Tell the Bartender which item you want to pickpocket from another player.
+            uses: 3
+          - title: "A Helping Hand"
+            markdown: >
+              You can help another player use one of their abilities without them expending a use.
+            uses: 3
+          - title: "Nobody notices an immigrant"
+            markdown: >
+              Your unassuming background allows you to overhear conversations without drawing attention.
+            uses: 3
+        secrets:
+          - title: "Indentured Past"
+            markdown: >
+              You are an escaped indentured immigrant, and your past may come back to haunt you.
+        clues:
+          - title: "Saul's Identity"
+            markdown: >
+              Slick O'Hare is really Saul Jackson, a wicked man and foreman for Mid West Rail.
+            
       Marco the Mesmerizing:
         items:
           - title: "Magician's hat"
@@ -522,6 +804,27 @@ rounds:
             url: "items/revolver.png"
             uses: 6
         money: [40]
+        abilities:
+          - title: "Mesmerism"
+            markdown: >
+              After two minutes of uninterrupted conversation with someone, you may put them under hypnosis, forcing them to reveal their Secret.
+            uses: 3
+          - title: "Catch a bullet between your teeth!"
+            markdown: >
+              Use this ability to avoid suffering an injury by gunshot. (Does not work on other attacks.)
+            uses: 3
+          - title: "Let's share what we know"
+            markdown: >
+              After talking to another player, show them your Clue and they must show you theirs.
+            uses: 3
+        secrets:
+          - title: "Government Agent"
+            markdown: >
+              You are actually a government agent on the trail of a con man.
+        clues:
+          - title: "Fake Stocks"
+            markdown: >
+              The Ophir Silver Mine stock certificates circulating in town are fake.
   - name: "Zeke's body"
     duration: 2700
     script:
@@ -560,6 +863,14 @@ rounds:
             markdown: >
               Speak to each of the townsfolk and visitors about their movements
               over the last few hours, see who looks guilty or doesn't have an alibi.
+        goals:
+          - title: "Maintain Law and Order"
+            markdown: >
+              Ensure law and order in Cactus Gulch and support the sheriff in the investigation of Zeke's death.
+          - title: "Collect Alibis"
+            markdown: >
+              Gather alibis from townsfolk regarding their whereabouts at the time of Zeke's death.
+     
       Mel Easton:
         tasks:
           - title: "Express Sympathy"
@@ -677,6 +988,176 @@ rounds:
           - title: "Secure Railroad Deal"
             markdown: >
               Once the telegraph is fixed, check with head office to determine how much you can spend and secure the railroad deal for MWR.
+      John Paulson:
+        tasks:
+          - title: "Ensure Law and Order"
+            markdown: >
+              Work with the sheriff to investigate Zeke's death and ensure that the killer is brought to justice.
+          - title: "Seek Proof"
+            markdown: >
+              Gather physical evidence to prove that Doc Faraday cheated at cards.
+          - title: "Protect Your Past"
+            markdown: >
+              Keep your shady past secret to preserve your reputation as a judge.
+      Runs Like a Deer:
+        tasks:
+          - title: "Protect Burial Grounds"
+            markdown: >
+              Take action to ensure that the Indian burial grounds remain undisturbed by the railroad.
+          - title: "Safeguard Lucy"
+            markdown: >
+              Ensure Lucy Calhoun's safety in the aftermath of her father's death.
+          - title: "Assist Three Feathers"
+            markdown: >
+              Work with the shaman to protect your tribe's ancestral lands.
+          - title: "Clear Your Name"
+            markdown: >
+              Make sure you are not implicated in Zeke's death.
+      Blaise Sadler:
+        tasks:
+          - title: "Secure Retirement Funds"
+            markdown: >
+              Find a way to secure at least $2000 or a share in Zeke's silver mine for a comfortable retirement.
+          - title: "Find the Other Half of the Map"
+            markdown: >
+              Investigate who holds the other half of the map to the silver mine.
+          - title: "Decide on Marked Cards"
+            markdown: >
+              Determine whether to blackmail Doc Faraday with your knowledge of the marked cards or offer them to the judge.
+      Three Feathers:
+        tasks:
+          - title: "Protect Burial Grounds"
+            markdown: >
+              Ensure that the Indian burial grounds remain undisturbed by the railroad.
+          - title: "Aid Judge Paulson"
+            markdown: >
+              Help Judge Paulson overcome his current difficulties, honoring the bond formed when you saved his life.
+          - title: "Represent Your Tribe"
+            markdown: >
+              Act as your people's representative and safeguard your tribe's ancestral lands.
+          - title: "Utilize Herbal Knowledge"
+            markdown: >
+              Employ your herbal medicinal skills to protect your people and ensure the proper respect for your craft.
+      Etta Johnson:
+        tasks:
+          - title: "Expose Blaise Sadler"
+            markdown: >
+              Gather evidence to prove that Blaise Sadler either knew about or was responsible for Zeke's death.
+          - title: "Undermine Doc Faraday"
+            markdown: >
+              Use your knowledge about Judge Paulson to undermine Doc Faraday's position.
+          - title: "Question Elijah"
+            markdown: >
+              Confront Elijah Entwhistle about his true identity and secure his secret for a favor.
+          - title: "Maintain Façade"
+            markdown: >
+              Keep up your public persona as the sweet, gossipy schoolmarm while hiding your dark secret about Mortimer.
+      Widder James:
+        tasks:
+          - title: "Expose Elijah"
+            markdown: >
+              Find evidence that Elijah Entwhistle is not the preacher he claims to be and expose his true identity.
+          - title: "Lecture Judge Paulson"
+            markdown: >
+              Confront Judge Paulson with a stern lecture on the nature of righteousness.
+          - title: "Discredit Etta Johnson"
+            markdown: >
+              Work to discredit Etta Johnson from her teaching position.
+          - title: "Investigate Ol' Barr"
+            markdown: >
+              Find out why Ol' Barr has come into town and keep him out of trouble.
+      Ol' Barr:
+        tasks:
+          - title: "Intervene with Judge Paulson"
+            markdown: >
+              Prevent Judge Paulson from ruling against Zeke and Lucy on Fat Bull Range.
+          - title: "Stop the Poison"
+            markdown: >
+              Work to prevent Three Feathers from using the poison on anyone.
+          - title: "Expose the Torturer"
+            markdown: >
+              Investigate who tortured Zeke and bring their deeds to light.
+      Maxwell Jebediah Adams:
+        tasks:
+          - title: "Discuss a Deal"
+            markdown: >
+              Pull Clem Parham aside to discuss a deal.
+          - title: "Hint about the Killer"
+            markdown: >
+              If you're questioned by Sheriff Blane, Deputy Fairweather or Judge Paulson about sheep rustling, hint that you might know something about who killed Zeke. If necessary, suggest that Slick O'Hare did the job—tell them you saw him coming out of the stable earlier this evening. You're lying, but they'll never know for sure. Slick has been in and out of the Saloon all night.
+ 
+      Minnie May Adams:
+        tasks:
+          - title: "Play up to Widder James's Importance"
+            markdown: >
+              Play up to Widder James’s sense of importance by following her around and making sure she has your verbal support—and no privacy!
+          - title: "Ask About Suspicions"
+            markdown: >
+              Ask Sheriff Blane whether he has any suspicions about who killed Zeke. You don't care who killed Zeke—you just want to find out whether Able is suspicious about anything concerning you or Maxwell.
+      Frederick Lloyd:
+        tasks:
+          - title: "Talk to Christy Martin"
+            markdown: >
+              Talk to Christy Martin—see if there's any interest in Ophir Stocks.
+          - title: "Ask Around"
+            markdown: >
+              Ask around: who benefits from Zeke's death?
+      Ruby Sapphire:
+        tasks:
+          - title: "Sweet-talk Lucy"
+            markdown: >
+              Persuade Lucy Calhoun to purchase Ophir stock certificates in a way that honors your vendetta.
+          - title: "Take Revenge on Zeke"
+            markdown: >
+              Channel your vengeance by making Zeke's daughter suffer for her father's past.
+          - title: "Sever Ties with Frederick"
+            markdown: >
+              Cut off all connections with Frederick Lloyd to secure your independence.
+          - title: "Investigate Marco"
+            markdown: >
+              Look into Marco the Mesmerizing's true intentions and expose any collusion.
+        Robert Barnaby:
+          tasks:
+            - title: "Prevent Mabel's Blame"
+              markdown: >
+                Ensure that Ruby Sapphire does not pin Zeke's murder on your childhood sweetheart.
+            - title: "Confront the Judge"
+              markdown: >
+                Approach Judge Paulson to discuss his decision and push for justice.
+            - title: "Support Deputy Fairweather"
+              markdown: >
+                Convince Dan Fairweather that your sweetheart had nothing to do with Zeke's death.
+            - title: "Expose Marco"
+              markdown: >
+                Challenge Marco the Mesmerizing to a fight or otherwise divert his attention from Ruby.
+        Soon Li:
+          tasks:
+            - title: "Rescue Pan Choi"
+              markdown: >
+                Convince Saul Jackson to release your husband, Pan Choi, and secure his safe treatment.
+            - title: "Inform Lucy"
+              markdown: >
+                Discreetly tell Lucy Calhoun what you know about Slick O'Hare without alerting him or Clem.
+            - title: "Find Alternate Travel"
+              markdown: >
+                Determine a safe alternative method to travel to San Francisco once Zeke is dead.
+        Marco the Mesmerizing:
+          tasks:
+            - title: "Obtain Con Proof"
+              markdown: >
+                Secure evidence that Frederick Lloyd is peddling fake silver stock certificates.
+            - title: "Send a Telegram"
+              markdown: >
+                As soon as the telegraph is fixed, send a message to your contacts in San Francisco about your findings.
+            - title: "Investigate Ruby"
+              markdown: >
+                Discover whether Ruby Sapphire and Frederick Lloyd are partners, and determine Ruby's true identity.
+            - title: "Assess Sheriff Able"
+              markdown: >
+                Evaluate Sheriff Able Blane's competence and share any clues about Zeke's murder with him or Deputy Fairweather.
+            - title: "Question Soon Li"
+              markdown: >
+                Ask Soon Li about her observations regarding Slick O'Hare and the reasons behind her vigilance.
   - name: "Stagecoach Arrives"
     duration: 300
     script:
