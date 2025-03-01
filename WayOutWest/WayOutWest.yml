@@ -825,6 +825,14 @@ rounds:
           - title: "Fake Stocks"
             markdown: >
               The Ophir Silver Mine stock certificates circulating in town are fake.
+  - name: "Introductions"
+    duration: 10
+    script:
+      The Bartender:
+        revelations:
+          - title: "Zeke's Body"
+            markdown: >
+              FEveryone introduce yourselves and tell us a little about your character.
   - name: "Zeke's body"
     duration: 2700
     script:
@@ -890,38 +898,55 @@ rounds:
               Ask Deputy Dan Fairweather about the law's plan regarding your father's death.
 
       Mel Easton:
-        tasks:
         goals:
-          - title: "Express Sympathy"
+          - title: "Express Sympathy to Lucy"
             markdown: >
-              Express your deepest sympathies to Lucy regarding her father's death.
+              Express your deepest sympathies and regrets to Lucy Calhoun regarding her father's death, and explain your negotiations with Zeke to ensure she honors the deal.
           - title: "Expose Clem Parham"
             markdown: >
-              Make sure everyone is aware of Clem Parham's devious, double-crossing ways.
+              Make sure everyone knows how devious and double-crossing Clem Parham is, establishing yourself as the one to deal with him.
           - title: "Negotiate Ethically"
             markdown: >
-              Negotiate a deal that protects the Indian burial grounds while keeping the project viable.
-          - title: "Check Budget"
+              Strike an ethical deal for the railroad that avoids desecrating the Indian burial grounds.
+          - title: "Confirm Your Budget"
             markdown: >
-              Contact your head office as soon as the telegraph is fixed to determine your spending limit.
+              As soon as the telegraph is fixed, contact your head office to determine the maximum budget you can negotiate with.
+        tasks:
+          - title: "Open Negotiations with Doc Faraday"
+            markdown: >
+              Talk to Doc Faraday to initiate negotiations in case he is set to acquire the land.
+          - title: "Ask About Judge Paulson"
+            markdown: >
+              Inquire with the sheriff about the rumors of Judge Paulson acting strangely.
+          - title: "Question Blaise Sadler"
+            markdown: >
+              Ask Blaise Sadler about the status of the marked cards.
 
       Elijah Entwhistle:
         goals:
-          - title: "Avenge Zeke"
+          - title: "Avenge Your Brother"
             markdown: >
-              Find out who murdered Zeke, and make sure they pay in blood.
-          - title: "Investigate Blaise Sadler"
+              Find out who murdered Zeke and ensure that they pay in blood.
+          - title: "Investigate Blaise"
             markdown: >
-              Find out why Zeke thought Blaise could prove that Doc cheated.
-          - title: "Reveal True Identity"
+              Discover why Zeke believed Blaise could prove that Doc Faraday cheated.
+          - title: "Reveal Your True Identity"
             markdown: >
-              Reveal to Lucy that you are her uncle, Jake Calhoun.
+              Eventually reveal to Lucy that you are her uncle (Jake Calhoun).
           - title: "Find the Real Map"
             markdown: >
-              Locate the real map to the silver lode, since the one given to Blaise is false.
-          - title: "Secure Fat Bull Range"
+              Locate the real map to the silver lode since you only possess half of a false map.
+          - title: "Restore Fat Bull Range"
             markdown: >
               Ensure that Fat Bull Range is returned to Lucy.
+        tasks:
+          - title: "Inform Blaise Sadler"
+            markdown: >
+              Let Blaise Sadler know that you have half of a map and use it to find out why Zeke believed she could prove Doc Faraday cheated.
+          - title: "Approach the Law"
+            markdown: >
+              Talk to the sheriff or deputy to reveal that you are actually Zeke's brother and offer your assistance in the investigation.
+
       Dan Fairweather:
         goals:
           - title: "Comfort Lucy"
@@ -948,19 +973,27 @@ rounds:
               Console Lucy and promise your help in finding the truth about her father's death.
 
       Doc Faraday:
+        goals:
+          - title: "Secure Funds"
+            markdown: >
+              Obtain at least $22,000 for Fat Bull Range to cover your debts and fuel your ambitions.
+          - title: "Cover Your Cheating"
+            markdown: >
+              Ensure that Judge Paulson never obtains any proof of your cheating during the high-stakes card game.
+          - title: "Retrieve Your Marked Cards"
+            markdown: >
+              Determine if Blaise Sadler is holding your marked cards and take necessary steps to prevent her from turning them over.
+          - title: "Influence the Judgment"
+            markdown: >
+              Manipulate the situation so that the final judgment rules in your favor.
         tasks:
-          - title: "Secure $22,000"
+          - title: "Persuade Blaise"
             markdown: >
-              Ensure you get at least $22,000 for Fat Bull Range.
-          - title: "Cover Cheating"
+              Find out if Blaise has your marked cards and, if so, use your charm to persuade her not to reveal them.
+          - title: "Negotiate Your Demands"
             markdown: >
-              Prevent Judge Paulson from obtaining any proof of your cheating.
-          - title: "Retrieve Marked Cards"
-            markdown: >
-              Talk to Blaise Sadler to determine if she has your marked cards and take action to secure them.
-          - title: "Influence Judgment"
-            markdown: >
-              Do whatever it takes to ensure the judgment goes in your favor.
+              Inform Clem Parham and Mel Easton of your minimum demands and work on securing the best deal possible.
+
       Kalamata Kate:
         tasks:
           - title: "Secure Marked Cards"
