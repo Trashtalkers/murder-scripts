@@ -1415,6 +1415,22 @@ rounds:
             url: "items/telegram_clem_parham.png"
           - title: "Telegram for Mel Easton"
             url: "items/telegram_mel_easton.png"
+      
+      Able Blane:
+        items:
+          - title: "Blank Telegram"
+            url: "items/telegram_blank.png"
+            uses: 2
+      Clem Parham:
+        items:
+          - title: "Blank Telegram"
+            url: "items/telegram_blank.png"
+            uses: 2
+      Mel Easton:
+        items:
+          - title: "Blank Telegram"
+            url: "items/telegram_blank.png"
+            uses: 2
   - name: "The Judgement"
     duration: 3600
     script:
