@@ -832,7 +832,7 @@ rounds:
         revelations:
           - title: "Zeke's Body"
             markdown: >
-              FEveryone introduce yourselves and tell us a little about your character.
+              Everyone introduce yourselves and tell us a little about your character.
   - name: "Zeke's body"
     duration: 2700
     script:
@@ -862,22 +862,28 @@ rounds:
               searched.
               There are no signs of shooting, stabbing or strangling. It does not look like the blow on
               the head was enough to kill him.
+    Able Blane:
+      goals:
+        - title: "Investigate Zeke's Death"
+          markdown: >
+            Find out what happened to Zeke Calhoun and bring the culprit(s) to justice.
+        - title: "Scrutinize Slick O'Hare"
+          markdown: >
+            Use your lawman instincts to investigate the suspicious activities of Slick O'Hare and determine his true intentions.
+        - title: "Guide Your Deputy"
+          markdown: >
+            Keep your deputy, Dan Fairweather, occupied and under your guidance so he doesn't simply follow you around or get distracted by Lucy Calhoun.
+        - title: "Monitor Judge Paulson"
+          markdown: >
+            Determine if Judge Paulson is troubled or acting uncharacteristically over the land dispute.
+      suggested_first_moves:
+        - title: "Remind Deputy Dan"
+          markdown: >
+            Remind Dan Fairweather to keep an eye on Slick O'Hare.
+        - title: "Interview Townsfolk"
+          markdown: >
+            Speak with each of the townsfolk and visitors about their movements over the last few hours to identify anyone lacking an alibi or acting suspiciously.
 
-      Able Blane:
-        tasks:
-          - title: "Remind Dan"
-            markdown: "Remind Dan, your deputy, to keep an eye on Slick O'Hare."
-          - title: "Alibis"
-            markdown: >
-              Speak to each of the townsfolk and visitors about their movements
-              over the last few hours, see who looks guilty or doesn't have an alibi.
-        goals:
-          - title: "Maintain Law and Order"
-            markdown: >
-              Ensure law and order in Cactus Gulch and support the sheriff in the investigation of Zeke's death.
-          - title: "Collect Alibis"
-            markdown: >
-              Gather alibis from townsfolk regarding their whereabouts at the time of Zeke's death.
       Lucy Calhoun:
         goals:
           - title: "Avenge Father's Death"
