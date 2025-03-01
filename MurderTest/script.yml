@@ -87,6 +87,11 @@ rounds:
           - title: You have no secrets. 
             markdown: (If someone uses an Ability to make you reveal this, **they do not have to count it as a 'use'**)
         money: [20]
+        clues:
+          - title: Test 
+            markdown: >
+              Test was close to clinching
+              a deal with blah blah blah.
         
       Lucy Calhoun:
         money: [21]
