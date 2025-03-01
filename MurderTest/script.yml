@@ -25,13 +25,21 @@ rounds:
         scenario: 
           - title: "It begins"
             markdown: > 
+              *railroad is coming!*  
+
+              ___
+
+              
               You are about to become a suspect in a murder mystery. It is up to you to deduce the guilty secrets of others while trying to prove your own innocence.
               Gameplay will proceed in rounds—with tasks, information to reveal, and clues to interrogate each suspect. 
               Remain in character at all times. Good luck—the game is afoot!
   - name: Rules
     duration: 30
     script:
-      The Moderator:round_order
+      The Moderator:
+        revelations:
+          - title: "The scene of the crime"
+            markdown: >
               The body of Zeke Calhoun is slumped in the corner of the stables, out of sight of the
               door. He is battered about the face and body, with a nasty bruise to the left temple.
               His wrists are chafed, reddened, and in an awkward position behind his back as
@@ -87,11 +95,6 @@ rounds:
           - title: You have no secrets. 
             markdown: (If someone uses an Ability to make you reveal this, **they do not have to count it as a 'use'**)
         money: [20]
-        clues:
-          - title: Test 
-            markdown: >
-              Test was close to clinching
-              a deal with blah blah blah.
         
       Lucy Calhoun:
         money: [21]
