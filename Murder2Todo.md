@@ -31,3 +31,11 @@ later todos
   - Add optional to player description
   - Add ordinal for optional players
   - What about groups of new players? Maybe make the DM select those in CreateRoom? 
+
+
+# bugs
+- don't show kick to users
+- resend invite
+- fix invite so it's not just once
+- fix Kalama Kate secrets and clues
+- other 
