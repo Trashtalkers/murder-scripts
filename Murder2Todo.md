@@ -14,10 +14,13 @@ Script HLD.
   -   item new player_id
 
 # Todo before mvp
-- on new round, pop-up for new items.
-- 
-- add "uses" message to DM?
-- add character content to "them" from bios
+- script editor
+  -  view by user by round
+  -  determine if we want to keep the room template concept
+  -  "Depends on" items.  Need a way to add item if task completed or item is traded
+-  Player Bio
+-  Known players (with Star and additional text)
+-  Injured Timer, can't see anything in app
 
 later todos
 - move script import to an endpoing
