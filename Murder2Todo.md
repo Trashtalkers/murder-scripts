@@ -44,6 +44,9 @@ later todos
 # bugs
 - don't show kick to users
 - resend invite
+- if game is started, don't queue the invites
+- Add reinvite button
+- reinvite shouldn't clear name/phone
 - fix invite so it's not just once
 - fix Kalama Kate secrets and clues
 - other 
