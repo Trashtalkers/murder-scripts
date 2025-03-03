@@ -18,6 +18,7 @@ Script HLD.
   -  view by user by round
   -  determine if we want to keep the room template concept
   -  "Depends on" items.  Need a way to add item if task completed or item is traded
+  -  player bio in editor
 -  Player Bio
 -  Known players (with Star and additional text)
 -  Injured Timer, can't see anything in app
