@@ -21,7 +21,10 @@ Script HLD.
   -  player bio in editor
 -  Player Bio
 -  Known players (with Star and additional text)
--  Injured Timer, can't see anything in app
+-  Injured Timer & Dead state, can't see anything in app
+-  num goals complete view
+  - with round timer and red/green
+  - modify game piece to allow "complete"
 
 later todos
 - move script import to an endpoing
