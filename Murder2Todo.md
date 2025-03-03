@@ -19,6 +19,7 @@ Script HLD.
   -  determine if we want to keep the room template concept
   -  "Depends on" items.  Need a way to add item if task completed or item is traded
   -  player bio in editor
+-  Move images to supabase
 -  Player Bio
 -  Known players (with Star and additional text)
 -  Injured Timer & Dead state, can't see anything in app
