@@ -1,7 +1,6 @@
-Verify for signal that you get the udpated row.
 
 
-Script HLD.  
+# Script HLD.  
 - Events for room, round, story
 - For room, use presence.  On join, it should pull all story_pieces if started. This should fix people leaving, returning and state is wrong
 - on start, ScriptBegin, which parses script and updates the database.  It then signals rounds with null, which means pull script
@@ -19,7 +18,11 @@ Script HLD.
   -  determine if we want to keep the room template concept
   -  "Depends on" items.  Need a way to add item if task completed or item is traded
   -  player bio in editor
+  -  Create Room, copy existing 
 -  Move images to supabase
+  -  In editor, drop down for public images, upload for new
+-  Map Editor
+  -  User add clues/tasks and drags pins
 -  Player Bio
 -  Known players (with Star and additional text)
 -  Injured Timer & Dead state, can't see anything in app
