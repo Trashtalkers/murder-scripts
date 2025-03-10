@@ -44,12 +44,6 @@ later todos
   - What about groups of new players? Maybe make the DM select those in CreateRoom? 
 
 
-# bugs
-- don't show kick to users
-- resend invite
-- if game is started, don't queue the invites
-- Add reinvite button
-- reinvite shouldn't clear name/phone
-- fix invite so it's not just once
+# bug
 - fix Kalama Kate secrets and clues
 - other 
