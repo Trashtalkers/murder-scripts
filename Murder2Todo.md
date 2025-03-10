@@ -28,7 +28,8 @@
 -  Injured Timer & Dead state, can't see anything in app
 -  num goals complete view
   - with round timer and red/green
-  - modify game piece to allow "complete"
+  - modify game piece to allow "complete," those with lat/long you need to be within the area for button to show up
+  - add proof image
 
 later todos
 - move script import to an endpoing
