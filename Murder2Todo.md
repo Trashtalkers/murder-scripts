@@ -22,8 +22,9 @@
 -  Move images to supabase
   -  In editor, drop down for public images, upload for new
 -  Map Editor
-  -  User add clues/tasks and drags pins
--  Player Bio
+  -  User add clues/tasks and set pins
+  -  Show all item/clues/tasks on map
+-  add icons for players as assets
 -  Known players (with Star and additional text)
 -  Injured Timer & Dead state, can't see anything in app
 -  num goals complete view
