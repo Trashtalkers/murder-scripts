@@ -24,6 +24,7 @@
 -  Map Editor
   -  User add clues/tasks and set pins
   -  Show all item/clues/tasks on map
+-  Notifications for new items, lost items
 -  add icons for players as assets
 -  Known players (with Star and additional text)
 -  Injured Timer & Dead state, can't see anything in app
