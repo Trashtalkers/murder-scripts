@@ -14,8 +14,6 @@
 
 # Todo before mvp
 - script editor
-  -  view by user by round
-  -  determine if we want to keep the room template concept
   -  "Depends on" items.  Need a way to add item if task completed or item is traded
   -  player bio in editor
   -  Create Room, copy existing 
@@ -24,6 +22,7 @@
 -  Map Editor
   -  User add clues/tasks and set pins
   -  Show all item/clues/tasks on map
+-  Select script on room create, copy all the items
 -  Notifications for new items, lost items
 -  add icons for players as assets
 -  Known players (with Star and additional text)
